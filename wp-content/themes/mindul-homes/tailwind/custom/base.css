@@ -1,0 +1,64 @@
+/**
+ * Custom styles to immediately follow Tailwind’s `base` layer
+ *
+ * “Add things like base typography styles [or] opinionated global resets.”
+ *
+ * — from https://tailwindcss.com/docs/plugins#adding-base-styles
+ */
+
+/**
+ * This uses the background and foreground colors declared in the
+ * `theme.json` file and is applied both to the frontend and in the block
+ * editor.
+*/
+:root {
+    --standard: 250ms ease-in-out;
+}
+
+@layer components {
+	.btn {
+	  @apply block w-max rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600;
+	}
+
+	.container {
+		@apply mx-auto max-w-7xl py-40 px-6 lg:px-8;
+	}
+
+	.container-sm {
+		@apply mx-auto max-w-3xl py-12 px-6 lg:px-8;
+	}
+}
+
+
+body {
+	@apply bg-background text-foreground font-sans;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 28px;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4,
+h5,
+h7 {
+	font-size: 25px;
+}
+
+

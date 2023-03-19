@@ -1,0 +1,20 @@
+.c_text,
+.c_two_columns {
+	ul {
+		list-style: disc;
+		margin: 0 0 16px 40px;
+	}
+
+	p {
+		margin-bottom: 16px;
+	}
+
+	a:not([class]) {
+		transition: var(--standard);
+		text-decoration: underline;
+
+		&:hover {
+			opacity: 0.75;
+		}
+	}
+}
