@@ -10,14 +10,21 @@
 ?>
 
 <header x-data="{ open: false }" @keydown.window.escape="open = false" class="bg-white">
-	<nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+	<nav class="mx-auto flex max-w-7xl items-center justify-between py-3 px-6 lg:px-8" aria-label="Global">
 		<div class="flex lg:flex-1">
 			<a href="<?php echo esc_url(home_url('/')); ?>" class="-m-1.5 p-1.5">
 				<span class="sr-only">
 					<?php bloginfo('name'); ?>
 				</span>
-				<img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&amp;shade=600"
-					alt="">
+				<?php if (have_rows('site_logo', 'option')): ?>
+					<?php while (have_rows('site_logo', 'option')):
+						the_row(); ?>
+						<?php $image = get_sub_field('image'); ?>
+						<?php if ($image): ?>
+							<img class="w-32" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+						<?php endif; ?>
+					<?php endwhile; ?>
+				<?php endif; ?>
 			</a>
 		</div>
 		<div class="flex lg:hidden">
@@ -37,7 +44,7 @@
 				array(
 					'theme_location' => 'menu-1',
 					'menu_id' => 'primary-menu',
-					'items_wrap' => '<ul id="%1$s" class="%2$s" aria-label="submenu">%3$s</ul>',
+					'items_wrap' => '<ul id="%1$s" class="%2$s font-semibold" aria-label="submenu">%3$s</ul>',
 				)
 			);
 			?>
@@ -53,8 +60,15 @@
 					<span class="sr-only">
 						<?php bloginfo('name'); ?>
 					</span>
-					<img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&amp;shade=600"
-						alt="">
+					<?php if (have_rows('site_logo', 'option')): ?>
+						<?php while (have_rows('site_logo', 'option')):
+							the_row(); ?>
+							<?php $image = get_sub_field('image'); ?>
+							<?php if ($image): ?>
+								<img class="w-32" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+							<?php endif; ?>
+						<?php endwhile; ?>
+					<?php endif; ?>
 				</a>
 				<button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" @click="open = false">
 					<span class="sr-only">Close menu</span>

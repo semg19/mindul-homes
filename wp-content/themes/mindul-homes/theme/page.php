@@ -14,6 +14,8 @@
 
 get_header();
 
+get_template_part('components/hero');
+
 if (have_posts()):
 	while (have_posts()):
 		the_post();
