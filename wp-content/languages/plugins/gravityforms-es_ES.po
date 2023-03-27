@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the RocketGenius - Gravity Forms package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-26 08:16:34+0000\n"
+"PO-Revision-Date: 2023-03-20 18:41:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,58 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.3\n"
 "Language: es\n"
 "Project-Id-Version: RocketGenius - Gravity Forms\n"
+
+#: settings.php:931
+msgid "Get your reCAPTCHA Keys."
+msgstr "Consigue tus claves reCAPTCHA."
+
+#: settings.php:384
+msgid "License key is managed by the administrator of this network"
+msgstr "La clave de licencia la gestiona el administrador de esta red"
+
+#: includes/system-status/class-gf-system-report.php:389
+msgid "Scheduled (Cron) Events Log"
+msgstr "Registro de Eventos Programados (Cron)"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config.php:202
+msgid "Select a Website Type"
+msgstr "Selecciona un tipo de web"
+
+#: forms_model.php:3145
+msgid "Error while saving total field values: %s"
+msgstr "Error al guardar los valores totales de los campos: %s"
+
+#: forms_model.php:3126
+msgid "Error while saving calculation field values: %s"
+msgstr "Error al guardar los valores de los campos de cálculo: %s"
+
+#: forms_model.php:3104
+msgid "Error while saving field values: %s"
+msgstr "Error al guardar valores de campo: %s"
+
+#: export.php:1120
+msgid "Date Updated"
+msgstr "Fecha de actualización"
+
+#: settings.php:629
+msgid "Enable Data Collection"
+msgstr "Activar la recogida de datos"
+
+#: settings.php:621
+msgid "Data Collection"
+msgstr "Recogida de datos"
+
+#: preview.php:50
+msgid "Form Preview - Gravity Forms"
+msgstr "Vista previa del formulario - Gravity Forms"
+
+#: includes/template-library/templates/templates.php:11315
+msgid "Thank you for registering for our webinar! Keep an eye out for an email from us containing more information."
+msgstr "¡Gracias por inscribirte en nuestro webinar! Mantente atento a nuestro correo electrónico con más información."
+
+#: includes/template-library/templates/templates.php:11198
+msgid "Want to keep up-to-date with our latest news and announcements?"
+msgstr "¿Quieres estar al día de nuestras últimas noticias y anuncios?"
 
 #: includes/template-library/templates/templates.php:11145
 msgid "Advertisement"
@@ -19,31 +71,111 @@ msgstr "Anuncio"
 msgid "How did you hear about this webinar?"
 msgstr "¿Cómo te enteraste de este webinar?"
 
+#: includes/template-library/templates/templates.php:11083
+msgid "Do you have any questions you would like to ask our speakers?"
+msgstr "¿Tienes alguna pregunta que quieras hacer a nuestros ponentes?"
+
 #: includes/template-library/templates/templates.php:11032
 msgid "Services"
 msgstr "Servicios"
+
+#: includes/template-library/templates/templates.php:11014
+msgid "Hospitality"
+msgstr "Restauración"
+
+#: includes/template-library/templates/templates.php:11008
+msgid "Finance"
+msgstr "Finanzas"
+
+#: includes/template-library/templates/templates.php:11002
+msgid "Fashion"
+msgstr "Moda"
 
 #: includes/template-library/templates/templates.php:10996
 msgid "Entertainment"
 msgstr "Entretenimiento"
 
+#: includes/template-library/templates/templates.php:10984
+msgid "Creatives"
+msgstr "Creativos"
+
+#: includes/template-library/templates/templates.php:10978
+msgid "Construction"
+msgstr "Construcción"
+
+#: includes/template-library/templates/templates.php:10972
+msgid "Banking"
+msgstr "Banca"
+
+#: includes/template-library/templates/templates.php:10966
+msgid "Agriculture"
+msgstr "Agricultura"
+
+#: includes/template-library/templates/templates.php:10960
+msgid "Advertising"
+msgstr "Publicidad"
+
+#: includes/template-library/templates/templates.php:10951
+msgid "Industry Type"
+msgstr "Tipo de industria"
+
+#: includes/template-library/templates/templates.php:10904
+msgid "Position / Job Title"
+msgstr "Cargo / Puesto"
+
 #: includes/template-library/templates/templates.php:10858
 msgid "Company Website"
 msgstr "Web de la empresa"
+
+#: includes/template-library/templates/templates.php:10674
+msgid "Register Today"
+msgstr "Regístrate hoy"
+
+#: includes/template-library/templates/templates.php:10669
+msgid "Register for our latest webinar..."
+msgstr "Inscríbete en nuestro último webinar…"
 
 #: includes/template-library/templates/templates.php:10662
 #: includes/template-library/templates/templates.php:10668
 msgid "Webinar Registration Form"
 msgstr "Formulario de registro de webinar"
 
+#: includes/template-library/templates/templates.php:10661
+msgid "Helps your users register to a webinar"
+msgstr "Ayuda a tus usuarios a registrarse en un webinar"
+
+#: includes/template-library/templates/templates.php:10637
+msgid "Thank you for registering! You should receive an email from us shortly containing your account information."
+msgstr "¡Gracias por registrarte! En breve recibirás un correo electrónico con la información de tu cuenta."
+
 #: includes/template-library/templates/templates.php:10504
 msgid "Username"
 msgstr "Usuario"
+
+#: includes/template-library/templates/templates.php:10291
+msgid "This form requires the Gravity Forms User Registration Add-On. Important: Delete this tip before you publish the form."
+msgstr "Este formulario requiere la extensión de Registro de Usuarios de Gravity Forms. Importante: Elimina este consejo antes de publicar el formulario."
+
+#: includes/template-library/templates/templates.php:10282
+msgid "Next Steps: Install the User Registration Add-On"
+msgstr "Pasos siguientes: Instalar la extensión de registro de usuarios"
+
+#: includes/template-library/templates/templates.php:10269
+msgid "Please complete the following form to register on our site. Thanks."
+msgstr "Rellena el siguiente formulario para registrarte en nuestro sitio. Muchas gracias."
 
 #: includes/template-library/templates/templates.php:10262
 #: includes/template-library/templates/templates.php:10268
 msgid "User Registration Form"
 msgstr "Formulario de registro de usuarios"
+
+#: includes/template-library/templates/templates.php:10261
+msgid "Let your users register to your website easily"
+msgstr "Permite que tus usuarios se registren fácilmente en tu web"
+
+#: includes/template-library/templates/templates.php:10120
+msgid "How could Acme Products be improved?"
+msgstr "¿Cómo se podría mejorar los Acme Products?"
 
 #: includes/template-library/templates/templates.php:10057
 msgid "Strongly agree"
@@ -53,13 +185,69 @@ msgstr "Totalmente de acuerdo"
 msgid "Strongly disagree"
 msgstr "Totalmente en desacuerdo"
 
+#: includes/template-library/templates/templates.php:10020
+msgid "Acme Products fulfils all my form needs"
+msgstr "Acme Products satisface todas mis necesidades de formularios"
+
+#: includes/template-library/templates/templates.php:9956
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#: includes/template-library/templates/templates.php:9950
+msgid "Surveys"
+msgstr "Sondeos"
+
 #: includes/template-library/templates/templates.php:9944
 msgid "Zapier"
 msgstr "Zapier"
 
+#: includes/template-library/templates/templates.php:9938
+msgid "MailChimp"
+msgstr "MailChimp"
+
 #: includes/template-library/templates/templates.php:9932
 msgid "Stripe"
 msgstr "Stripe"
+
+#: includes/template-library/templates/templates.php:9919
+msgid "Rank these add-ons based on how useful they are to you."
+msgstr "Ordena estas extensiones en función de lo útiles que te resulten."
+
+#: includes/template-library/templates/templates.php:9780
+msgid "What types of forms have you created with Acme Products?"
+msgstr "¿Qué tipos de formularios has creado con Acme Products?"
+
+#: includes/template-library/templates/templates.php:9696
+msgid "Do you use Acme Products to sell products or services?"
+msgstr "¿Utilizas Acme Products para vender productos o servicios?"
+
+#: includes/template-library/templates/templates.php:9631
+msgid "100+"
+msgstr "+100"
+
+#: includes/template-library/templates/templates.php:9625
+msgid "26-100"
+msgstr "26-100"
+
+#: includes/template-library/templates/templates.php:9619
+msgid "11-25"
+msgstr "11-25"
+
+#: includes/template-library/templates/templates.php:9613
+msgid "6-10"
+msgstr "6-10"
+
+#: includes/template-library/templates/templates.php:9607
+msgid "2-5"
+msgstr "2-5"
+
+#: includes/template-library/templates/templates.php:9601
+msgid "Just one"
+msgstr "Sólo un"
+
+#: includes/template-library/templates/templates.php:9588
+msgid "How many sites do you have Acme Products installed on?"
+msgstr "¿En cuántos sitios tienes instalados Acme Products?"
 
 #: includes/template-library/templates/templates.php:9547
 #: includes/template-library/templates/templates.php:9655
@@ -127,9 +315,25 @@ msgstr "No muy bien"
 msgid "Terrible"
 msgstr "Terrible"
 
+#: includes/template-library/templates/templates.php:9486
+msgid "Rate Acme Products"
+msgstr "Valora Acme Products"
+
 #: includes/template-library/templates/templates.php:9399
 msgid "Company Name"
 msgstr "Nombre de la compañía"
+
+#: includes/template-library/templates/templates.php:9191
+msgid "This form requires the Gravity Forms Survey Add-On. Important: Delete this tip before you publish the form."
+msgstr "Este formulario requiere la extensión de encuestas de Gravity Forms. Importante: Elimina este consejo antes de publicar el formulario."
+
+#: includes/template-library/templates/templates.php:9182
+msgid "Next Steps: Install the Survey Add-On"
+msgstr "Pasos siguientes: Instalar la extensión de encuesta"
+
+#: includes/template-library/templates/templates.php:9169
+msgid "Tell us what you think about Acme Products..."
+msgstr "Dinos lo que piensas de Acme Products..."
 
 #: includes/template-library/templates/templates.php:9162
 #: includes/template-library/templates/templates.php:9168
@@ -138,13 +342,150 @@ msgstr "Nombre de la compañía"
 msgid "Survey Form"
 msgstr "Formulario de encuesta"
 
+#: includes/template-library/templates/templates.php:9161
+msgid "Get feedback about your product using a survey form"
+msgstr "Obtén opiniones sobre tu producto utilizando un formulario de encuesta"
+
+#: includes/template-library/templates/templates.php:8974
+#: includes/template-library/templates/templates.php:9003
+msgid "Clearance"
+msgstr "Liquidación"
+
+#: includes/template-library/templates/templates.php:8968
+#: includes/template-library/templates/templates.php:8998
+msgid "Fencing"
+msgstr "Esgrima"
+
+#: includes/template-library/templates/templates.php:8962
+#: includes/template-library/templates/templates.php:8993
+msgid "Tree Surgery Services"
+msgstr "Servicios de poda de árboles"
+
+#: includes/template-library/templates/templates.php:8956
+#: includes/template-library/templates/templates.php:8988
+msgid "Ground Maintenance"
+msgstr "Mantenimiento de suelos"
+
+#: includes/template-library/templates/templates.php:8950
+#: includes/template-library/templates/templates.php:8983
+msgid "Landscape Gardening"
+msgstr "Jardinería paisajística"
+
+#: includes/template-library/templates/templates.php:8942
+msgid "Please select the service/s you require..."
+msgstr "Selecciona el/los servicio/s que necesitas..."
+
+#: includes/template-library/templates/templates.php:8633
+msgid "To get the most out of your form, we suggest that you sync this form with an email add-on. To learn more about your email add-on options, visit the following page: (https://www.gravityforms.com/the-8-best-email-plugins-for-wordpress-in-2020). Important: Delete this tip before you publish the form."
+msgstr "Para sacar el máximo partido a tu formulario, te sugerimos que lo sincronices con una extensión de correo electrónico. Para obtener más información sobre tus opciones de extensión de correo electrónico, visita la siguiente página: (https://www.gravityforms.com/the-8-best-email-plugins-for-wordpress-in-2020). Importante: Elimina este consejo antes de publicar el formulario."
+
+#: includes/template-library/templates/templates.php:8611
+msgid "Please fill out the information below and we will be in touch shortly with your personalized quote."
+msgstr "Rellena los datos que figuran a continuación y en breve nos pondremos en contacto contigo para enviarte un presupuesto personalizado."
+
+#: includes/template-library/templates/templates.php:8604
+#: includes/template-library/templates/templates.php:8610
+#: includes/template-library/templates/templates.php:9809
+#: includes/template-library/templates/templates.php:9848
+msgid "Request a Quote Form"
+msgstr "Formulario de solicitud de presupuesto"
+
+#: includes/template-library/templates/templates.php:8603
+msgid "Helps users ask for a quote for a certain service or product you are selling on your website"
+msgstr "Ayuda a los usuarios a pedir un presupuesto para un determinado servicio o producto que vendes en tu web"
+
+#: includes/template-library/templates/templates.php:8579
+msgid "Thank you for signing up. Be on the lookout for our monthly newsletter!"
+msgstr "Gracias por inscribirte. ¡Estate atento a nuestro boletín mensual!"
+
+#: includes/template-library/templates/templates.php:8488
+msgid "I agree with the storage and handling of my data by this website. - <a target=\"_blank\" href=\"#\" rel=\"noopener noreferrer\">Privacy  Policy</a> <abbr class=\"wpgdprc-required\" title=\"You need to accept this checkbox.\">*</abbr>"
+msgstr "Estoy de acuerdo con el almacenamiento y tratamiento de mis datos por parte de esta web. - <a target=\"_blank\" href=\"#\" rel=\"noopener noreferrer\">Política de privacidad</a> <abbr class=\"wpgdprc-required\" title=\"Tienes que aceptar esta casilla de verificación .\">*</abbr>"
+
+#: includes/template-library/templates/templates.php:8480
+msgid "I agree with the storage and handling of my data by this website."
+msgstr "Estoy de acuerdo con el almacenamiento y tratamiento de mis datos por parte de esta web."
+
+#: includes/template-library/templates/templates.php:8479
+msgid "I agree with the storage and handling of my data by this website. - <a target=\"_blank\" href=\"#\" rel=\"noopener noreferrer\">Privacy Policy</a> <abbr class=\"wpgdprc-required\" title=\"You need to accept this checkbox.\">*</abbr>"
+msgstr "Estoy de acuerdo con el almacenamiento y tratamiento de mis datos por parte de esta web. - <a target=\"_blank\" href=\"#\" rel=\"noopener noreferrer\">Política de privacidad</a> <abbr class=\"wpgdprc-required\" title=\"Tienes que aceptar esta casilla de verificación .\">*</abbr>"
+
 #: includes/template-library/templates/templates.php:8471
 msgid "Privacy"
 msgstr "Privacidad"
 
+#: includes/template-library/templates/templates.php:8255
+msgid "Keep me up to date!"
+msgstr "¡Mantenme informado!"
+
+#: includes/template-library/templates/templates.php:8250
+msgid "If you want to keep up to date with what's happening on the blog, sign up for our newsletter!"
+msgstr "Si quieres estar al día de lo que ocurre en el blog, ¡apúntate a nuestro boletín de noticias!"
+
+#: includes/template-library/templates/templates.php:8249
+msgid "Form Template Library: Newsletter Signup Form"
+msgstr "Biblioteca de plantillas de formularios: Formulario de suscripción a un boletín"
+
 #: includes/template-library/templates/templates.php:8243
 msgid "Newsletter Signup Form"
 msgstr "Formulario de registro al boletín"
+
+#: includes/template-library/templates/templates.php:8242
+msgid "Let users sign up to your newsletter"
+msgstr "Permite que los usuarios se suscriban a tu boletín"
+
+#: includes/template-library/templates/templates.php:8226
+msgid "Thank you for making a gift certificate purchase! You should receive an email from us shortly with more information."
+msgstr "¡Gracias por comprar un cheque regalo! En breve recibirás un correo electrónico con más información."
+
+#: includes/template-library/templates/templates.php:8174
+msgid "<p>Gift Certificate ID: <strong>000GIFT{entry_id}</strong></p><p>Dear {Name of Recipient (First):3.3},</p><p>We are delighted to send you this gift certificate worth {Gift Certificate Amount:9} from {Your Name (First):1.3} {Your Name (Last):1.6}.</p><p>Here's a message from them to you...</p><p><blockquote>{Add a message to your gift certificate...:17}</blockquote></p><p>We look forward to seeing you in-store to redeem your gift certificate!</p>"
+msgstr "<p>Cupón de regalo ID: <strong>000GIFT {entry_id}</strong></p><p>Estimado {Nombre del destinatario (Primero):3.3},</p><p>Estamos encantados de enviarte este cheque regalo por valor de {Importe del Cheque Regalo:9} de {Tu Nombre (Nombre):1.3} {Tu Nombre (Apellidos):1.6} {Tu Nombre (Apellido):1.6}.</p><p>Aquí tienes un mensaje de ellos para ti...</p><p><blockquote>{Añade un mensaje a tu cheque regalo...:17}</blockquote></p><p>¡Esperamos verte en la tienda para canjear tu cheque regalo!</p>"
+
+#: includes/template-library/templates/templates.php:8143
+#: includes/template-library/templates/templates.php:8204
+msgid "<p>Dear {Your Name (First):1.3} </p><p>Thank you for making a gift certificate purchase.</p><p>A {Gift Certificate Amount:9} gift certificate will now be emailed to {Name of Recipient (First):3.3} {Name of Recipient (Last):3.6}.</p><p>We will email you a receipt for your purchase shortly.</p>"
+msgstr "<p>Estimado {Tu nombre (primero):1.3} </p><p>Gracias por realizar una compra de certificado de regalo.</p><p>Ahora se enviará por correo electrónico un vale regalo de {Importe del vale regalo:9} a {Nombre del destinatario (Nombre):3.3} {Nombre del destinatario (Apellidos):3.6}.</p><p>En breve te enviaremos por correo electrónico un recibo por tu compra.</p>"
+
+#: includes/template-library/templates/templates.php:7945
+msgid "$100"
+msgstr "100€"
+
+#: includes/template-library/templates/templates.php:7939
+msgid "$50"
+msgstr "50€"
+
+#: includes/template-library/templates/templates.php:7933
+msgid "$30"
+msgstr "30€"
+
+#: includes/template-library/templates/templates.php:7907
+msgid "Gift Certificate Amount"
+msgstr "Cantidad del cheque regalo"
+
+#: includes/template-library/templates/templates.php:7863
+msgid "Add a message to your gift certificate..."
+msgstr "Añade un mensaje a tu certificado de regalo..."
+
+#: includes/template-library/templates/templates.php:7727
+msgid "Address of Recipient"
+msgstr "Dirección del destinatario"
+
+#: includes/template-library/templates/templates.php:7662
+msgid "Email of Recipient"
+msgstr "Correo electrónico del destinatario"
+
+#: includes/template-library/templates/templates.php:7558
+msgid "Name of Recipient"
+msgstr "Nombre del beneficiario"
+
+#: includes/template-library/templates/templates.php:7516
+msgid "Mail"
+msgstr "Correo"
+
+#: includes/template-library/templates/templates.php:7501
+msgid "How would you like the gift certificate delivered?"
+msgstr "¿Cómo quieres que se entregue el cheque regalo?"
 
 #: includes/template-library/templates/templates.php:7444
 msgid "Your Email"
@@ -154,9 +495,66 @@ msgstr "Tu correo electrónico"
 msgid "Buy Now"
 msgstr "Compra Ahora"
 
+#: includes/template-library/templates/templates.php:7275
+msgid "Purchase a gift certificate today for your nearest and dearest..."
+msgstr "Compra hoy un vale regalo para tus seres más queridos..."
+
+#: includes/template-library/templates/templates.php:7274
+msgid "Gift Certificate Order Form"
+msgstr "Formulario de pedido de cheque regalo"
+
+#: includes/template-library/templates/templates.php:7268
+msgid "Gift Certificate Form"
+msgstr "Formulario de cheque regalo"
+
+#: includes/template-library/templates/templates.php:7267
+msgid "Allow your users to purchase a gift certificate"
+msgstr "Permite a tus usuarios comprar un cheque regalo"
+
+#: includes/template-library/templates/templates.php:7243
+msgid "<p>Hi there {Name (First):1.3},</p><p>Thank you for registering for our event. We look forward to seeing you!</p>"
+msgstr "<p>Hola,{Nombre (Nombre):1.3}</p><p>Gracias por inscribirte en nuestro evento. ¡Estamos deseando verte!</p>"
+
+#: includes/template-library/templates/templates.php:7242
+msgid "We have received your registration."
+msgstr "Hemos recibido tu inscripción."
+
 #: includes/template-library/templates/templates.php:7045
 msgid "Number of tickets needed"
 msgstr "Cuántos tickets necesitas"
+
+#: includes/template-library/templates/templates.php:7016
+msgid "VIP Ticket"
+msgstr "Entrada VIP"
+
+#: includes/template-library/templates/templates.php:7010
+msgid "Premium Ticket"
+msgstr "Ticket Premium"
+
+#: includes/template-library/templates/templates.php:7004
+msgid "Early Bird Ticket"
+msgstr "Entrada anticipada"
+
+#: includes/template-library/templates/templates.php:6977
+msgid "Ticket Type"
+msgstr "Tipo de ticket"
+
+#: includes/template-library/templates/templates.php:6841
+msgid "Past Participant"
+msgstr "Participante anterior"
+
+#: includes/template-library/templates/templates.php:6835
+msgid "Refer a Friend"
+msgstr "Recomienda a un amigo"
+
+#: includes/template-library/templates/templates.php:6829
+#: includes/template-library/templates/templates.php:11151
+msgid "Word of Mouth"
+msgstr "Boca a boca"
+
+#: includes/template-library/templates/templates.php:6823
+msgid "Google"
+msgstr "Google"
 
 #: includes/template-library/templates/templates.php:6817
 #: includes/template-library/templates/templates.php:11139
@@ -167,25 +565,242 @@ msgstr "Redes sociales"
 msgid "How did you hear about this event?"
 msgstr "¿Cómo te enteraste de este evento?"
 
+#: includes/template-library/templates/templates.php:6766
+msgid "65+"
+msgstr "+65"
+
+#: includes/template-library/templates/templates.php:6736
+msgid "16-24"
+msgstr "16-24"
+
+#: includes/template-library/templates/templates.php:6679
+msgid "My gender isn't listed"
+msgstr "Mi género no aparece en la lista"
+
+#: includes/template-library/templates/templates.php:6673
+msgid "Agender"
+msgstr "Sin género"
+
+#: includes/template-library/templates/templates.php:6667
+msgid "Non-binary"
+msgstr "No binario"
+
+#: includes/template-library/templates/templates.php:6603
+msgid "Event Details"
+msgstr "Detalles del evento"
+
 #: includes/template-library/templates/templates.php:6204
 msgid "Contact Details"
 msgstr "Detalles de contacto"
+
+#: includes/template-library/templates/templates.php:6142
+msgid "Please complete this form to register for the event."
+msgstr "Rellena este formulario para inscribirte en el acto."
+
+#: includes/template-library/templates/templates.php:6135
+#: includes/template-library/templates/templates.php:6141
+#: includes/template-library/templates/templates.php:9814
+#: includes/template-library/templates/templates.php:9854
+msgid "Event Registration Form"
+msgstr "Formulario de inscripción a eventos"
+
+#: includes/template-library/templates/templates.php:6134
+msgid "Let your users book tickets for an event"
+msgstr "Permite a tus usuarios reservar entradas para un evento"
+
+#: includes/template-library/templates/templates.php:6111
+msgid "<p>Hi {Name (First):1.3},</p><p>Thank you for submitting your application. We are in the process of reviewing it and will get in touch with you shortly.</p>"
+msgstr "<p>Hola {Nombre (Nombre):1.3},</p><p>Gracias por enviar tu solicitud. Estamos revisándola y nos pondremos en contacto contigo en breve.</p>"
+
+#: includes/template-library/templates/templates.php:6110
+msgid "We have received your application."
+msgstr "Hemos recibido tu solicitud."
+
+#: includes/template-library/templates/templates.php:6098
+msgid "Thank you for submitting your application! We will get in touch with you shortly."
+msgstr "¡Gracias por enviar tu solicitud! En breve nos pondremos en contacto contigo."
+
+#: includes/template-library/templates/templates.php:5983
+msgid "<strong>I agree to the terms and conditions.</strong>"
+msgstr "<strong>Acepto los términos y condiciones.</strong>"
+
+#: includes/template-library/templates/templates.php:5958
+msgid "Terms and Conditions"
+msgstr "Términos y condiciones"
+
+#: includes/template-library/templates/templates.php:5918
+msgid "Upload your resume in .pdf, .doc or .docx format"
+msgstr "Sube tu currículum en formato .pdf, .doc o .docx"
+
+#: includes/template-library/templates/templates.php:5911
+msgid "Upload Your Resume"
+msgstr "Sube tu currículum"
+
+#: includes/template-library/templates/templates.php:5867
+msgid "Tell Us About Yourself"
+msgstr "Háblanos de ti"
+
+#: includes/template-library/templates/templates.php:5824
+msgid "More About You"
+msgstr "Más sobre ti"
 
 #: includes/template-library/templates/templates.php:5744
 msgid "Position"
 msgstr "Posición"
 
+#: includes/template-library/templates/templates.php:5738
+msgid "Dates"
+msgstr "Fechas"
+
+#: includes/template-library/templates/templates.php:5732
+msgid "Employer"
+msgstr "Empleador"
+
+#: includes/template-library/templates/templates.php:5717
+msgid "Please list your previous employers, the dates you worked and the position you held"
+msgstr "Enumera tus empleadores anteriores, las fechas en que trabajaste y el puesto que ocupabas"
+
+#: includes/template-library/templates/templates.php:5710
+msgid "Your Previous Employers"
+msgstr "Tus anteriores empleadores"
+
+#: includes/template-library/templates/templates.php:5667
+msgid "Previous Employment"
+msgstr "Empleo anterior"
+
+#: includes/template-library/templates/templates.php:5597
+msgid "Please tell us what hours you are available for work each day of the week."
+msgstr "Indícanos qué horas estás disponible para trabajar cada día de la semana."
+
+#: includes/template-library/templates/templates.php:5590
+msgid "Hours You Are Available for Work"
+msgstr "Horas que estás disponible para trabajar"
+
+#: includes/template-library/templates/templates.php:5546
+msgid "Facilities Maintenance"
+msgstr "Mantenimiento de instalaciones"
+
+#: includes/template-library/templates/templates.php:5540
+msgid "Clerical/Accounting"
+msgstr "Administrativo/Contable"
+
+#: includes/template-library/templates/templates.php:5534
+msgid "IT/Technical"
+msgstr "IT/Técnicos"
+
+#: includes/template-library/templates/templates.php:5465
+#: includes/template-library/templates/templates.php:5508
+msgid "Position You're Applying For"
+msgstr "Puesto que solicitas"
+
+#: includes/template-library/templates/templates.php:5387
+msgid "When is the best time for us to reach you via telephone?"
+msgstr "¿Cuál es la mejor hora para ponernos en contacto contigo por teléfono?"
+
+#: includes/template-library/templates/templates.php:5380
+msgid "Early Evening"
+msgstr "Primera hora de la tarde"
+
+#: includes/template-library/templates/templates.php:5374
+msgid "Late Afternoon"
+msgstr "Media tarde"
+
+#: includes/template-library/templates/templates.php:5368
+msgid "Early Afternoon"
+msgstr "Al medio día"
+
 #: includes/template-library/templates/templates.php:5362
 msgid "Mornings"
 msgstr "Mañana"
+
+#: includes/template-library/templates/templates.php:5354
+msgid "Best Time To Call You"
+msgstr "Mejor hora para llamarte"
+
+#: includes/template-library/templates/templates.php:5002
+msgid "Your Personal Information"
+msgstr "Tu informacion personal"
+
+#: includes/template-library/templates/templates.php:4994
+msgid "Submit Application"
+msgstr "Enviar solicitud"
+
+#: includes/template-library/templates/templates.php:4981
+#: includes/template-library/templates/templates.php:4988
+msgid "Employment Application Form"
+msgstr "Formulario de solicitud de empleo"
+
+#: includes/template-library/templates/templates.php:4980
+msgid "Allow your users to apply for a job"
+msgstr "Permite a tus usuarios solicitar un empleo"
+
+#: includes/template-library/templates/templates.php:4117
+msgid "To accept payments on this form you will need to install the PayPal Checkout payment add-on. Important: Delete this tip before you publish the form."
+msgstr "Para aceptar pagos en este formulario necesitarás instalar la extensión de pago PayPal Checkout. Importante: Elimina este consejo antes de publicar el formulario."
+
+#: includes/template-library/templates/templates.php:4109
+msgid "Next Steps: Install the PayPal Checkout Add-On"
+msgstr "Pasos siguientes: Instalar la extensión de pago de PayPal"
+
+#: includes/template-library/templates/templates.php:4086
+#: includes/template-library/templates/templates.php:4093
+msgid "A form that allows you to sell products and let your customers pay via PayPal"
+msgstr "Un formulario que te permite vender productos y dejar que tus clientes paguen a través de PayPal"
+
+#: includes/template-library/templates/templates.php:4085
+#: includes/template-library/templates/templates.php:4092
+msgid "PayPal Checkout Form"
+msgstr "Formulario de pago de PayPal"
 
 #: includes/template-library/templates/templates.php:3960
 msgid "Card Details"
 msgstr "Detalles de la tarjeta"
 
+#: includes/template-library/templates/templates.php:3254
+msgid "To accept payments on this form you will need to install the Stripe payment add-on. Important: Delete this tip before you publish the form."
+msgstr "Para aceptar pagos en este formulario necesitarás instalar la extensión de pago Stripe. Importante: Elimina este consejo antes de publicar el formulario."
+
+#: includes/template-library/templates/templates.php:3246
+msgid "Next Steps: Install the Stripe Add-On"
+msgstr "Pasos siguientes: Instalar la extensión de Stripe"
+
+#: includes/template-library/templates/templates.php:3223
+#: includes/template-library/templates/templates.php:3230
+msgid "A form that allows you to sell products and let your customers pay via Stripe"
+msgstr "Un formulario que te permite vender productos y dejar que tus clientes paguen a través de Stripe"
+
+#: includes/template-library/templates/templates.php:3222
+#: includes/template-library/templates/templates.php:3229
+msgid "Stripe Checkout Form"
+msgstr "Formulario de pago de Stripe"
+
+#: includes/template-library/templates/templates.php:3199
+#: includes/template-library/templates/templates.php:4063
+#: includes/template-library/templates/templates.php:4957
+msgid "Thank you for shopping with us! Your payment was successfully completed."
+msgstr "¡Gracias por comprar con nosotros! Tu pago se ha realizado correctamente."
+
 #: includes/template-library/templates/templates.php:3048
 msgid "PayPal"
 msgstr "PayPal"
+
+#: includes/template-library/templates/templates.php:2962
+#: includes/template-library/templates/templates.php:3876
+#: includes/template-library/templates/templates.php:4739
+msgid "Overnight Shipping"
+msgstr "Envío nocturno"
+
+#: includes/template-library/templates/templates.php:2956
+#: includes/template-library/templates/templates.php:3870
+#: includes/template-library/templates/templates.php:4733
+msgid "Express Shipping"
+msgstr "Envío Express"
+
+#: includes/template-library/templates/templates.php:2950
+#: includes/template-library/templates/templates.php:3864
+#: includes/template-library/templates/templates.php:4727
+msgid "Standard Shipping"
+msgstr "Envío estándar"
 
 #: includes/template-library/templates/templates.php:2838
 #: includes/template-library/templates/templates.php:3753
@@ -203,32 +818,526 @@ msgstr "Dirección de Facturación"
 msgid "Subtotal"
 msgstr "Subtotal"
 
+#: includes/template-library/templates/templates.php:2423
+#: includes/template-library/templates/templates.php:3379
+#: includes/template-library/templates/templates.php:4242
+msgid "If you loved the first product, you're really going to love this one. Don't miss out, order yours while they're still in stock."
+msgstr "Si te encantó el primer producto, éste te va a encantar. No te lo pierdas, pide el tuyo mientras haya existencias."
+
+#: includes/template-library/templates/templates.php:2398
+#: includes/template-library/templates/templates.php:3355
+#: includes/template-library/templates/templates.php:4218
+msgid "Another Amazing Product"
+msgstr "Otro producto asombroso"
+
+#: includes/template-library/templates/templates.php:2362
+#: includes/template-library/templates/templates.php:3316
+#: includes/template-library/templates/templates.php:4179
+msgid "This is my super awesome product. It's the best, so everyone should buy it!"
+msgstr "Este es mi producto superimpresionante. Es el mejor, ¡así que todo el mundo debería comprarlo!"
+
+#: includes/template-library/templates/templates.php:2337
+#: includes/template-library/templates/templates.php:3292
+#: includes/template-library/templates/templates.php:4155
+msgid "My Super Awesome Product"
+msgstr "Mi producto superimpresionante"
+
+#: includes/template-library/templates/templates.php:2297
+#: includes/template-library/templates/templates.php:6164
+#: includes/template-library/templates/templates.php:7297
+msgid "To accept payments on this form you will need to install one of our payment add-ons. To learn more about your payment add-on options, visit the following page (https://www.gravityforms.com/blog/payment-add-ons). Important: Delete this tip before you publish the form."
+msgstr "Para aceptar pagos en este formulario necesitarás instalar uno de nuestras extensiones de pago. Para obtener más información sobre tus opciones de extensiones de pago, visita la siguiente página (https://www.gravityforms.com/blog/payment-add-ons). Importante: Elimina este consejo antes de publicar el formulario."
+
+#: includes/template-library/templates/templates.php:2268
+#: includes/template-library/templates/templates.php:2274
+msgid "eCommerce Form"
+msgstr "Formulario comercio electrónico"
+
+#: includes/template-library/templates/templates.php:2267
+#: includes/template-library/templates/templates.php:2275
+msgid "A form that allows you to sell products and let your customers pay via different payment gateways"
+msgstr "Un formulario que te permite vender productos y dejar que tus clientes paguen a través de diferentes pasarelas de pago"
+
+#: includes/template-library/templates/templates.php:2254
+msgid "You have received a new donation."
+msgstr "Has recibido una nueva donación."
+
+#: includes/template-library/templates/templates.php:2244
+msgid "Thank you for your contribution! We appreciate your support."
+msgstr "¡Gracias por tu contribución! Apreciamos tu apoyo."
+
+#: includes/template-library/templates/templates.php:2161
+#: includes/template-library/templates/templates.php:3096
+#: includes/template-library/templates/templates.php:7132
+#: includes/template-library/templates/templates.php:8019
+msgid "Replace this field with a field specific to your payment gateway whenever possible."
+msgstr "Sustituye este campo por un campo específico de tu pasarela de pago siempre que sea posible."
+
+#: includes/template-library/templates/templates.php:2057
+msgid "Other Amount"
+msgstr "Otra cantidad"
+
+#: includes/template-library/templates/templates.php:2030
+msgid "Other amount"
+msgstr "Otra cantidad"
+
+#: includes/template-library/templates/templates.php:2024
+msgid "250 USD"
+msgstr "250 USD"
+
+#: includes/template-library/templates/templates.php:2018
+msgid "50 USD"
+msgstr "50 USD"
+
+#: includes/template-library/templates/templates.php:2012
+msgid "10 USD"
+msgstr "10 USD"
+
+#: includes/template-library/templates/templates.php:1995
+msgid "Choose how much you would like to donate."
+msgstr "Elige cuánto quieres donar."
+
 #: includes/template-library/templates/templates.php:1985
 msgid "Donation Amount"
 msgstr "Cantidad de la donación"
+
+#: includes/template-library/templates/templates.php:1767
+msgid "To accept donations via this form you will need to install one of our payment add-ons. To learn more about your payment add-on options, visit the following page (https://www.gravityforms.com/blog/payment-add-ons). Important: Delete this tip before you publish the form."
+msgstr "Para aceptar donaciones a través de este formulario necesitarás instalar uno de nuestras extensiones de pago. Para obtener más información sobre tus opciones de extensiones de pago, visita la siguiente página (https://www.gravityforms.com/blog/payment-add-ons). Importante: Elimina este consejo antes de publicar el formulario."
+
+#: includes/template-library/templates/templates.php:1758
+#: includes/template-library/templates/templates.php:2288
+#: includes/template-library/templates/templates.php:6155
+#: includes/template-library/templates/templates.php:7288
+msgid "Next Steps: Install a Payment Add-On"
+msgstr "Pasos siguientes: Instalar una extensión de pagos"
+
+#: includes/template-library/templates/templates.php:1746
+msgid "Help us provide care and support for vulnerable adults."
+msgstr "Ayúdanos a proporcionar atención y apoyo a adultos vulnerables."
+
+#: includes/template-library/templates/templates.php:1738
+msgid "A donation form for multiple purposes"
+msgstr "Un formulario de donación para múltiples fines"
+
+#: includes/template-library/templates/templates.php:1725
+msgid "Thank you for entering our competition! The winners will be contacted via email."
+msgstr "¡Gracias por participar en nuestro concurso! Nos pondremos en contacto con los ganadores por correo electrónico."
+
+#: includes/template-library/templates/templates.php:1700
+msgid "<p>Hi there {Name (First):1.3},</p><p>Thank you for getting in touch and entering our competition. Keep an eye on your inbox as winners will be contacted via email.</p><p>Good Luck!</p>"
+msgstr "<p>Hola,{Nombre (Nombre):1.3}</p><p>Gracias por ponerte en contacto y participar en nuestro concurso. Estate atento a tu bandeja de entrada porque nos pondremos en contacto con los ganadores por correo electrónico.</p><p>¡Mucha suerte!</p>"
+
+#: includes/template-library/templates/templates.php:1699
+msgid "You have successfully entered our competition"
+msgstr "Has participado con éxito en nuestro concurso"
+
+#: includes/template-library/templates/templates.php:1615
+#: includes/template-library/templates/templates.php:5994
+msgid "Terms and conditions placeholder."
+msgstr "Marcador de posición de los términos y condiciones."
+
+#: includes/template-library/templates/templates.php:1604
+msgid "<strong>I agree to the competition terms and conditions.</strong>"
+msgstr "<strong>Acepto los términos y condiciones del concurso.</strong>"
+
+#: includes/template-library/templates/templates.php:1579
+msgid "Competition Terms and Conditions"
+msgstr "Términos y condiciones del concurso"
+
+#: includes/template-library/templates/templates.php:1537
+msgid "Answer C"
+msgstr "Respuesta C"
+
+#: includes/template-library/templates/templates.php:1531
+msgid "Answer B"
+msgstr "Respuesta B"
+
+#: includes/template-library/templates/templates.php:1525
+msgid "Answer A"
+msgstr "Respuesta A"
+
+#: includes/template-library/templates/templates.php:1516
+msgid "The answer is..."
+msgstr "La respuesta es..."
+
+#: includes/template-library/templates/templates.php:1339
+msgid "Enter!"
+msgstr "¡Entrar!"
+
+#: includes/template-library/templates/templates.php:1334
+msgid "Enter our competition today to be in with a chance of winning..."
+msgstr "Participa hoy en nuestro concurso para tener la oportunidad de ganar..."
+
+#: includes/template-library/templates/templates.php:1333
+msgid "Form Template Library: Contest Entry Form"
+msgstr "Biblioteca de plantillas de formularios: Formulario de inscripción a un concurso"
 
 #: includes/template-library/templates/templates.php:1327
 msgid "Contest Entry Form"
 msgstr "Formulario de inscripción al concurso"
 
+#: includes/template-library/templates/templates.php:1326
+msgid "A form that allows your users to enter a contest"
+msgstr "Un formulario que permite a tus usuarios participar en un concurso"
+
+#: includes/template-library/templates/templates.php:339
+msgid "Hi there {Name (First):1.3}. We received the following information from you and will respond to your inquiry as quickly as possible."
+msgstr "Hola {Nombre (Nombre):1.3}. Hemos recibido la siguiente información tuya y responderemos a tu consulta lo antes posible."
+
 #: includes/template-library/templates/templates.php:212
 msgid "Comments"
 msgstr "Comentarios"
+
+#: includes/template-library/templates/templates.php:18
+msgid "Please get in contact using the form below..."
+msgstr "Ponte en contacto con nosotros a través del siguiente formulario..."
 
 #: includes/template-library/templates/templates.php:6
 #: includes/template-library/templates/templates.php:17
 msgid "Simple Contact Form"
 msgstr "Formulario de contacto simple"
 
+#: includes/template-library/templates/templates.php:5
+msgid "A simple and basic contact form with only two fields"
+msgstr "Un formulario de contacto sencillo y básico con sólo dos campos"
+
+#: includes/template-library/templates/templates.php:313
+#: includes/template-library/templates/templates.php:1313
+#: includes/template-library/templates/templates.php:1711
+#: includes/template-library/templates/templates.php:3209
+#: includes/template-library/templates/templates.php:4073
+#: includes/template-library/templates/templates.php:4967
+#: includes/template-library/templates/templates.php:6122
+#: includes/template-library/templates/templates.php:7254
+#: tests/unit-tests/save-form/test-form-crud-handler.php:152
+#: tests/unit-tests/save-form/test-form-crud-handler.php:282
+#: tests/unit-tests/save-form/test-form-crud-handler.php:584
+#: tests/unit-tests/save-form/test-form-crud-handler.php:699
+msgid "New submission from {form_title}"
+msgstr "Nuevo envío de {form_title}"
+
+#: includes/template-library/templates/templates.php:302
+#: includes/template-library/templates/templates.php:1302
+msgid "<p>Hi there {Name (First):1.3},</p><p>Thank you for getting in touch. We have received your inquiry and will get back to you within one business day.</p>"
+msgstr "<p>Hola,{Nombre (Nombre):1.3}</p><p>Gracias por ponerte en contacto con nosotros. Hemos recibido tu consulta y nos pondremos en contacto contigo en el plazo de un día laborable.</p>"
+
+#: includes/template-library/templates/templates.php:301
+#: includes/template-library/templates/templates.php:1301
+msgid "We have received your inquiry"
+msgstr "Hemos recibido tu consulta"
+
+#: includes/template-library/templates/templates.php:326
+#: includes/template-library/templates/templates.php:1291
+#: includes/template-library/templates/templates.php:7232
+#: includes/template-library/templates/templates.php:9138
+#: includes/template-library/templates/templates.php:10238
+#: tests/unit-tests/save-form/test-form-crud-handler.php:176
+#: tests/unit-tests/save-form/test-form-crud-handler.php:295
+#: tests/unit-tests/save-form/test-form-crud-handler.php:597
+#: tests/unit-tests/save-form/test-form-crud-handler.php:809
+#: tests/unit-tests/save-form/test-form-crud-handler.php:852
+#: tests/unit-tests/save-form/test-form-crud-handler.php:912
+#: tests/unit-tests/save-form/test-form-crud-handler.php:955
+msgid "Thank you for contacting us! We will get in touch with you shortly."
+msgstr "¡Gracias por ponerte en contacto con nosotros! En breve nos pondremos en contacto contigo."
+
+#: includes/template-library/templates/templates.php:1189
+msgid "Your Comments/Questions"
+msgstr "Tus comentarios/preguntas"
+
 #: includes/template-library/templates/templates.php:1146
 msgid "What's on your mind?"
 msgstr "¿En qué estás pensando?"
+
+#: includes/template-library/templates/templates.php:237
+#: includes/template-library/templates/templates.php:1145
+msgid "Please let us know what's on your mind. Have a question for us? Ask away."
+msgstr "Por favor, haznos saber lo que tienes en mente. ¿Tienes alguna pregunta para nosotros? Dispara."
+
+#: includes/template-library/templates/templates.php:1089
+msgid "11:30 pm"
+msgstr "11:30 pm"
+
+#: includes/template-library/templates/templates.php:1085
+msgid "11:00 pm"
+msgstr "11:00 pm"
+
+#: includes/template-library/templates/templates.php:1081
+msgid "10:30 pm"
+msgstr "10:30 pm"
+
+#: includes/template-library/templates/templates.php:1077
+msgid "10:00 pm"
+msgstr "10:00 pm"
+
+#: includes/template-library/templates/templates.php:1073
+msgid "9:30 pm"
+msgstr "9:30 pm"
+
+#: includes/template-library/templates/templates.php:1069
+msgid "9:00 pm"
+msgstr "9:00 pm"
+
+#: includes/template-library/templates/templates.php:1065
+msgid "8:30 pm"
+msgstr "8:30 pm"
+
+#: includes/template-library/templates/templates.php:1061
+msgid "8:00 pm"
+msgstr "8:00 pm"
+
+#: includes/template-library/templates/templates.php:1057
+msgid "7:30 pm"
+msgstr "7:30 pm"
+
+#: includes/template-library/templates/templates.php:1053
+msgid "7:00 pm"
+msgstr "7:00 pm"
+
+#: includes/template-library/templates/templates.php:1049
+msgid "6:30 pm"
+msgstr "6:30 pm"
+
+#: includes/template-library/templates/templates.php:1045
+msgid "6:00 pm"
+msgstr "6:00 pm"
+
+#: includes/template-library/templates/templates.php:1041
+msgid "5:30 pm"
+msgstr "5:30 pm"
+
+#: includes/template-library/templates/templates.php:1037
+msgid "5:00 pm"
+msgstr "5:00 pm"
+
+#: includes/template-library/templates/templates.php:1033
+msgid "4:30 pm"
+msgstr "4:30 pm"
+
+#: includes/template-library/templates/templates.php:1029
+msgid "4:00 pm"
+msgstr "4:00 pm"
+
+#: includes/template-library/templates/templates.php:1025
+msgid "3:30 pm"
+msgstr "3:30 pm"
+
+#: includes/template-library/templates/templates.php:1021
+msgid "3:00 pm"
+msgstr "3:00 pm"
+
+#: includes/template-library/templates/templates.php:1017
+msgid "2:30 pm"
+msgstr "2:30 pm"
+
+#: includes/template-library/templates/templates.php:1013
+msgid "2:00 pm"
+msgstr "2:00 pm"
+
+#: includes/template-library/templates/templates.php:1009
+msgid "1:30 pm"
+msgstr "1:30 pm"
+
+#: includes/template-library/templates/templates.php:1005
+msgid "1:00 pm"
+msgstr "1:00 pm"
+
+#: includes/template-library/templates/templates.php:1001
+msgid "12:30 pm"
+msgstr "12:30 pm"
+
+#: includes/template-library/templates/templates.php:997
+msgid "12:00 pm"
+msgstr "12:00 pm"
+
+#: includes/template-library/templates/templates.php:993
+msgid "11:30 am"
+msgstr "11.30 am"
+
+#: includes/template-library/templates/templates.php:989
+msgid "11:00 am"
+msgstr "10:00 am"
+
+#: includes/template-library/templates/templates.php:985
+msgid "10:30 am"
+msgstr "10.30 am"
+
+#: includes/template-library/templates/templates.php:981
+msgid "10:00 am"
+msgstr "10:00 am"
+
+#: includes/template-library/templates/templates.php:977
+msgid "9:30 am"
+msgstr "9:30 am"
+
+#: includes/template-library/templates/templates.php:973
+msgid "9:00 am"
+msgstr "9:00 am"
+
+#: includes/template-library/templates/templates.php:969
+msgid "8:30 am"
+msgstr "8:30 am"
+
+#: includes/template-library/templates/templates.php:965
+msgid "8:00 am"
+msgstr "8:00 am"
+
+#: includes/template-library/templates/templates.php:961
+msgid "7:30 am"
+msgstr "7:30 am"
+
+#: includes/template-library/templates/templates.php:957
+msgid "7:00 am"
+msgstr "7:00 am"
+
+#: includes/template-library/templates/templates.php:953
+msgid "6:30 am"
+msgstr "6:30 am"
+
+#: includes/template-library/templates/templates.php:949
+msgid "6:00 am"
+msgstr "6:00 am"
+
+#: includes/template-library/templates/templates.php:945
+msgid "5:30 am"
+msgstr "5:30 am"
+
+#: includes/template-library/templates/templates.php:941
+msgid "5:00 am"
+msgstr "5:00 am"
+
+#: includes/template-library/templates/templates.php:937
+msgid "4:30 am"
+msgstr "4:30 am"
+
+#: includes/template-library/templates/templates.php:933
+msgid "4:00 am"
+msgstr "4:00 am"
+
+#: includes/template-library/templates/templates.php:929
+msgid "3:30 am"
+msgstr "3:30 am"
+
+#: includes/template-library/templates/templates.php:925
+msgid "3:00 am"
+msgstr "3:00 am"
+
+#: includes/template-library/templates/templates.php:921
+msgid "2:30 am"
+msgstr "2:30 am"
+
+#: includes/template-library/templates/templates.php:917
+msgid "2:00 am"
+msgstr "2:00 am"
+
+#: includes/template-library/templates/templates.php:913
+msgid "1:30 am"
+msgstr "1:30 a.m"
+
+#: includes/template-library/templates/templates.php:909
+msgid "1:00 am"
+msgstr "1:00 am"
+
+#: includes/template-library/templates/templates.php:905
+msgid "12:30 am"
+msgstr "12:30 am"
+
+#: includes/template-library/templates/templates.php:901
+msgid "12:00 am"
+msgstr "12:00 am"
+
+#: includes/template-library/templates/templates.php:897
+msgid "Select A Time"
+msgstr "Selecciona una hora"
+
+#: includes/template-library/templates/templates.php:893
+msgid "Best Time to Call You"
+msgstr "Mejor hora para llamarte"
+
+#: includes/template-library/templates/templates.php:840
+#: includes/template-library/templates/templates.php:5309
+msgid "Your Phone"
+msgstr "Tu teléfono"
+
+#: includes/template-library/templates/templates.php:777
+#: includes/template-library/templates/templates.php:5171
+msgid "Your Email Address"
+msgstr "Tu dirección de correo electrónico"
+
+#: includes/template-library/templates/templates.php:730
+msgid "Preferred Method of Contact"
+msgstr "Método preferido de contacto"
+
+#: includes/template-library/templates/templates.php:688
+msgid "How Can We Reach You?"
+msgstr "¿Cómo podemos contactar contigo?"
+
+#: includes/template-library/templates/templates.php:687
+msgid "We would love to chat with you. How can we get in touch?"
+msgstr "Nos encantaría charlar contigo. ¿Cómo podemos ponernos en contacto?"
+
+#: includes/template-library/templates/templates.php:628
+msgid "Zip / Postal Code"
+msgstr "Código postal"
+
+#: includes/template-library/templates/templates.php:597
+msgid "Your Address"
+msgstr "Tu dirección"
 
 #: includes/template-library/templates/templates.php:472
 #: includes/template-library/templates/templates.php:5045
 #: includes/template-library/templates/templates.php:7335
 msgid "Your Name"
 msgstr "Tu nombre"
+
+#: includes/template-library/templates/templates.php:428
+msgid "About You"
+msgstr "Acerca de ti"
+
+#: includes/template-library/templates/templates.php:384
+#: includes/template-library/templates/templates.php:8271
+msgid "To get the most out of your form, we suggest that you sync this form with an email add-on. To learn more about your email add-on options, visit the following page (https://www.gravityforms.com/the-8-best-email-plugins-for-wordpress-in-2020/). Important: Delete this tip before you publish the form."
+msgstr "Para sacar el máximo partido a tu formulario, te sugerimos que lo sincronices con unan extensión de correo electrónico. Para obtener más información sobre las opciones del extensiones de correo electrónico, visita la siguiente página (https://www.gravityforms.com/the-8-best-email-plugins-for-wordpress-in-2020/). Importante: Elimina este consejo antes de publicar el formulario."
+
+#: includes/template-library/templates/templates.php:375
+#: includes/template-library/templates/templates.php:8263
+#: includes/template-library/templates/templates.php:8624
+msgid "Next Steps: Sync an Email Add-On"
+msgstr "Pasos siguientes: Sincronizar una extensión de correo electrónico"
+
+#: includes/template-library/templates/templates.php:351
+#: includes/template-library/templates/templates.php:362
+msgid "Advanced Contact Form"
+msgstr "Formulario de contacto avanzado"
+
+#: includes/template-library/templates/templates.php:350
+msgid "An advanced contact form."
+msgstr "Un formulario de contacto avanzado."
+
+#: includes/template-library/config/class-gf-template-library-config.php:111
+msgid "Quickly create an amazing form by using a pre-made template, or start from scratch to tailor your form to your specific needs."
+msgstr "Crea rápidamente un formulario asombroso utilizando una plantilla prefabricada, o empieza desde cero para adaptar tu formulario a tus necesidades específicas."
+
+#: includes/template-library/config/class-gf-template-library-config.php:110
+msgid "Explore Form Templates"
+msgstr "Explorar plantillas de formularios"
+
+#: includes/template-library/config/class-gf-template-library-config.php:109
+msgid "A form description goes here"
+msgstr "Una descripción del formulario va aquí"
+
+#: includes/template-library/config/class-gf-template-library-config.php:108
+msgid "A new blank form"
+msgstr "Un nuevo formulario en blanco"
+
+#: includes/template-library/config/class-gf-template-library-config.php:107
+msgid "New Blank Form"
+msgstr "Nuevo formulario en blanco"
+
+#: includes/template-library/config/class-gf-template-library-config.php:106
+msgid "Create Blank Form"
+msgstr "Crear un formulario en blanco"
 
 #: includes/template-library/config/class-gf-template-library-config.php:105
 msgid "Blank Form"
@@ -239,17 +1348,228 @@ msgstr "Formulario en blanco"
 msgid "Preview %s"
 msgstr "Previsualizar %s"
 
+#: includes/template-library/config/class-gf-template-library-config.php:101
+msgid "Close."
+msgstr "Cerrar."
+
+#: includes/template-library/config/class-gf-template-library-config.php:100
+msgid "Import failed."
+msgstr "La importación ha fallado."
+
+#: includes/template-library/config/class-gf-template-library-config.php:97
+msgid "Please enter a valid form title."
+msgstr "Por favor, introduce un título de formulario válido."
+
+#: includes/template-library/config/class-gf-template-library-config.php:96
+msgid "Creating Form"
+msgstr "Creando formulario..."
+
+#. translators: title of template
+#: includes/template-library/config/class-gf-template-library-config.php:95
+msgid "Use Template %s"
+msgstr "Utilizar la plantilla %s"
+
 #: includes/template-library/config/class-gf-template-library-config.php:92
 msgid "Use Template"
 msgstr "Usar una plantilla"
+
+#: includes/template-library/config/class-gf-template-library-config.php:90
+msgid "Enter the form title"
+msgstr "Introduce un título para formulario"
+
+#: includes/splash-page/gf_splash.php:140
+msgid "We believe there's a better way to manage your data and forms. Are you ready to create a form? Let's go!"
+msgstr "Creemos que hay una forma mejor de gestionar tus datos y formularios. ¿Estás listo para crear un formulario? ¡Adelante!"
+
+#: includes/splash-page/gf_splash.php:137
+msgid "Ready to get started?"
+msgstr "¿Listo para empezar?"
+
+#: includes/splash-page/gf_splash.php:131
+msgid "Best of all, we're making our components available as a package that add-on developers can use in their own products to provide a consistent user experience across the entire ecosystem."
+msgstr "Lo mejor de todo es que nuestros componentes están disponibles como un paquete que los desarrolladores de extensiones pueden utilizar en sus propios productos para ofrecer una experiencia de usuario coherente en todo el ecosistema."
+
+#: includes/splash-page/gf_splash.php:130
+msgid "Gravity Forms 2.7 adds over 100 new components to our collection. It’s been a long journey but we are super proud of where we landed, and think it’s going to position Gravity Forms as a useful tool for a whole new group of developers."
+msgstr "Gravity Forms 2.7 añade más de 100 componentes nuevos a nuestra colección. Ha sido un largo viaje, pero estamos superorgullosos de dónde hemos llegado, y creemos que va a posicionar a Gravity Forms como una herramienta útil para todo un nuevo grupo de desarrolladores."
+
+#: includes/splash-page/gf_splash.php:129
+msgid "Brand New Components"
+msgstr "Componentes completamente nuevos"
+
+#: includes/splash-page/gf_splash.php:118
+msgid "Screenshot of packages code."
+msgstr "Captura de pantalla del código de los paquetes."
+
+#: includes/splash-page/gf_splash.php:113
+msgid "More Developer Features"
+msgstr "Más funciones para desarrolladores"
+
+#: includes/splash-page/gf_splash.php:97
+msgid "Read more about spam protection"
+msgstr "Más información sobre la protección contra el spam"
+
+#: includes/splash-page/gf_splash.php:96
+msgid "Simply enable the honeypot in your form settings and enjoy the benefits of much less form spam."
+msgstr "Sólo tienes que activar el honeypot en la configuración de tus formularios y disfrutar de las ventajas de un spam de formularios mucho menor."
+
+#: includes/splash-page/gf_splash.php:95
+msgid "We’ve improved the anti-spam honeypot protection to be much more effective. We added an additional method for detecting spam entries, and let you choose whether you want the entries to go to a dedicated spam folder or be blocked entirely."
+msgstr "Hemos mejorado la protección antispam honeypot para que sea mucho más eficaz. Hemos añadido un método adicional para detectar entradas de spam, y te permitimos elegir si quieres que las entradas vayan a una carpeta de spam dedicada o se bloqueen por completo."
+
+#: includes/splash-page/gf_splash.php:94
+msgid "Increased Form Spam Protection"
+msgstr "Mayor protección contra el spam de formularios"
+
+#: includes/splash-page/gf_splash.php:78
+msgid "Read more about form styling"
+msgstr "Más información sobre el estilo de los formularios"
+
+#: includes/splash-page/gf_splash.php:77
+msgid "Now each of your forms can be tailored to look and feel exactly how you need them to, without the need to write a single line of CSS."
+msgstr "Ahora, cada uno de tus formularios puede personalizarse para que tenga exactamente el aspecto que necesitas, sin necesidad de escribir ni una sola línea de CSS."
+
+#: includes/splash-page/gf_splash.php:76
+msgid "If you’ve ever had trouble getting your forms to look exactly the way you want, you’ll love the new styling options we’ve added to the block settings. Tweak the color scheme, change the size of inputs, modify button styles, and much more - all from within the WordPress block editor."
+msgstr "Si alguna vez has tenido problemas para conseguir que tus formularios tengan exactamente el aspecto que deseas, te encantarán las nuevas opciones de estilo que hemos añadido a la configuración de bloques. Ajusta la combinación de colores, cambia el tamaño de las entradas, modifica el estilo de los botones y mucho más, todo desde el editor de bloques de WordPress."
+
+#: includes/splash-page/gf_splash.php:75
+msgid "Better Form Styling Out of the Box"
+msgstr "Mejores estilos de los formularios preconstridos"
+
+#: includes/splash-page/gf_splash.php:59
+msgid "Read more about the setup wizard"
+msgstr "Más información sobre el asistente de configuración"
+
+#: includes/splash-page/gf_splash.php:58
+msgid "New customers will appreciate the ease-of-use, while seasoned customers will find their setup times substantially reduced."
+msgstr "Los nuevos clientes apreciarán la facilidad de uso, mientras que los clientes veteranos verán reducidos sustancialmente sus tiempos de configuración."
+
+#: includes/splash-page/gf_splash.php:57
+msgid "We want customers to love using Gravity Forms from the very first moment it’s installed. So we’ve redesigned and rebuilt the setup wizard from the ground up to provide a simpler, more streamlined experience."
+msgstr "Queremos que a los clientes les encante utilizar Gravity Forms desde el primer momento de su instalación. Por eso hemos rediseñado y reconstruido el asistente de configuración desde cero para ofrecer una experiencia más sencilla y ágil."
+
+#: includes/splash-page/gf_splash.php:56
+msgid "Faster Setup Wizard"
+msgstr "Asistente de configuración más rápido"
+
+#: includes/splash-page/gf_splash.php:40
+msgid "Read more about the Form Template Library"
+msgstr "Más información sobre la biblioteca de plantillas de formularios"
+
+#. Translators: 1. opening link tag with link to Gravity Forms template
+#. library, 2. closing link tag.
+#: includes/splash-page/gf_splash.php:36
+msgid "We hope to bring you many new templates to this growing library, and look forward to any %stemplate suggestions%s you may have to make form creation even easier."
+msgstr "Esperamos aportarte muchas plantillas nuevas a esta creciente biblioteca, y esperamos cualquier %ssugerencia de plantilla%s que puedas tener para facilitar aún más la creación de formularios."
+
+#: includes/splash-page/gf_splash.php:33
+msgid "Whether you’re looking to create a simple contact form, request a quote form, donation form, payment order form, or a subscription form, we have a form template for you."
+msgstr "Tanto si quieres crear un sencillo formulario de contacto, como un formulario de solicitud de presupuesto, un formulario de donación, un formulario de orden de pago o un formulario de suscripción, tenemos una plantilla de formulario para ti."
+
+#: includes/splash-page/gf_splash.php:32
+msgid "With this update, you can get started building your forms quickly by selecting one of our hand-curated templates from the new Form Template Library."
+msgstr "Con esta actualización, puedes empezar a crear tus formularios rápidamente seleccionando una de nuestras plantillas seleccionadas a mano de la nueva Biblioteca de plantillas de formularios."
+
+#: includes/splash-page/gf_splash.php:31
+msgid "We’re celebrating the release of Gravity Forms 2.7 today! It includes some exciting new features that will make form management easier than ever."
+msgstr "¡Hoy celebramos el lanzamiento de Gravity Forms 2.7! Incluye algunas nuevas y emocionantes funciones que harán que la gestión de formularios sea más fácil que nunca."
+
+#: includes/splash-page/gf_splash.php:28
+msgid "New Form Template Library"
+msgstr "Nueva biblioteca de plantillas de formularios"
+
+#: includes/splash-page/gf_splash.php:23
+msgid "Screenshot of the new form template library"
+msgstr "Captura de pantalla de la nueva biblioteca de plantillas de formularios"
+
+#: includes/splash-page/gf_splash.php:20
+msgid "4.7 Stars"
+msgstr "4.7 estrellas"
+
+#: includes/splash-page/gf_splash.php:12
+msgid "G2 logo"
+msgstr "Logotipo de G2"
+
+#: includes/splash-page/gf_splash.php:11
+msgid "Read reviews of Gravity Forms on G2"
+msgstr "Lee las opiniones sobre Gravity Forms en G2"
+
+#: includes/splash-page/gf_splash.php:7 includes/splash-page/gf_splash.php:143
+msgid "Get Started"
+msgstr "Iniciar"
+
+#: includes/splash-page/gf_splash.php:6 includes/splash-page/gf_splash.php:142
+msgid "Get started with a new form"
+msgstr "Empezar con un nuevo formulario"
+
+#: includes/splash-page/gf_splash.php:5
+msgid "Never start from scratch again. Gravity Forms comes with several pre-built form templates to help you save even more time. We truly made the most beginner-friendly WordPress forms plugin in the market."
+msgstr "No vuelvas a empezar desde cero. Gravity Forms incluye varias plantillas de formularios preconstruidas para ayudarte a ahorrar aún más tiempo. Realmente hemos creado el plugin de formularios de WordPress más fácil de usar para principiantes del mercado."
+
+#: includes/splash-page/gf_splash.php:4
+msgid "Build Forms Quickly Using Gravity Forms 2.7"
+msgstr "Crea formularios rápidamente con Gravity Forms 2.7"
+
+#: includes/setup-wizard/endpoints/class-gf-setup-wizard-endpoint-save-prefs.php:135
+msgid "Preferences updated."
+msgstr "Preferencias actualizadas."
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config.php:291
+msgid "Accounting Software"
+msgstr "Software de contabilidad"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config.php:280
+msgid "Anti Spam Services"
+msgstr "Servicios antispam"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config.php:269
+msgid "Payment Processor"
+msgstr "Procesador de pagos"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config.php:258
+msgid "CRM"
+msgstr "CRM"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config.php:247
+msgid "Email Marketing Platform"
+msgstr "Plataforma de marketing por correo electrónico"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config.php:233
+msgid "Nonprofit"
+msgstr "Organización sin ánimo de lucro"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config.php:225
+msgid "eCommerce"
+msgstr "Comercio electrónico"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config.php:221
+msgid "Enterprise"
+msgstr "Empresa"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config.php:217
+msgid "Small/Medium Business"
+msgstr "Pequeña y mediana empresa"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config.php:213
+msgid "Personal Business/Services"
+msgstr "Negocios personales/Servicios"
 
 #: includes/setup-wizard/config/class-gf-setup-wizard-config.php:209
 msgid "Blog"
 msgstr "Blog"
 
+#: includes/setup-wizard/config/class-gf-setup-wizard-config.php:176
+msgid "Custom Form"
+msgstr "Formulario personalizado"
+
 #: includes/setup-wizard/config/class-gf-setup-wizard-config.php:165
 msgid "Registration Form"
 msgstr "Formulario de registro"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config.php:154
+msgid "Customer Service Form"
+msgstr "Formulario de atención al cliente"
 
 #: includes/setup-wizard/config/class-gf-setup-wizard-config.php:143
 #: includes/template-library/templates/templates.php:1739
@@ -259,17 +1579,171 @@ msgstr "Formulario de registro"
 msgid "Donation Form"
 msgstr "Formulario de donación"
 
+#: includes/setup-wizard/config/class-gf-setup-wizard-config.php:132
+msgid "Subscription Form"
+msgstr "Formulario de suscripción"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config.php:121
+#: includes/template-library/templates/templates.php:9789
+#: includes/template-library/templates/templates.php:9824
+msgid "Payment Form"
+msgstr "Formulario de pago"
+
 #: includes/setup-wizard/config/class-gf-setup-wizard-config.php:110
 msgid "Survey"
 msgstr "Encuesta"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config.php:99
+msgid "Conversational Form"
+msgstr "Forma conversacional"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config.php:88
+#: includes/template-library/templates/templates.php:9804
+#: includes/template-library/templates/templates.php:9842
+msgid "Contact Form"
+msgstr "Formulario de contacto"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:104
+msgid "Watch the video below to help you get started with Gravity Forms, or jump straight in and begin your form building journey!"
+msgstr "Mira el siguiente vídeo para ayudarte a empezar con Gravity Forms, ¡o entra directamente y comienza tu camino de creación de formularios!"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:103
+msgid "Ready to Create Your First Form?"
+msgstr "¿Listo para crear tu primer formulario?"
+
+#. translators: placeholders are markup to create a link.
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:98
+#: settings.php:622
+msgid "We love improving the form building experience for everyone in our community. By enabling data collection, you can help us learn more about how our customers use Gravity Forms. %1$sLearn more...%2$s"
+msgstr "Nos encanta mejorar la experiencia de creación de formularios para todos los miembros de nuestra comunidad. Al habilitar la recopilación de datos, puedes ayudarnos a saber más sobre cómo utilizan nuestros clientes Gravity Forms. %1$sMás información...%2$s"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:96
+msgid "Help Make Gravity Forms Better!"
+msgstr "¡Ayuda a mejorar Gravity Forms!"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:91
+msgid "Do you want to integrate your forms with any of these services?"
+msgstr "¿Quieres integrar tus formularios con alguno de estos servicios?"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:90
+msgid "What types of forms do you want to create?"
+msgstr "¿Qué tipos de formularios quieres crear?"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:89
+msgid "How would you best describe your website?"
+msgstr "¿Cuál es la mejor descripción de tu web?"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:88
+msgid "Tell us about your site and how you’d like to use Gravity Forms."
+msgstr "Háblanos de tu sitio y de cómo te gustaría utilizar Gravity Forms."
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:87
+msgid "Personalize your Gravity Forms experience"
+msgstr "Personaliza tu experiencia con Gravity Forms"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:83
+msgid "We recommend you enable this feature to ensure Gravity Forms runs smoothly."
+msgstr "Te recomendamos que habilites esta función para que Gravity Forms funcione sin problemas."
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:82
+msgid "Feature Disabled"
+msgstr "Función desactivada"
 
 #: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:81
 msgid "Recommended"
 msgstr "Recomendados"
 
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:80
+msgid "Enable automatic updates"
+msgstr "Activar las actualizaciones automáticas"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:79
+msgid "If you're installing Gravity Forms for a client, enable this setting to hide the license information."
+msgstr "Si estás instalando Gravity Forms para un cliente, activa esta opción para ocultar la información de la licencia."
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:78
+msgid "Hide license information"
+msgstr "Ocultar la información de la licencia"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:77
+msgid "Configure Gravity Forms to work in the way that you want."
+msgstr "Configura Gravity Forms para que funcione de la forma que desees."
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:76
+msgid "Let's get you set up!"
+msgstr "¡Vamos a prepararte!"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:73
+msgid "I agree to the handling and storage of my data and to receive marketing communications from Gravity Forms."
+msgstr "Acepto el tratamiento y almacenamiento de mis datos y recibir comunicaciones de marketing de Gravity Forms."
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:72
+msgid "Get the Discount"
+msgstr "Consigue el descuento"
+
 #: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:71
 msgid "Email address"
 msgstr "Dirección de correo electrónico"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:70
+msgid "To continue installation enter your email below and get 20% off any new license."
+msgstr "Para continuar con la instalación, introduce tu correo electrónico a continuación y obtén un 20% de descuento en cada licencia nueva."
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:69
+msgid "Get 20% Off Gravity Forms!"
+msgstr "¡Consigue un 20% de descuento en Gravity Forms!"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:68
+msgid "Checking License"
+msgstr "Comprobando la licencia"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:67
+msgid "License Key Validated"
+msgstr "Clave de licencia validada"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:66
+msgid "Activate License"
+msgstr "Activar licencia"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:65
+msgid "Enter your license key below to enable Gravity Forms."
+msgstr "Introduce tu clave de licencia a continuación para activar Gravity Forms."
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:64
+msgid "Paste your license key here"
+msgstr "Pega tu clave de licencia aquí"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:63
+msgid "Enter License Key"
+msgstr "Escribe la clave de licencia"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:62
+msgid "Build custom business solutions"
+msgstr "Crea soluciones empresariales a medida"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:61
+msgid "Accept online payments"
+msgstr "Acepta pagos online"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:60
+msgid "Create surveys and quizzes"
+msgstr "Crea encuestas y cuestionarios"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:59
+msgid "Thank you for choosing Gravity Forms. We know you’re going to love our form builder and all it has to offer!"
+msgstr "Gracias por elegir Gravity Forms. ¡Sabemos que te va a encantar nuestro creador de formularios y todo lo que ofrece!"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:55
+msgid "Toggle Fullscreen"
+msgstr "Alternar pantalla completa"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:54
+msgid "Back To Dashboard"
+msgstr "Volver al escritorio"
+
+#: includes/setup-wizard/config/class-gf-setup-wizard-config-i18n.php:53
+msgid "Invalid License Key"
+msgstr "Clave de licencia no válida"
 
 #: includes/settings/config/class-gf-settings-config-i18n.php:50
 msgid "Replace"
@@ -278,6 +1752,144 @@ msgstr "Reemplazar"
 #: includes/settings/config/class-gf-settings-config-i18n.php:49
 msgid "or"
 msgstr "o"
+
+#: includes/settings/config/class-gf-settings-config-i18n.php:48
+msgid "max."
+msgstr "máx."
+
+#: includes/settings/config/class-gf-settings-config-i18n.php:47
+msgid "or drag and drop"
+msgstr "o arrastrar y soltar"
+
+#: includes/settings/config/class-gf-settings-config-i18n.php:46
+msgid "Click to upload"
+msgstr "Haz clic para subir"
+
+#: includes/settings/config/class-gf-settings-config-i18n.php:41
+msgid "swatch"
+msgstr "muestra"
+
+#: includes/settings/config/class-gf-settings-config-i18n.php:36
+msgid "Hex"
+msgstr "Hex"
+
+#: includes/license/class-gf-license-api-response.php:43
+msgid "The license is invalid."
+msgstr "La licencia no es válida."
+
+#: includes/honeypot/class-gf-honeypot-handler.php:45
+msgid "Failed Honeypot Validation."
+msgstr "Validación fallida del Honeypot."
+
+#: includes/honeypot/class-gf-honeypot-handler.php:45
+msgid "Honeypot Spam Filter"
+msgstr "Filtro antispam Honeypot"
+
+#: includes/fields/class-gf-field-list.php:240
+msgid "Remove"
+msgstr "Eliminar"
+
+#: includes/config/items/class-gf-config-i18n.php:34
+msgid "Su"
+msgstr "Do"
+
+#: includes/config/items/class-gf-config-i18n.php:33
+msgid "Sa"
+msgstr "Sa"
+
+#: includes/config/items/class-gf-config-i18n.php:32
+msgid "Fr"
+msgstr "Vi"
+
+#: includes/config/items/class-gf-config-i18n.php:31
+msgid "Th"
+msgstr "Ju"
+
+#: includes/config/items/class-gf-config-i18n.php:30
+msgid "We"
+msgstr "Mi"
+
+#: includes/config/items/class-gf-config-i18n.php:29
+msgid "Tu"
+msgstr "Ma"
+
+#: includes/config/items/class-gf-config-i18n.php:28
+msgid "Mo"
+msgstr "Lu"
+
+#: includes/api.php:1824
+msgid "Field does not support validation."
+msgstr "El campo no admite validación."
+
+#: includes/api.php:1819
+msgid "Field not found."
+msgstr "No se ha encontrado ningún campo."
+
+#: gravityforms.php:1826
+msgid "Help - Gravity Forms"
+msgstr "Ayuda - Gravity Forms"
+
+#: gravityforms.php:1821
+msgid "System Status - Gravity Forms"
+msgstr "Estado del sistema - Gravity Forms"
+
+#: gravityforms.php:1815
+msgid "Add-Ons - Gravity Forms"
+msgstr "Extensiones - Gravity Forms"
+
+#: gravityforms.php:1809
+msgid "Import/Export - Gravity Forms"
+msgstr "Importar/Exportar - Gravity Forms"
+
+#: gravityforms.php:1804
+msgid "Settings - Gravity Forms"
+msgstr "Ajustes - Gravity Formularios"
+
+#: gravityforms.php:1790
+msgid "Entries - Gravity Forms"
+msgstr "Entradas - Gravity Forms"
+
+#: gravityforms.php:1785
+msgid "New Form - Gravity Forms"
+msgstr "Nuevo formulario - Gravity Forms"
+
+#: gravityforms.php:1780
+msgid "Forms - Gravity Forms"
+msgstr "Formularios - Gravity Forms"
+
+#: form_settings.php:521
+msgid "Create an entry and mark it as spam"
+msgstr "Crea una entrada y márcala como spam"
+
+#: form_settings.php:517
+msgid "Do not create an entry"
+msgstr "No crear una entrada"
+
+#: form_settings.php:506
+msgid "If the honeypot flags a submission as spam:"
+msgstr "Si el honeypot marca un envío como spam:"
+
+#: form_settings.php:300
+msgid "Save & Continue"
+msgstr "Guardar y continuar"
+
+#. translators: Variable is a complete sentence containing the reason the entry
+#. was marked as spam.
+#: form_display.php:1880
+msgid "Reason: %s"
+msgstr "Motivo: %s"
+
+#: form_display.php:1877
+msgid "This entry has been flagged as spam."
+msgstr "Esta entrada ha sido marcada como spam."
+
+#: form_display.php:1876
+msgid "Spam Filter"
+msgstr "Filtro de spam"
+
+#: common.php:4460
+msgid "Akismet Spam Filter"
+msgstr "Filtro de spam Akismet"
 
 #: includes/fields/class-gf-field-address.php:966
 #: includes/fields/class-gf-field-address.php:1040

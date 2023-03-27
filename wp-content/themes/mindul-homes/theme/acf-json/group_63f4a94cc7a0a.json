@@ -48,110 +48,6 @@
                     "min": "",
                     "max": ""
                 },
-                "layout_63fcbf55cc10e": {
-                    "key": "layout_63fcbf55cc10e",
-                    "name": "c_quote_slider",
-                    "label": "Block: Quote slider",
-                    "display": "block",
-                    "sub_fields": [
-                        {
-                            "key": "field_63fcbfd1cc110",
-                            "label": "Title",
-                            "name": "title",
-                            "aria-label": "",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "relevanssi_exclude": 0,
-                            "default_value": "",
-                            "maxlength": "",
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": ""
-                        },
-                        {
-                            "key": "field_63fcbfd7cc111",
-                            "label": "Items",
-                            "name": "items",
-                            "aria-label": "",
-                            "type": "flexible_content",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "relevanssi_exclude": 0,
-                            "layouts": {
-                                "layout_63fcbfdba0124": {
-                                    "key": "layout_63fcbfdba0124",
-                                    "name": "item",
-                                    "label": "Item",
-                                    "display": "block",
-                                    "sub_fields": [
-                                        {
-                                            "key": "field_63fcc00acc112",
-                                            "label": "Name",
-                                            "name": "name",
-                                            "aria-label": "",
-                                            "type": "text",
-                                            "instructions": "",
-                                            "required": 0,
-                                            "conditional_logic": 0,
-                                            "wrapper": {
-                                                "width": "",
-                                                "class": "",
-                                                "id": ""
-                                            },
-                                            "relevanssi_exclude": 0,
-                                            "default_value": "",
-                                            "maxlength": "",
-                                            "placeholder": "",
-                                            "prepend": "",
-                                            "append": ""
-                                        },
-                                        {
-                                            "key": "field_63fcc00dcc113",
-                                            "label": "Quote",
-                                            "name": "quote",
-                                            "aria-label": "",
-                                            "type": "textarea",
-                                            "instructions": "",
-                                            "required": 0,
-                                            "conditional_logic": 0,
-                                            "wrapper": {
-                                                "width": "",
-                                                "class": "",
-                                                "id": ""
-                                            },
-                                            "relevanssi_exclude": 0,
-                                            "default_value": "",
-                                            "maxlength": "",
-                                            "rows": 6,
-                                            "placeholder": "",
-                                            "new_lines": ""
-                                        }
-                                    ],
-                                    "min": "",
-                                    "max": ""
-                                }
-                            },
-                            "min": "",
-                            "max": "",
-                            "button_label": "Add Row"
-                        }
-                    ],
-                    "min": "",
-                    "max": ""
-                },
                 "layout_63f8cdc3740dc": {
                     "key": "layout_63f8cdc3740dc",
                     "name": "c_two_columns",
@@ -1154,6 +1050,101 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_6421b652d1e70": {
+                    "key": "layout_6421b652d1e70",
+                    "name": "c_faq",
+                    "label": "Block: FAQ",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6421b67ed1e72",
+                            "label": "Title",
+                            "name": "title",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_6421b688d1e73",
+                            "label": "Item",
+                            "name": "item",
+                            "aria-label": "",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "table",
+                            "min": 0,
+                            "max": 0,
+                            "collapsed": "",
+                            "button_label": "Nieuwe regel",
+                            "rows_per_page": 20,
+                            "sub_fields": [
+                                {
+                                    "key": "field_6421b696d1e74",
+                                    "label": "Question",
+                                    "name": "question",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_6421b688d1e73"
+                                },
+                                {
+                                    "key": "field_6421b6a4d1e75",
+                                    "label": "Answer",
+                                    "name": "answer",
+                                    "aria-label": "",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "rows": 6,
+                                    "placeholder": "",
+                                    "new_lines": "br",
+                                    "parent_repeater": "field_6421b688d1e73"
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "min": "",
@@ -1181,5 +1172,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1679600211
+    "modified": 1679931260
 }
