@@ -5,8 +5,6 @@ $name = $args['option'] ?? null;
 $components = [
     'c_text',
 	'c_two_columns',
-	'c_cta_items',
-	'c_contact_cta',
 	'c_image',
 	'c_quote',
 	'c_features',

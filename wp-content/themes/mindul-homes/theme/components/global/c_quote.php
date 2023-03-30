@@ -1,8 +1,8 @@
 <section class="c_quote">
 	<div class="bg-white pt-24 pb-16 sm:pt-32 sm:pb-24 xl:pb-32">
-		<div class="bg-gray-900 pb-20 sm:pb-24 xl:pb-0">
+		<div class="bg-gray-900 pb-20 sm:pb-24 xl:pb-0" x-data="{ shown: false }" x-intersect="shown = true">
 			<div
-				class="mx-auto flex max-w-7xl flex-col items-center gap-y-10 gap-x-8 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
+				class="mx-auto flex max-w-7xl flex-col items-center gap-y-10 gap-x-8 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch" x-show="shown" x-transition.duration.750ms>
 				<div class="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
 					<div class="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
 						<?php $image = get_sub_field('image'); ?>

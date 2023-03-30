@@ -7,8 +7,19 @@
  * https://esbuild.github.io/
  */
 
-import Alpine from 'alpinejs'
+import Alpine from 'alpinejs';
+import intersect from '@alpinejs/intersect';
+import Flickity from 'flickity';
 
-window.Alpine = Alpine
+window.Alpine = Alpine;
+Alpine.plugin(intersect);
+Alpine.start();
 
-Alpine.start()
+var elem = document.querySelector('.main-carousel');
+new Flickity( elem, {
+  cellAlign: 'left',
+  wrapAround: true,
+  autoPlay: 6000,
+  fullscreen: true,
+});
+

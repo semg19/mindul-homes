@@ -11,6 +11,8 @@
  * `theme.json` file and is applied both to the frontend and in the block
  * editor.
 */
+@import "../../node_modules/flickity/dist/flickity.min.css";
+
 :root {
     --standard: 250ms ease-in-out;
 }

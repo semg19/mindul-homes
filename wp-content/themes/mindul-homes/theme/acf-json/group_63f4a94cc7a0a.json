@@ -401,202 +401,18 @@
                     "min": "",
                     "max": ""
                 },
-                "layout_63fdc6d5d0b6f": {
-                    "key": "layout_63fdc6d5d0b6f",
-                    "name": "c_cta_items",
-                    "label": "Block: CTA items",
-                    "display": "block",
-                    "sub_fields": [
-                        {
-                            "key": "field_63fdc73ad0b71",
-                            "label": "Items",
-                            "name": "items",
-                            "aria-label": "",
-                            "type": "flexible_content",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "relevanssi_exclude": 0,
-                            "layouts": {
-                                "layout_63fdc73e68d55": {
-                                    "key": "layout_63fdc73e68d55",
-                                    "name": "item",
-                                    "label": "Item",
-                                    "display": "table",
-                                    "sub_fields": [
-                                        {
-                                            "key": "field_63fdc756d0b72",
-                                            "label": "Icon",
-                                            "name": "icon",
-                                            "aria-label": "",
-                                            "type": "image",
-                                            "instructions": "",
-                                            "required": 0,
-                                            "conditional_logic": 0,
-                                            "wrapper": {
-                                                "width": "",
-                                                "class": "",
-                                                "id": ""
-                                            },
-                                            "relevanssi_exclude": 0,
-                                            "return_format": "array",
-                                            "library": "all",
-                                            "min_width": "",
-                                            "min_height": "",
-                                            "min_size": "",
-                                            "max_width": "",
-                                            "max_height": "",
-                                            "max_size": "",
-                                            "mime_types": "",
-                                            "preview_size": "medium"
-                                        },
-                                        {
-                                            "key": "field_63fdc7bbd0b73",
-                                            "label": "Title",
-                                            "name": "title",
-                                            "aria-label": "",
-                                            "type": "text",
-                                            "instructions": "",
-                                            "required": 1,
-                                            "conditional_logic": 0,
-                                            "wrapper": {
-                                                "width": "",
-                                                "class": "",
-                                                "id": ""
-                                            },
-                                            "relevanssi_exclude": 0,
-                                            "default_value": "",
-                                            "maxlength": "",
-                                            "placeholder": "",
-                                            "prepend": "",
-                                            "append": ""
-                                        },
-                                        {
-                                            "key": "field_63fdc7c1d0b74",
-                                            "label": "Text",
-                                            "name": "text",
-                                            "aria-label": "",
-                                            "type": "textarea",
-                                            "instructions": "",
-                                            "required": 1,
-                                            "conditional_logic": 0,
-                                            "wrapper": {
-                                                "width": "",
-                                                "class": "",
-                                                "id": ""
-                                            },
-                                            "relevanssi_exclude": 0,
-                                            "default_value": "",
-                                            "maxlength": "",
-                                            "rows": 4,
-                                            "placeholder": "",
-                                            "new_lines": ""
-                                        },
-                                        {
-                                            "key": "field_63fdc7c6d0b75",
-                                            "label": "Link",
-                                            "name": "link",
-                                            "aria-label": "",
-                                            "type": "link",
-                                            "instructions": "",
-                                            "required": 0,
-                                            "conditional_logic": 0,
-                                            "wrapper": {
-                                                "width": "",
-                                                "class": "",
-                                                "id": ""
-                                            },
-                                            "relevanssi_exclude": 0,
-                                            "return_format": "array"
-                                        }
-                                    ],
-                                    "min": "1",
-                                    "max": ""
-                                }
-                            },
-                            "min": "",
-                            "max": "",
-                            "button_label": "Add Row"
-                        }
-                    ],
-                    "min": "",
-                    "max": ""
-                },
-                "layout_63fca18b9881d": {
-                    "key": "layout_63fca18b9881d",
-                    "name": "c_contact_cta",
-                    "label": "Block: Contact CTA",
-                    "display": "block",
-                    "sub_fields": [
-                        {
-                            "key": "field_63fca1aa9881f",
-                            "label": "Relationship",
-                            "name": "relationship",
-                            "aria-label": "",
-                            "type": "relationship",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "relevanssi_exclude": 0,
-                            "post_type": [
-                                "team"
-                            ],
-                            "taxonomy": "",
-                            "filters": [
-                                "search"
-                            ],
-                            "return_format": "object",
-                            "min": 1,
-                            "max": 1,
-                            "elements": ""
-                        },
-                        {
-                            "key": "field_63fca1ed98820",
-                            "label": "Text",
-                            "name": "text",
-                            "aria-label": "",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "relevanssi_exclude": 0,
-                            "default_value": "",
-                            "maxlength": "",
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": ""
-                        }
-                    ],
-                    "min": "",
-                    "max": ""
-                },
                 "layout_63fde0dff2851": {
                     "key": "layout_63fde0dff2851",
                     "name": "c_image",
-                    "label": "Block: Image",
+                    "label": "Block: Images",
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_63fde0eaf2853",
-                            "label": "Image",
-                            "name": "image",
+                            "key": "field_6425e190ea6dd",
+                            "label": "Images",
+                            "name": "images",
                             "aria-label": "",
-                            "type": "image",
+                            "type": "repeater",
                             "instructions": "",
                             "required": 0,
                             "conditional_logic": 0,
@@ -605,37 +421,61 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "relevanssi_exclude": 0,
-                            "return_format": "array",
-                            "library": "all",
-                            "min_width": "",
-                            "min_height": "",
-                            "min_size": "",
-                            "max_width": "",
-                            "max_height": "",
-                            "max_size": "",
-                            "mime_types": "",
-                            "preview_size": "medium"
-                        },
-                        {
-                            "key": "field_64170ce38cdfc",
-                            "label": "Text",
-                            "name": "text",
-                            "aria-label": "",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "maxlength": "",
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": ""
+                            "layout": "row",
+                            "min": 0,
+                            "max": 0,
+                            "collapsed": "",
+                            "button_label": "Nieuwe regel",
+                            "rows_per_page": 20,
+                            "sub_fields": [
+                                {
+                                    "key": "field_63fde0eaf2853",
+                                    "label": "Image",
+                                    "name": "image",
+                                    "aria-label": "",
+                                    "type": "image",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array",
+                                    "library": "all",
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
+                                    "mime_types": "",
+                                    "preview_size": "medium",
+                                    "parent_repeater": "field_6425e190ea6dd"
+                                },
+                                {
+                                    "key": "field_64170ce38cdfc",
+                                    "label": "Text",
+                                    "name": "text",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_6425e190ea6dd"
+                                }
+                            ]
                         }
                     ],
                     "min": "",
@@ -1172,5 +1012,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1679931260
+    "modified": 1680204394
 }
