@@ -9,10 +9,13 @@
 
 ?>
 
-<header x-data="{ open: false }" @keydown.window.escape="open = false" class="bg-white">
-	<nav class="mx-auto flex max-w-7xl items-center justify-between py-3 px-6 lg:px-8" aria-label="Global">
+<header x-data="{ open: false }" @keydown.window.escape="open = false"
+	class="bg-white">
+	<nav class="mx-auto flex max-w-7xl items-center justify-between py-3 px-6 lg:px-8"
+		aria-label="Global">
 		<div class="flex lg:flex-1">
-			<a href="<?php echo esc_url(home_url('/')); ?>" class="-m-1.5 p-1.5">
+			<a href="<?php echo esc_url(home_url('/')); ?>"
+				class="-m-1.5 p-1.5">
 				<span class="sr-only">
 					<?php bloginfo('name'); ?>
 				</span>
@@ -21,18 +24,20 @@
 						the_row(); ?>
 						<?php $image = get_sub_field('image'); ?>
 						<?php if ($image): ?>
-							<img class="w-32" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+							<img class="w-16 sm:w-20" src="<?php echo esc_url($image['url']); ?>"
+								alt="<?php echo esc_attr($image['alt']); ?>" />
 						<?php endif; ?>
 					<?php endwhile; ?>
 				<?php endif; ?>
 			</a>
 		</div>
 		<div class="flex lg:hidden">
-			<button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+			<button type="button"
+				class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
 				@click="open = true">
 				<span class="sr-only">Open main menu</span>
-				<svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-					aria-hidden="true">
+				<svg class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+					stroke-width="1.5" stroke="currentColor" aria-hidden="true">
 					<path stroke-linecap="round" stroke-linejoin="round"
 						d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
 				</svg>
@@ -50,13 +55,29 @@
 			?>
 		</div>
 	</nav>
-	<div x-description="Mobile menu, show/hide based on menu open state." class="lg:hidden" x-ref="dialog" x-show="open"
-		aria-modal="true" style="display: none;">
-		<div x-description="Background backdrop, show/hide based on slide-over state." class="fixed inset-0 z-10"></div>
+	<div x-show="open" x-transition:enter="ease-in-out duration-500"
+		x-transition:enter-start="opacity-0"
+		x-transition:enter-end="opacity-100"
+		x-transition:leave="ease-in-out duration-500"
+		x-transition:leave-start="opacity-100"
+		x-transition:leave-end="opacity-0"
+		x-description="Background backdrop, show/hide based on slide-over state."
+		class="fixed inset-0 z-10 bg-gray-900/70 bg-opacity-75 transition-opacity"
+		style="display: none;"></div>
+	<div class="pointer-events-auto w-screen max-w-md">
 		<div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
-			@click.away="open = false">
+			@click.away="open = false" x-show="open"
+			x-transition:enter="z-50 transform transition ease-in-out duration-500 sm:duration-700"
+			x-transition:enter-start="translate-x-full"
+			x-transition:enter-end="translate-x-0"
+			x-transition:leave="transform transition ease-in-out duration-500 sm:duration-700"
+			x-transition:leave-start="translate-x-0"
+			x-transition:leave-end="translate-x-full"
+			x-description="Slide-over panel, show/hide based on slide-over state."
+			style="display: none;">
 			<div class="flex items-center justify-between">
-				<a href="<?php echo esc_url(home_url('/')); ?>" class="-m-1.5 p-1.5">
+				<a href="<?php echo esc_url(home_url('/')); ?>"
+					class="-m-1.5 p-1.5">
 					<span class="sr-only">
 						<?php bloginfo('name'); ?>
 					</span>
@@ -65,16 +86,22 @@
 							the_row(); ?>
 							<?php $image = get_sub_field('image'); ?>
 							<?php if ($image): ?>
-								<img class="w-32" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+								<img class="w-16"
+									src="<?php echo esc_url($image['url']); ?>"
+									alt="<?php echo esc_attr($image['alt']); ?>" />
 							<?php endif; ?>
 						<?php endwhile; ?>
 					<?php endif; ?>
 				</a>
-				<button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" @click="open = false">
+				<button type="button"
+					class="-m-2.5 rounded-md p-2.5 text-gray-700"
+					@click="open = false">
 					<span class="sr-only">Close menu</span>
-					<svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+					<svg class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+						stroke-width="1.5" stroke="currentColor"
 						aria-hidden="true">
-						<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+						<path stroke-linecap="round" stroke-linejoin="round"
+							d="M6 18L18 6M6 6l12 12"></path>
 					</svg>
 				</button>
 			</div>

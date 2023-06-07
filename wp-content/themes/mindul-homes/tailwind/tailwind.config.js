@@ -9,6 +9,8 @@ if ('editor' === process.env._TW_TARGET) {
 	typographyClassName = 'prose';
 }
 
+const colors = require('tailwindcss/colors');
+
 module.exports = {
 	presets: [
 		// Manage Tailwind Typography's configuration in a separate file.
@@ -22,6 +24,26 @@ module.exports = {
 	theme: {
 		// Extend the default Tailwind theme.
 		extend: {},
+		colors: {
+			transparent: 'transparent',
+			current: 'currentColor',
+			brown: {
+				light: '#a5601c70',
+				DEFAULT: '#a5601c',
+			},
+			blue: {
+				DEFAULT: '#007a9d',
+				dark: '#006582',
+			},
+			black: colors.black,
+			white: colors.white,
+			gray: colors.gray,
+			emerald: colors.emerald,
+			indigo: colors.indigo,
+			yellow: colors.yellow,
+			indigo: colors.indigo,
+			neutral: colors.neutral,
+		},
 	},
 	corePlugins: {
 		// Disable Preflight base styles in CSS targeting the editor.

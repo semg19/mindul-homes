@@ -87,7 +87,8 @@
                                     },
                                     "choices": {
                                         "content": "Content",
-                                        "image": "Image"
+                                        "image": "Image",
+                                        "iframe": "iFrame"
                                     },
                                     "default_value": "content",
                                     "return_format": "value",
@@ -184,6 +185,34 @@
                                     "max_size": "",
                                     "mime_types": "",
                                     "preview_size": "medium"
+                                },
+                                {
+                                    "key": "field_64806f89350f5",
+                                    "label": "iFrame",
+                                    "name": "iframe",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_63f8ce3e740e0",
+                                                "operator": "==",
+                                                "value": "iframe"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": ""
                                 }
                             ]
                         },
@@ -220,7 +249,8 @@
                                     },
                                     "choices": {
                                         "content": "Content",
-                                        "image": "Image"
+                                        "image": "Image",
+                                        "iframe": "iFrame"
                                     },
                                     "default_value": "content",
                                     "return_format": "value",
@@ -394,6 +424,34 @@
                                     "max_size": "",
                                     "mime_types": "",
                                     "preview_size": "medium"
+                                },
+                                {
+                                    "key": "field_6480700e80a46",
+                                    "label": "iFrame",
+                                    "name": "iframe",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_63f8d00db6e1a",
+                                                "operator": "==",
+                                                "value": "iframe"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": ""
                                 }
                             ]
                         }
@@ -407,6 +465,32 @@
                     "label": "Block: Images",
                     "display": "block",
                     "sub_fields": [
+                        {
+                            "key": "field_648061de800ae",
+                            "label": "Container",
+                            "name": "container",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "small": "Small",
+                                "full": "Full"
+                            },
+                            "default_value": "small",
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
                         {
                             "key": "field_6425e190ea6dd",
                             "label": "Images",
@@ -1012,5 +1096,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1680204394
+    "modified": 1686139274
 }

@@ -13,7 +13,7 @@
 							the_row(); ?>
 							<?php $i++; ?>
 							<div
-								class="flex flex-col justify-between rounded-3xl bg-white p-8 ring-1 ring-gray-200 xl:p-10 <?php if ($i === 2): ?>lg:z-10 lg:rounded-b-none<?php else: ?>lg:mt-8 lg:rounded-r-none<?php endif; ?>">
+								class="flex flex-col justify-between rounded-3xl bg-white p-8 ring-1 ring-gray-200 xl:p-10 <?php if ($i === 2): ?>lg:z-10 lg:rounded-b-none<?php elseif($i === 3): ?>lg:mt-8 lg:rounded-l-none<?php else: ?>lg:mt-8 lg:rounded-r-none<?php endif; ?>">
 								<div>
 									<div class="flex items-center justify-between gap-x-4">
 										<h3 class="text-lg font-semibold leading-8 text-gray-900 mb-0">
@@ -21,7 +21,7 @@
 										</h3>
 										<?php if ($i === 2): ?>
 											<p
-												class="rounded-full bg-indigo-600/10 py-1 px-2.5 text-xs font-semibold leading-5 text-indigo-600">
+												class="rounded-full bg-brown-light py-1 px-2.5 text-xs font-semibold leading-5 text-white">
 												Populair</p>
 										<?php endif; ?>
 									</div>
@@ -39,7 +39,7 @@
 											<?php while (have_rows('usps')):
 												the_row(); ?>
 												<li class="flex gap-x-3">
-													<svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20"
+													<svg class="h-6 w-5 flex-none text-brown" viewBox="0 0 20 20"
 														fill="currentColor" aria-hidden="true">
 														<path fill-rule="evenodd"
 															d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"

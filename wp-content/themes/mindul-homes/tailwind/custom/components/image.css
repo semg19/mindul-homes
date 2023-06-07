@@ -1,0 +1,17 @@
+.flickity-prev-next-button {
+	&:focus {
+		box-shadow: none;
+	}
+
+	&.next {
+		right: -80px;
+	}
+
+	&.previous {
+		left: -80px;
+	}
+
+	@media only screen and (max-width: 739px) {
+		display: none;
+	}
+}

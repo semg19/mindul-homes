@@ -53,6 +53,7 @@
 	"dependencies": {
 		"@alpinejs/intersect": "^3.12.0",
 		"alpinejs": "^3.12.0",
-		"flickity": "^3.0.0"
+		"flickity": "^3.0.0",
+		"flickity-fullscreen": "^2.0.0"
 	}
 }

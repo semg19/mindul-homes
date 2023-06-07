@@ -15,11 +15,15 @@ window.Alpine = Alpine;
 Alpine.plugin(intersect);
 Alpine.start();
 
+const Flickkty = require('flickity');
+require('flickity-fullscreen');
+
 var elem = document.querySelector('.main-carousel');
-new Flickity( elem, {
-  cellAlign: 'left',
-  wrapAround: true,
-  autoPlay: 6000,
-  fullscreen: true,
+var flkty = new Flickity(elem, {
+	cellAlign: 'left',
+	wrapAround: true,
+	autoPlay: 5000,
+	fullscreen: true,
+	pauseAutoPlayOnHover: false,
 });
 
