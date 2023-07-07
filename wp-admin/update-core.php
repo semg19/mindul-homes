@@ -261,7 +261,7 @@ function core_upgrade_preamble() {
 		_e( 'An updated version of WordPress is available.' );
 		echo '</h2>';
 
-		echo '<div class="notice notice-warning inline"><p>';
+		echo '<div class="inline notice notice-warning"><p>';
 		printf(
 			/* translators: 1: Documentation on WordPress backups, 2: Documentation on updating WordPress. */
 			__( '<strong>Important:</strong> Before updating, please <a href="%1$s">back up your database and files</a>. For help with updates, visit the <a href="%2$s">Updating WordPress</a> documentation page.' ),

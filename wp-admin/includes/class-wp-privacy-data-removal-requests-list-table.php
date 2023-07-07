@@ -63,9 +63,9 @@ class WP_Privacy_Data_Removal_Requests_List_Table extends WP_Privacy_Requests_Ta
 				'">';
 
 			$remove_data_markup .= '<span class="remove-personal-data-idle"><button type="button" class="button-link remove-personal-data-handle">' . __( 'Force erase personal data' ) . '</button></span>' .
-				'<span class="remove-personal-data-processing hidden">' . __( 'Erasing data...' ) . ' <span class="erasure-progress"></span></span>' .
-				'<span class="remove-personal-data-success hidden">' . __( 'Erasure completed.' ) . '</span>' .
-				'<span class="remove-personal-data-failed hidden">' . __( 'Force erasure has failed.' ) . ' <button type="button" class="button-link remove-personal-data-handle">' . __( 'Retry' ) . '</button></span>';
+				'<span class="hidden remove-personal-data-processing">' . __( 'Erasing data...' ) . ' <span class="erasure-progress"></span></span>' .
+				'<span class="hidden remove-personal-data-success">' . __( 'Erasure completed.' ) . '</span>' .
+				'<span class="hidden remove-personal-data-failed">' . __( 'Force erasure has failed.' ) . ' <button type="button" class="button-link remove-personal-data-handle">' . __( 'Retry' ) . '</button></span>';
 
 			$remove_data_markup .= '</span>';
 
@@ -137,9 +137,9 @@ class WP_Privacy_Data_Removal_Requests_List_Table extends WP_Privacy_Requests_Ta
 
 				?>
 				<span class="remove-personal-data-idle"><button type="button" class="button-link remove-personal-data-handle"><?php _e( 'Erase personal data' ); ?></button></span>
-				<span class="remove-personal-data-processing hidden"><?php _e( 'Erasing data...' ); ?> <span class="erasure-progress"></span></span>
-				<span class="remove-personal-data-success success-message hidden" ><?php _e( 'Erasure completed.' ); ?></span>
-				<span class="remove-personal-data-failed hidden"><?php _e( 'Data erasure has failed.' ); ?> <button type="button" class="button-link remove-personal-data-handle"><?php _e( 'Retry' ); ?></button></span>
+				<span class="hidden remove-personal-data-processing"><?php _e( 'Erasing data...' ); ?> <span class="erasure-progress"></span></span>
+				<span class="hidden remove-personal-data-success success-message" ><?php _e( 'Erasure completed.' ); ?></span>
+				<span class="hidden remove-personal-data-failed"><?php _e( 'Data erasure has failed.' ); ?> <button type="button" class="button-link remove-personal-data-handle"><?php _e( 'Retry' ); ?></button></span>
 				<?php
 
 				echo '</div>';

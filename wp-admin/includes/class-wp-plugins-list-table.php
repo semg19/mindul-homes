@@ -1203,7 +1203,7 @@ class WP_Plugins_List_Table extends WP_List_Table {
 							$action
 						);
 
-						$html[] = '<span class="dashicons dashicons-update spin hidden" aria-hidden="true"></span>';
+						$html[] = '<span class="hidden dashicons dashicons-update spin" aria-hidden="true"></span>';
 						$html[] = '<span class="label">' . $text . '</span>';
 						$html[] = '</a>';
 					}
@@ -1233,7 +1233,7 @@ class WP_Plugins_List_Table extends WP_List_Table {
 					 */
 					echo apply_filters( 'plugin_auto_update_setting_html', $html, $plugin_file, $plugin_data );
 
-					echo '<div class="notice notice-error notice-alt inline hidden"><p></p></div>';
+					echo '<div class="hidden inline notice notice-error notice-alt"><p></p></div>';
 					echo '</td>';
 
 					break;
@@ -1265,7 +1265,7 @@ class WP_Plugins_List_Table extends WP_List_Table {
 			printf(
 				'<tr class="plugin-update-tr">' .
 				'<td colspan="%s" class="plugin-update colspanchange">' .
-				'<div class="update-message notice inline notice-error notice-alt"><p>',
+				'<div class="inline update-message notice notice-error notice-alt"><p>',
 				esc_attr( $this->get_column_count() )
 			);
 

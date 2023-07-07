@@ -304,7 +304,7 @@ else :
 		<div>
 			<div class="editor-notices">
 				<?php if ( is_child_theme() && $theme->get_stylesheet() === get_template() ) : ?>
-					<div class="notice notice-warning inline">
+					<div class="inline notice notice-warning">
 						<p>
 							<?php if ( is_writable( $file ) ) : ?>
 								<strong><?php _e( 'Caution:' ); ?></strong>
@@ -355,7 +355,7 @@ if ( ! in_array( 'theme_editor_notice', $dismissed_pointers, true ) ) :
 		}
 	}
 	?>
-	<div id="file-editor-warning" class="notification-dialog-wrap file-editor-warning hide-if-no-js hidden">
+	<div id="file-editor-warning" class="hidden notification-dialog-wrap file-editor-warning hide-if-no-js">
 		<div class="notification-dialog-background"></div>
 		<div class="notification-dialog">
 			<div class="file-editor-warning-content">

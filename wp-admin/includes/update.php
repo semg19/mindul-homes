@@ -325,7 +325,7 @@ function update_nag() {
 		);
 	}
 
-	echo "<div class='update-nag notice notice-warning inline'>$msg</div>";
+	echo "<div class='inline update-nag notice notice-warning'>$msg</div>";
 }
 
 /**
@@ -676,7 +676,7 @@ function wp_theme_update_row( $theme_key, $theme ) {
 	printf(
 		'<tr class="plugin-update-tr%s" id="%s" data-slug="%s">' .
 		'<td colspan="%s" class="plugin-update colspanchange">' .
-		'<div class="update-message notice inline notice-warning notice-alt"><p>',
+		'<div class="inline update-message notice notice-warning notice-alt"><p>',
 		$active,
 		esc_attr( $theme->get_stylesheet() . '-update' ),
 		esc_attr( $theme->get_stylesheet() ),
@@ -857,7 +857,7 @@ function maintenance_nag() {
 		$msg = __( 'An automated WordPress update has failed to complete! Please notify the site administrator.' );
 	}
 
-	echo "<div class='update-nag notice notice-warning inline'>$msg</div>";
+	echo "<div class='inline update-nag notice notice-warning'>$msg</div>";
 }
 
 /**
@@ -930,7 +930,7 @@ function wp_print_admin_notice_templates() {
 				<# } #>
 			</p>
 			<# if ( data.errors ) { #>
-				<ul class="bulk-action-errors hidden">
+				<ul class="hidden bulk-action-errors">
 					<# _.each( data.errorMessages, function( errorMessage ) { #>
 						<li>{{ errorMessage }}</li>
 					<# } ); #>

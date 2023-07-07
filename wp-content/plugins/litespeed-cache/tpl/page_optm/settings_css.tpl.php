@@ -57,7 +57,7 @@ $ucss_queue = $this->load_queue( 'ucss' );
 			<?php $this->build_switch( $id ); ?>
 			<div class="litespeed-desc">
 				<?php if ( ! $this->conf( Base::O_API_KEY ) ) : ?>
-				<div class="litespeed-callout notice notice-error inline">
+				<div class="inline litespeed-callout notice notice-error">
 					<h4><?php echo __( 'WARNING', 'litespeed-cache' ) ; ?></h4>
 					<?php echo Error::msg( 'lack_of_api_key' ); ?>
 				</div>
@@ -94,7 +94,7 @@ $ucss_queue = $this->load_queue( 'ucss' );
 				<?php endif; ?>
 
 				<?php if ( ! empty( $ucss_queue ) ) : ?>
-					<div class="litespeed-callout notice notice-warning inline">
+					<div class="inline litespeed-callout notice notice-warning">
 						<h4>
 							<?php echo sprintf( __( 'URL list in %s queue waiting for cron', 'litespeed-cache' ), 'UCSS' ); ?> ( <?php echo count( $ucss_queue ); ?> )
 							<a href="<?php echo Utility::build_url( Router::ACTION_UCSS, UCSS::TYPE_CLEAR_Q ); ?>" class="button litespeed-btn-warning litespeed-right">Clear</a>
@@ -164,7 +164,7 @@ $ucss_queue = $this->load_queue( 'ucss' );
 			<?php $this->build_switch( $id ); ?>
 			<div class="litespeed-desc">
 				<?php if ( ! $this->conf( Base::O_API_KEY ) ) : ?>
-				<div class="litespeed-callout notice notice-error inline">
+				<div class="inline litespeed-callout notice notice-error">
 					<h4><?php echo __( 'WARNING', 'litespeed-cache' ) ; ?></h4>
 					<?php echo Error::msg( 'lack_of_api_key' ); ?>
 				</div>
@@ -205,7 +205,7 @@ $ucss_queue = $this->load_queue( 'ucss' );
 				<?php endif; ?>
 
 				<?php if ( ! empty( $ccss_queue ) ) : ?>
-					<div class="litespeed-callout notice notice-warning inline">
+					<div class="inline litespeed-callout notice notice-warning">
 						<h4>
 							<?php echo sprintf( __( 'URL list in %s queue waiting for cron', 'litespeed-cache' ), 'CCSS' ); ?> ( <?php echo count( $ccss_queue ); ?> )
 							<a href="<?php echo Utility::build_url( Router::ACTION_CSS, CSS::TYPE_CLEAR_Q_CCSS ); ?>" class="button litespeed-btn-warning litespeed-right">Clear</a>

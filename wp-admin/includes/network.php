@@ -192,7 +192,7 @@ function network_step1( $errors = false ) {
 		$subdomain_install = false;
 		$got_mod_rewrite   = got_mod_rewrite();
 		if ( $got_mod_rewrite ) { // Dangerous assumptions.
-			echo '<div class="updated inline"><p><strong>' . __( 'Note:' ) . '</strong> ';
+			echo '<div class="inline updated"><p><strong>' . __( 'Note:' ) . '</strong> ';
 			printf(
 				/* translators: %s: mod_rewrite */
 				__( 'Please make sure the Apache %s module is installed as it will be used at the end of this installation.' ),
@@ -200,7 +200,7 @@ function network_step1( $errors = false ) {
 			);
 			echo '</p>';
 		} elseif ( $is_apache ) {
-			echo '<div class="error inline"><p><strong>' . __( 'Warning:' ) . '</strong> ';
+			echo '<div class="inline error"><p><strong>' . __( 'Warning:' ) . '</strong> ';
 			printf(
 				/* translators: %s: mod_rewrite */
 				__( 'It looks like the Apache %s module is not installed.' ),
@@ -260,7 +260,7 @@ function network_step1( $errors = false ) {
 	endif;
 
 	if ( WP_CONTENT_DIR !== ABSPATH . 'wp-content' && ( allow_subdirectory_install() || ! allow_subdomain_install() ) ) {
-		echo '<div class="error inline"><p><strong>' . __( 'Warning:' ) . '</strong> ' . __( 'Subdirectory networks may not be fully compatible with custom wp-content directories.' ) . '</p></div>';
+		echo '<div class="inline error"><p><strong>' . __( 'Warning:' ) . '</strong> ' . __( 'Subdirectory networks may not be fully compatible with custom wp-content directories.' ) . '</p></div>';
 	}
 
 	$is_www = ( 0 === strpos( $hostname, 'www.' ) );
@@ -438,7 +438,7 @@ function network_step2( $errors = false ) {
 		?>
 		<h3><?php esc_html_e( 'Enabling the Network' ); ?></h3>
 		<p><?php _e( 'Complete the following steps to enable the features for creating a network of sites.' ); ?></p>
-		<div class="notice notice-warning inline"><p>
+		<div class="inline notice notice-warning"><p>
 		<?php
 		if ( file_exists( $home_path . '.htaccess' ) ) {
 			echo '<strong>' . __( 'Caution:' ) . '</strong> ';

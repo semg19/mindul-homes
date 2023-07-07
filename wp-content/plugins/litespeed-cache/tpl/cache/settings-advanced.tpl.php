@@ -8,7 +8,7 @@ defined( 'WPINC' ) || exit;
 	<?php Doc::learn_more( 'https://docs.litespeedtech.com/lscache/lscwp/cache/#advanced-tab' ); ?>
 </h3>
 
-<div class="litespeed-callout notice notice-warning inline">
+<div class="inline litespeed-callout notice notice-warning">
 	<h4><?php echo __( 'NOTICE:', 'litespeed-cache' ); ?></h4>
 	<p><?php echo __( 'These settings are meant for ADVANCED USERS ONLY.', 'litespeed-cache' ); ?></p>
 </div>

@@ -124,7 +124,7 @@ if ( ! is_multisite() ) {
 $new_admin_email = get_option( 'new_admin_email' );
 if ( $new_admin_email && get_option( 'admin_email' ) !== $new_admin_email ) :
 	?>
-	<div class="updated inline">
+	<div class="inline updated">
 	<p>
 	<?php
 		printf(

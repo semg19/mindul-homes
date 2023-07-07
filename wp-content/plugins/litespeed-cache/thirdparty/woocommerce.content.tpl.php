@@ -17,7 +17,7 @@ use \LiteSpeed\Base;
 	<?php Doc::learn_more( 'https://docs.litespeedtech.com/lscache/lscwp/cache/#woocommerce-tab' ); ?>
 </h3>
 
-<div class="litespeed-callout notice notice-warning inline">
+<div class="inline litespeed-callout notice notice-warning">
 	<h4><?php echo __( 'NOTICE:', 'litespeed-cache' ); ?></h4>
 	<p><?php echo __( 'After verifying that the cache works in general, please test the cart.', 'litespeed-cache' ); ?></p>
 	<p><?php echo sprintf( __( 'To test the cart, visit the <a %s>FAQ</a>.', 'litespeed-cache' ), 'href="https://docs.litespeedtech.com/lscache/lscwp/installation/#non-cacheable-pages" target="_blank"' ); ?></p>

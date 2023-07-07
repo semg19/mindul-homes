@@ -281,7 +281,7 @@ $content = esc_textarea( $content );
 	<?php if ( is_writable( $real_file ) ) : ?>
 		<div class="editor-notices">
 		<?php if ( in_array( $plugin, (array) get_option( 'active_plugins', array() ), true ) ) { ?>
-			<div class="notice notice-warning inline active-plugin-edit-warning">
+			<div class="inline notice notice-warning active-plugin-edit-warning">
 				<p><?php _e( '<strong>Warning:</strong> Making changes to active plugins is not recommended.' ); ?></p>
 			</div>
 		<?php } ?>
@@ -322,7 +322,7 @@ if ( ! in_array( 'plugin_editor_notice', $dismissed_pointers, true ) ) :
 		}
 	}
 	?>
-	<div id="file-editor-warning" class="notification-dialog-wrap file-editor-warning hide-if-no-js hidden">
+	<div id="file-editor-warning" class="hidden notification-dialog-wrap file-editor-warning hide-if-no-js">
 		<div class="notification-dialog-background"></div>
 		<div class="notification-dialog">
 			<div class="file-editor-warning-content">

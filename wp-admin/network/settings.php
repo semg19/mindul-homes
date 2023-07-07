@@ -167,7 +167,7 @@ if ( isset( $_GET['updated'] ) ) {
 					$new_admin_email = get_site_option( 'new_admin_email' );
 					if ( $new_admin_email && get_site_option( 'admin_email' ) !== $new_admin_email ) :
 						?>
-						<div class="updated inline">
+						<div class="inline updated">
 						<p>
 						<?php
 							printf(

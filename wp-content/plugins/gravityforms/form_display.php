@@ -1207,7 +1207,7 @@ class GFFormDisplay {
 			//add first page if this form has any page fields
 			if ( $has_pages ) {
 				$style = self::is_page_active( $form_id, 1 ) ? '' : "style='display:none;'";
-				$class = ' ' . rgar( $form, 'firstPageCssClass', '' );
+				$class = '' . rgar( $form, 'firstPageCssClass', '' );
 				$class = esc_attr( $class );
 				$form_string .= "<div id='gform_page_{$form_id}_1' class='gform_page{$class}' {$style}>
                                     <div class='gform_page_fields'>";

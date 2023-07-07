@@ -373,7 +373,7 @@ class Theme_Installer_Skin extends WP_Upgrader_Skin {
 
 		if ( ! empty( $install_actions ) ) {
 			printf(
-				'<p class="update-from-upload-expired hidden">%s</p>',
+				'<p class="hidden update-from-upload-expired">%s</p>',
 				__( 'The uploaded file has expired. Please go back and upload it again.' )
 			);
 			echo '<p class="update-from-upload-actions">' . implode( ' ', (array) $install_actions ) . '</p>';

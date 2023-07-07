@@ -1143,7 +1143,7 @@ function wp_dashboard_rss_output( $widget_id ) {
  * @return bool True on success, false on failure.
  */
 function wp_dashboard_cached_rss_widget( $widget_id, $callback, $check_urls = array(), ...$args ) {
-	$loading    = '<p class="widget-loading hide-if-no-js">' . __( 'Loading&hellip;' ) . '</p><div class="hide-if-js notice notice-error inline"><p>' . __( 'This widget requires JavaScript.' ) . '</p></div>';
+	$loading    = '<p class="widget-loading hide-if-no-js">' . __( 'Loading&hellip;' ) . '</p><div class="inline hide-if-js notice notice-error"><p>' . __( 'This widget requires JavaScript.' ) . '</p></div>';
 	$doing_ajax = wp_doing_ajax();
 
 	if ( empty( $check_urls ) ) {
@@ -1329,7 +1329,7 @@ function wp_dashboard_events_news() {
 function wp_print_community_events_markup() {
 	?>
 
-	<div class="community-events-errors notice notice-error inline hide-if-js">
+	<div class="inline community-events-errors notice notice-error hide-if-js">
 		<p class="hide-if-js">
 			<?php _e( 'This widget requires JavaScript.' ); ?>
 		</p>

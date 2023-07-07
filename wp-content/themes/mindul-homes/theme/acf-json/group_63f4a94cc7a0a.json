@@ -174,9 +174,8 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "relevanssi_exclude": 0,
-                                    "return_format": "",
-                                    "library": "",
+                                    "return_format": "array",
+                                    "library": "all",
                                     "min_width": "",
                                     "min_height": "",
                                     "min_size": "",
@@ -1096,5 +1095,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1686139274
+    "modified": 1688730191
 }

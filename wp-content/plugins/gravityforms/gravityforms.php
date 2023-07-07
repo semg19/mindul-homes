@@ -2396,7 +2396,7 @@ class GFForms {
 
 			echo '<tr class="plugin-update-tr' . $active_class . '" id="' . $slug . '-update" data-slug="' . $slug . '" data-plugin="' . $plugin_name . '">';
 			echo '<td colspan="' . $colspan . '" class="plugin-update colspanchange">';
-			echo '<div class="update-message notice inline notice-warning notice-alt">';
+			echo '<div class="inline update-message notice notice-warning notice-alt">';
 			echo '<p>';
 			echo $message;
 			echo '</p></div></td></tr>';

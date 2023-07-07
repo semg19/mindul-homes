@@ -396,7 +396,7 @@ foreach ( $themes as $theme ) :
 
 	<?php if ( $theme['hasUpdate'] ) : ?>
 		<?php if ( $theme['updateResponse']['compatibleWP'] && $theme['updateResponse']['compatiblePHP'] ) : ?>
-			<div class="update-message notice inline notice-warning notice-alt"><p>
+			<div class="inline update-message notice notice-warning notice-alt"><p>
 				<?php if ( $theme['hasPackage'] ) : ?>
 					<?php _e( 'New version available. <button class="button-link" type="button">Update now</button>' ); ?>
 				<?php else : ?>
@@ -404,7 +404,7 @@ foreach ( $themes as $theme ) :
 				<?php endif; ?>
 			</p></div>
 		<?php else : ?>
-			<div class="update-message notice inline notice-error notice-alt"><p>
+			<div class="inline update-message notice notice-error notice-alt"><p>
 				<?php
 				if ( ! $theme['updateResponse']['compatibleWP'] && ! $theme['updateResponse']['compatiblePHP'] ) {
 					printf(
@@ -469,7 +469,7 @@ foreach ( $themes as $theme ) :
 
 	<?php
 	if ( ! $theme['compatibleWP'] || ! $theme['compatiblePHP'] ) {
-		echo '<div class="notice inline notice-error notice-alt"><p>';
+		echo '<div class="inline notice notice-error notice-alt"><p>';
 		if ( ! $theme['compatibleWP'] && ! $theme['compatiblePHP'] ) {
 			_e( 'This theme does not work with your versions of WordPress and PHP.' );
 			if ( current_user_can( 'update_core' ) && current_user_can( 'update_php' ) ) {
@@ -700,11 +700,11 @@ function wp_theme_auto_update_setting_template() {
 					' . __( 'Auto-updates enabled' ) . '
 				<# } else if ( data.autoupdate.enabled ) { #>
 					<button type="button" class="toggle-auto-update button-link" data-slug="{{ data.id }}" data-wp-action="disable">
-						<span class="dashicons dashicons-update spin hidden" aria-hidden="true"></span><span class="label">' . __( 'Disable auto-updates' ) . '</span>
+						<span class="hidden dashicons dashicons-update spin" aria-hidden="true"></span><span class="label">' . __( 'Disable auto-updates' ) . '</span>
 					</button>
 				<# } else { #>
 					<button type="button" class="toggle-auto-update button-link" data-slug="{{ data.id }}" data-wp-action="enable">
-						<span class="dashicons dashicons-update spin hidden" aria-hidden="true"></span><span class="label">' . __( 'Enable auto-updates' ) . '</span>
+						<span class="hidden dashicons dashicons-update spin" aria-hidden="true"></span><span class="label">' . __( 'Enable auto-updates' ) . '</span>
 					</button>
 				<# } #>
 			<# } #>
@@ -712,11 +712,11 @@ function wp_theme_auto_update_setting_template() {
 				<# if ( data.autoupdate.supported && data.autoupdate.enabled ) { #>
 					<span class="auto-update-time">
 				<# } else { #>
-					<span class="auto-update-time hidden">
+					<span class="hidden auto-update-time">
 				<# } #>
 				<br />' . wp_get_auto_update_message() . '</span>
 			<# } #>
-			<div class="notice notice-error notice-alt inline hidden"><p></p></div>
+			<div class="hidden inline notice notice-error notice-alt"><p></p></div>
 		</div>
 	';
 
@@ -747,7 +747,7 @@ function wp_theme_auto_update_setting_template() {
 
 	<# if ( data.hasUpdate ) { #>
 		<# if ( data.updateResponse.compatibleWP && data.updateResponse.compatiblePHP ) { #>
-			<div class="update-message notice inline notice-warning notice-alt"><p>
+			<div class="inline update-message notice notice-warning notice-alt"><p>
 				<# if ( data.hasPackage ) { #>
 					<?php _e( 'New version available. <button class="button-link" type="button">Update now</button>' ); ?>
 				<# } else { #>
@@ -755,7 +755,7 @@ function wp_theme_auto_update_setting_template() {
 				<# } #>
 			</p></div>
 		<# } else { #>
-			<div class="update-message notice inline notice-error notice-alt"><p>
+			<div class="inline update-message notice notice-error notice-alt"><p>
 				<# if ( ! data.updateResponse.compatibleWP && ! data.updateResponse.compatiblePHP ) { #>
 					<?php
 					printf(

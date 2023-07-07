@@ -504,7 +504,7 @@ function wp_comment_reply( $position = 1, $checkbox = false, $mode = 'single', $
 			<button type="button" class="cancel button"><?php _e( 'Cancel' ); ?></button>
 			<span class="waiting spinner"></span>
 		</p>
-		<div class="notice notice-error notice-alt inline hidden">
+		<div class="hidden inline notice notice-error notice-alt">
 			<p class="error"></p>
 		</div>
 	</div>
@@ -1394,7 +1394,7 @@ function do_meta_boxes( $screen, $context, $data_object ) {
 						$plugin = _get_plugin_from_callback( $box['callback'] );
 						if ( $plugin ) {
 							?>
-							<div class="error inline">
+							<div class="inline error">
 								<p>
 									<?php
 										/* translators: %s: The name of the plugin that generated this meta box. */
@@ -2725,7 +2725,7 @@ function wp_star_rating( $args = array() ) {
  */
 function _wp_posts_page_notice() {
 	printf(
-		'<div class="notice notice-warning inline"><p>%s</p></div>',
+		'<div class="inline notice notice-warning"><p>%s</p></div>',
 		__( 'You are currently editing the page that shows your latest posts.' )
 	);
 }

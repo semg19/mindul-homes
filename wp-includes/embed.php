@@ -1158,7 +1158,7 @@ function print_embed_sharing_dialog() {
 	$description_wordpress_id = 'wp-embed-share-description-wordpress-' . $unique_suffix;
 	$description_html_id      = 'wp-embed-share-description-html-' . $unique_suffix;
 	?>
-	<div class="wp-embed-share-dialog hidden" role="dialog" aria-label="<?php esc_attr_e( 'Sharing options' ); ?>">
+	<div class="hidden wp-embed-share-dialog" role="dialog" aria-label="<?php esc_attr_e( 'Sharing options' ); ?>">
 		<div class="wp-embed-share-dialog-content">
 			<div class="wp-embed-share-dialog-text">
 				<ul class="wp-embed-share-tabs" role="tablist">

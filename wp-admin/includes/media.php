@@ -1549,7 +1549,7 @@ function get_media_items( $post_id, $errors ) {
 		$item = get_media_item( $id, array( 'errors' => isset( $errors[ $id ] ) ? $errors[ $id ] : null ) );
 
 		if ( $item ) {
-			$output .= "\n<div id='media-item-$id' class='media-item child-of-$attachment->post_parent preloaded'><div class='progress hidden'><div class='bar'></div></div><div id='media-upload-error-$id' class='hidden'></div><div class='filename hidden'></div>$item\n</div>";
+			$output .= "\n<div id='media-item-$id' class='media-item child-of-$attachment->post_parent preloaded'><div class='hidden progress'><div class='bar'></div></div><div id='media-upload-error-$id' class='hidden'></div><div class='hidden filename'></div>$item\n</div>";
 		}
 	}
 
@@ -1731,7 +1731,7 @@ function get_media_item( $attachment_id, $args = null ) {
 				</div>';
 		} else {
 			$delete = "<a href='" . wp_nonce_url( "post.php?action=trash&amp;post=$attachment_id", 'trash-post_' . $attachment_id ) . "' id='del[$attachment_id]' class='delete'>" . __( 'Move to Trash' ) . "</a>
-			<a href='" . wp_nonce_url( "post.php?action=untrash&amp;post=$attachment_id", 'untrash-post_' . $attachment_id ) . "' id='undo[$attachment_id]' class='undo hidden'>" . __( 'Undo' ) . '</a>';
+			<a href='" . wp_nonce_url( "post.php?action=untrash&amp;post=$attachment_id", 'untrash-post_' . $attachment_id ) . "' id='undo[$attachment_id]' class='hidden undo'>" . __( 'Undo' ) . '</a>';
 		}
 	} else {
 		$delete = '';
@@ -3330,7 +3330,7 @@ function attachment_submitbox_metadata() {
 		<input type="text" class="widefat urlfield" readonly="readonly" name="attachment_url" id="attachment_url" value="<?php echo esc_attr( $att_url ); ?>" />
 		<span class="copy-to-clipboard-container">
 			<button type="button" class="button copy-attachment-url edit-media" data-clipboard-target="#attachment_url"><?php _e( 'Copy URL to clipboard' ); ?></button>
-			<span class="success hidden" aria-hidden="true"><?php _e( 'Copied!' ); ?></span>
+			<span class="hidden success" aria-hidden="true"><?php _e( 'Copied!' ); ?></span>
 		</span>
 	</div>
 	<div class="misc-pub-section misc-pub-filename">

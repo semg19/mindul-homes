@@ -1083,11 +1083,11 @@ function wp_get_nav_menu_to_edit( $menu_id = 0 ) {
 		}
 
 		if ( $some_pending_menu_items ) {
-			$result .= '<div class="notice notice-info notice-alt inline"><p>' . __( 'Click Save Menu to make pending menu items public.' ) . '</p></div>';
+			$result .= '<div class="inline notice notice-info notice-alt"><p>' . __( 'Click Save Menu to make pending menu items public.' ) . '</p></div>';
 		}
 
 		if ( $some_invalid_menu_items ) {
-			$result .= '<div class="notice notice-error notice-alt inline"><p>' . __( 'There are some invalid menu items. Please check or delete them.' ) . '</p></div>';
+			$result .= '<div class="inline notice notice-error notice-alt"><p>' . __( 'There are some invalid menu items. Please check or delete them.' ) . '</p></div>';
 		}
 
 		$result .= '<ul class="menu" id="menu-to-edit"> ';

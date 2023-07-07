@@ -177,7 +177,7 @@ $lqip_queue = $this->load_queue( 'lqip' );
 				<?php endif; ?>
 
 				<?php if ( ! empty( $lqip_queue ) ) : ?>
-					<div class="litespeed-callout notice notice-warning inline">
+					<div class="inline litespeed-callout notice notice-warning">
 						<h4>
 							<?php echo __( 'Size list in queue waiting for cron','litespeed-cache' ); ?> ( <?php echo count( $lqip_queue ); ?> )
 							<a href="<?php echo Utility::build_url( Router::ACTION_PLACEHOLDER, Placeholder::TYPE_CLEAR_Q ); ?>" class="button litespeed-btn-warning litespeed-right">Clear</a>

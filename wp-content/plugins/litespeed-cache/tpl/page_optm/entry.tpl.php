@@ -28,7 +28,7 @@ $menu_list = array(
 
 <div class="litespeed-wrap">
 
-	<div class="litespeed-callout notice notice-warning inline">
+	<div class="inline litespeed-callout notice notice-warning">
 		<h4><?php echo __( 'NOTICE', 'litespeed-cache' ) ; ?></h4>
 		<p><?php echo __( 'Please test thoroughly when enabling any option in this list. After changing Minify/Combine settings, please do a Purge All action.', 'litespeed-cache' ) ; ?></p>
 	</div>

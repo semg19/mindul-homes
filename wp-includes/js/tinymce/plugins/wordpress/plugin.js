@@ -333,12 +333,12 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 		// Main section, default and additional shortcuts.
 		html = html +
 			'<h2>' + __( 'Default shortcuts,' ) + ' ' + meta + '</h2>' +
-			'<table class="wp-help-th-center fixed">' +
+			'<table class="fixed wp-help-th-center">' +
 				header +
 				table1.join('') +
 			'</table>' +
 			'<h2>' + __( 'Additional shortcuts,' ) + ' ' + access + '</h2>' +
-			'<table class="wp-help-th-center fixed">' +
+			'<table class="fixed wp-help-th-center">' +
 				header +
 				table2.join('') +
 			'</table>';
@@ -347,7 +347,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 			// Text pattern section.
 			html = html +
 				'<h2>' + __( 'When starting a new paragraph with one of these formatting shortcuts followed by a space, the formatting will be applied automatically. Press Backspace or Escape to undo.' ) + '</h2>' +
-				'<table class="wp-help-th-center fixed">' +
+				'<table class="fixed wp-help-th-center">' +
 					tr({ '*':  'Bullet list', '1.':  'Numbered list' }) +
 					tr({ '-':  'Bullet list', '1)':  'Numbered list' }) +
 				'</table>';

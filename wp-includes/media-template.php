@@ -513,7 +513,7 @@ function wp_print_media_templates() {
 					<input type="text" class="attachment-details-copy-link" id="attachment-details-two-column-copy-link" value="{{ data.url }}" readonly />
 					<span class="copy-to-clipboard-container">
 						<button type="button" class="button button-small copy-attachment-url" data-clipboard-target="#attachment-details-two-column-copy-link"><?php _e( 'Copy URL to clipboard' ); ?></button>
-						<span class="success hidden" aria-hidden="true"><?php _e( 'Copied!' ); ?></span>
+						<span class="hidden success" aria-hidden="true"><?php _e( 'Copied!' ); ?></span>
 					</span>
 				</span>
 				<div class="attachment-compat"></div>
@@ -744,7 +744,7 @@ function wp_print_media_templates() {
 			<input type="text" class="attachment-details-copy-link" id="attachment-details-copy-link" value="{{ data.url }}" readonly />
 			<div class="copy-to-clipboard-container">
 				<button type="button" class="button button-small copy-attachment-url" data-clipboard-target="#attachment-details-copy-link"><?php _e( 'Copy URL to clipboard' ); ?></button>
-				<span class="success hidden" aria-hidden="true"><?php _e( 'Copied!' ); ?></span>
+				<span class="hidden success" aria-hidden="true"><?php _e( 'Copied!' ); ?></span>
 			</div>
 		</span>
 	</script>
@@ -1193,7 +1193,7 @@ function wp_print_media_templates() {
 
 					<div class="advanced-section">
 						<h2><button type="button" class="button-link advanced-toggle"><?php _e( 'Advanced Options' ); ?></button></h2>
-						<div class="advanced-settings hidden">
+						<div class="hidden advanced-settings">
 							<div class="advanced-image">
 								<span class="setting title-text">
 									<label for="image-details-title-attribute" class="name"><?php _e( 'Image Title Attribute' ); ?></label>

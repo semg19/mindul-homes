@@ -79,7 +79,7 @@ $this->form_action();
 			<?php endif; ?>
 
 			<?php if ( $is_requesting && $can_token ) : ?>
-				<div class="litespeed-callout notice notice-error inline">
+				<div class="inline litespeed-callout notice notice-error">
 					<h4><?php echo __( 'Notice', 'litespeed-cache' ); ?>:</h4>
 					<p><?php echo sprintf( __( 'There was a problem with retrieving your Domain Key. Please click the %s button to retry.', 'litespeed-cache' ), '<code>' . $apply_btn_txt . '</code>' ); ?></p>
 					<p><?php echo __( 'There are two reasons why we might not be able to communicate with your domain:', 'litespeed-cache' ); ?>:</p>
@@ -90,19 +90,19 @@ $this->form_action();
 			<?php endif; ?>
 
 			<?php if ( $is_requesting ) : ?>
-				<div class="litespeed-callout notice notice-warning inline">
+				<div class="inline litespeed-callout notice notice-warning">
 					<h4><?php echo __( 'Notice', 'litespeed-cache' ); ?>:</h4>
 					<p><?php echo __( 'Request submitted. Please wait, then refresh the page to see approval notification.', 'litespeed-cache' ); ?></p>
 				</div>
 			<?php endif; ?>
 
 			<?php if ( ! $this->conf( Base::O_API_KEY ) ) : ?>
-				<div class="litespeed-callout notice notice-error inline">
+				<div class="inline litespeed-callout notice notice-error">
 					<h4><?php echo __( 'Warning', 'litespeed-cache' ); ?>:</h4>
 					<p><?php echo sprintf( __( 'You must have %1$s first before linking to QUIC.cloud.', 'litespeed-cache' ), '<code>' . Lang::title( Base::O_API_KEY ) . '</code>' ) . ' See <a href="https://quic.cloud/terms/">Terms</a>.'; ?></p>
 				</div>
 			<?php elseif ( empty( $cloud_summary[ 'is_linked' ] ) ) : ?>
-				<div class="litespeed-callout notice notice-warning inline">
+				<div class="inline litespeed-callout notice notice-warning">
 					<h4><?php echo __( 'Notice', 'litespeed-cache' ); ?>:</h4>
 					<p><?php echo sprintf( __( 'You must click the %s button if you wish to associate this site with a QUIC.cloud account.', 'litespeed-cache' ), '<code>' . __( 'Link to QUIC.cloud', 'litespeed-cache' ) . '</code>' ); ?></p>
 					<p><?php Doc::learn_more( 'https://www.quic.cloud/faq/#do-i-need-to-register-on-quic-cloud-to-use-the-online-services', __( 'Benefits of linking to a QUIC.cloud account', 'litespeed-cache' ) ); ?></p>
@@ -123,7 +123,7 @@ $this->form_action();
 
 				<br />
 				<?php Doc::notice_ips(); ?>
-				<div class="litespeed-callout notice notice-success inline">
+				<div class="inline litespeed-callout notice notice-success">
 					<h4><?php echo __( 'Current Cloud Nodes in Service','litespeed-cache' ); ?>
 						<a class="litespeed-right litespeed-redetect" href="<?php echo Utility::build_url( Router::ACTION_CLOUD, Cloud::TYPE_CLEAR_CLOUD ); ?>" data-balloon-pos="up" data-balloon-break aria-label='<?php echo __( 'Click to clear all nodes for further redetection.', 'litespeed-cache' ); ?>' data-litespeed-cfm="<?php echo __( 'Are you sure you want to clear all cloud nodes?', 'litespeed-cache' ); ?>"><i class='litespeed-quic-icon'></i> <?php echo __( 'Redetect', 'litespeed-cache' ); ?></a>
 					</h4>

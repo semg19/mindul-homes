@@ -7,10 +7,10 @@
 					<?php $image = get_sub_field('image'); ?>
 					<?php if ($image): ?>
 						<figure class="w-full">
-							<img class="aspect-video rounded-lg object-cover w-full" src="<?php echo esc_url($image['url']); ?>"
+							<img class="object-cover w-full rounded-lg aspect-video" src="<?php echo esc_url($image['url']); ?>"
 								alt="<?php echo esc_attr($image['alt']); ?>">
 							<?php if ($text = get_sub_field('text')): ?>
-								<figcaption class="mt-4 flex gap-x-4 italic text-sm">
+								<figcaption class="flex mt-4 text-sm italic gap-x-4">
 									<?= $text; ?>
 								</figcaption>
 							<?php endif; ?>

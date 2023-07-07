@@ -520,7 +520,7 @@ switch ( $action ) {
 
 							<?php $new_email = get_user_meta( $current_user->ID, '_new_email', true ); ?>
 							<?php if ( $new_email && $new_email['newemail'] !== $current_user->user_email && $profile_user->ID === $current_user->ID ) : ?>
-							<div class="updated inline">
+							<div class="inline updated">
 								<p>
 									<?php
 									printf(
@@ -797,7 +797,7 @@ switch ( $action ) {
 										<button type="button" name="do_new_application_password" id="do_new_application_password" class="button button-secondary"><?php _e( 'Add New Application Password' ); ?></button>
 									</div>
 								<?php else : ?>
-									<div class="notice notice-error inline">
+									<div class="inline notice notice-error">
 										<p><?php _e( 'Your website appears to use Basic Authentication, which is not currently compatible with Application Passwords.' ); ?></p>
 									</div>
 								<?php endif; ?>

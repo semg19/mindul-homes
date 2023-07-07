@@ -70,7 +70,7 @@ class GF_Update {
                 <tr class="inactive<?php echo $update_class ?>" data-slug="admin-bar-form-search"
                     data-plugin="gw-admin-bar-form-manager.php">
                     <td class="plugin-title column-primary"><strong><?php echo $update['name'] ?></strong>
-                        <div class="row-actions visible">
+                        <div class="visible row-actions">
                             <span class="deactivate"><a
                                         href="<?php echo $settings_link ?>"><?php esc_html_e( 'Settings', 'gravityforms' ) ?></a></span>
                         </div>
@@ -85,7 +85,7 @@ class GF_Update {
                     </div>
 					<?php if ( $update_available ) { ?>
 
-                        <div class="update-message notice inline notice-warning notice-alt">
+                        <div class="inline update-message notice notice-warning notice-alt">
                             <p>
 								<?php
 

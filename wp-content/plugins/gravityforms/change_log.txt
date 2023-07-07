@@ -5259,7 +5259,7 @@ Description Use this filter to prevent the thousand separator being …)* filter
 
 ### 0.7.2
 - UI improvement for field editor (loading it under the field instead of besides it).
-- Corrected markup issues that caused it to fail validation. (checked -> checked="checked", class=' gfield ' -> class='gfield' and closed some input tags that were left opened).
+- Corrected markup issues that caused it to fail validation. (checked -> checked="checked", class=' gfield' -> class='gfield' and closed some input tags that were left opened).
 - Added admin label so that a field label can be different when displayed in the admin area.
 - Fixed issue with phone field where phone format was not getting loaded correctly in the field editor.
 - Fixed issue with dashboard that excluded forms with no unread entries.

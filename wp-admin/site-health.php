@@ -235,7 +235,7 @@ if ( isset( $_GET['tab'] ) && ! empty( $_GET['tab'] ) ) {
 
 		<p><?php _e( 'The site health check shows information about your WordPress configuration and items that may need your attention.' ); ?></p>
 
-		<div class="site-health-issues-wrapper hidden" id="health-check-issues-critical">
+		<div class="hidden site-health-issues-wrapper" id="health-check-issues-critical">
 			<h3 class="site-health-issue-count-title">
 				<?php
 					/* translators: %s: Number of critical issues found. */
@@ -248,7 +248,7 @@ if ( isset( $_GET['tab'] ) && ! empty( $_GET['tab'] ) ) {
 			<div id="health-check-site-status-critical" class="health-check-accordion issues"></div>
 		</div>
 
-		<div class="site-health-issues-wrapper hidden" id="health-check-issues-recommended">
+		<div class="hidden site-health-issues-wrapper" id="health-check-issues-recommended">
 			<h3 class="site-health-issue-count-title">
 				<?php
 					/* translators: %s: Number of recommended improvements. */
@@ -269,7 +269,7 @@ if ( isset( $_GET['tab'] ) && ! empty( $_GET['tab'] ) ) {
 		</button>
 	</div>
 
-	<div class="site-health-issues-wrapper hidden" id="health-check-issues-good">
+	<div class="hidden site-health-issues-wrapper" id="health-check-issues-good">
 		<h3 class="site-health-issue-count-title">
 			<?php
 				/* translators: %s: Number of items with no issues. */
