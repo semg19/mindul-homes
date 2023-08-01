@@ -9,7 +9,8 @@ $components = [
 	'c_quote',
 	'c_features',
 	'c_pricing',
-	'c_faq'
+	'c_faq',
+	'c_video',
 ];
 
 

@@ -1,4 +1,4 @@
-<div class="relative overflow-hidden isolate pt-14">
+<section class="relative overflow-hidden isolate pt-14">
 	<?php $hero_img = get_field('hero_img'); ?>
 	<?php if ($hero_img): ?>
 		<div class="c-hero_img">
@@ -6,7 +6,7 @@
 				class="absolute inset-0 object-cover w-full h-full -z-10" />
 		</div>
 	<?php endif; ?>
-	<div class="relative max-w-2xl py-32 mx-auto sm:py-48 lg:py-56">
+	<div class="relative container-sm mx-auto sm:py-48 lg:py-56">
 		<div class="text-center text-white">
 			<?php if (have_rows('hero_content')): ?>
 				<?php while (have_rows('hero_content')):
@@ -40,4 +40,4 @@
 			<?php endif; ?>
 		</div>
 	</div>
-</div>
+</section>

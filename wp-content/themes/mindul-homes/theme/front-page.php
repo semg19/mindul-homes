@@ -13,15 +13,9 @@
  */
 
 get_header();
-?>
 
-<section>
-	<div class="container py-20">
-		<h1><?= get_the_title(); ?></h1>
-	</div>
-</section>
+get_template_part('components/hero');
 
-<?php
 if (have_posts()):
 	while (have_posts()):
 		the_post();

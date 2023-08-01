@@ -564,6 +564,33 @@
                     "min": "",
                     "max": ""
                 },
+                "layout_64c82539a34ba": {
+                    "key": "layout_64c82539a34ba",
+                    "name": "c_video",
+                    "label": "Block: Video",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64c8254aa34bc",
+                            "label": "Video",
+                            "name": "video",
+                            "aria-label": "",
+                            "type": "oembed",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "width": "",
+                            "height": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
                 "layout_641ca0cb84309": {
                     "key": "layout_641ca0cb84309",
                     "name": "c_quote",
@@ -1047,7 +1074,7 @@
                                     "label": "Answer",
                                     "name": "answer",
                                     "aria-label": "",
-                                    "type": "textarea",
+                                    "type": "wysiwyg",
                                     "instructions": "",
                                     "required": 0,
                                     "conditional_logic": 0,
@@ -1057,10 +1084,10 @@
                                         "id": ""
                                     },
                                     "default_value": "",
-                                    "maxlength": "",
-                                    "rows": 6,
-                                    "placeholder": "",
-                                    "new_lines": "br",
+                                    "tabs": "all",
+                                    "toolbar": "full",
+                                    "media_upload": 0,
+                                    "delay": 0,
                                     "parent_repeater": "field_6421b688d1e73"
                                 }
                             ]
@@ -1095,5 +1122,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688730191
+    "modified": 1690838411
 }

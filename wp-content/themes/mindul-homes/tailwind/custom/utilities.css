@@ -6,3 +6,27 @@
  *
  * https://tailwindcss.com/docs/plugins#adding-utilities
  */
+
+ @layer base {
+	body {
+		@apply bg-background text-foreground font-sans;
+	}
+
+	a:not([class]) {
+		@apply text-blue;
+	}
+ }
+
+ @layer components {
+	.btn {
+	  @apply block w-max rounded-md bg-orange px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-orange-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-dark;
+	}
+
+	.container {
+		@apply mx-auto max-w-7xl py-12 px-6 lg:py-40 lg:px-8 2xl:max-w-screen-2xl;
+	}
+
+	.container-sm {
+		@apply mx-auto max-w-3xl py-12 px-6 lg:px-8 2xl:max-w-screen-2xl;
+	}
+}

@@ -11,7 +11,7 @@
 
 <header x-data="{ open: false }" @keydown.window.escape="open = false"
 	class="bg-white">
-	<nav class="flex items-center justify-between px-6 py-3 mx-auto max-w-7xl lg:px-8"
+	<nav class="flex items-center justify-between px-6 py-4 mx-auto max-w-7xl lg:px-8"
 		aria-label="Global">
 		<div class="flex lg:flex-1">
 			<a href="<?php echo esc_url(home_url('/')); ?>"
@@ -24,7 +24,7 @@
 						the_row(); ?>
 						<?php $image = get_sub_field('image'); ?>
 						<?php if ($image): ?>
-							<img class="w-16 sm:w-20" src="<?php echo esc_url($image['url']); ?>"
+							<img class="w-16 sm:w-32" src="<?php echo esc_url($image['url']); ?>"
 								alt="<?php echo esc_attr($image['alt']); ?>" />
 						<?php endif; ?>
 					<?php endwhile; ?>

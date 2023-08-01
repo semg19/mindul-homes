@@ -27,13 +27,13 @@ module.exports = {
 		colors: {
 			transparent: 'transparent',
 			current: 'currentColor',
-			brown: {
-				light: '#a5601c70',
-				DEFAULT: '#a5601c',
-			},
 			blue: {
-				DEFAULT: '#007a9d',
-				dark: '#006582',
+				light: '#1f7f9f',
+				DEFAULT: '#1f7f9f',
+			},
+			orange: {
+				DEFAULT: '#a46123',
+				dark: '#a46123',
 			},
 			black: colors.black,
 			white: colors.white,
