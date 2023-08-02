@@ -1,5 +1,5 @@
 <section class="c_image">
-	<div class="<?php if (get_sub_field( 'container' ) === 'full') : ?>container<?php else : ?>container-sm<?php endif; ?> py-0">
+	<div class="<?php if (get_sub_field( 'container' ) === 'full') : ?>container<?php else : ?>container-sm<?php endif; ?>">
 		<?php if (have_rows('images')): ?>
 			<div class="main-carousel">
 				<?php while (have_rows('images')):

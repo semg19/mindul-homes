@@ -18,36 +18,6 @@
     --standard: 250ms ease-in-out;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin-bottom: 28px;
-	font-weight: 700;
-	letter-spacing: -0.025em;
-	line-height: 1.2;
-}
-
-h1 {
-	font-size: 50px;
-}
-
-h2 {
-	font-size: 40px;
-}
-
-h3 {
-	font-size: 30px;
-}
-
-h4,
-h5,
-h7 {
-	font-size: 25px;
-}
-
 /* Nav */
 #primary-menu {
 	display: flex;
@@ -56,6 +26,10 @@ h7 {
 
 .fixed #primary-menu {
 	flex-direction: column;
+}
+
+.menu a {
+	@apply text-black font-semibold;
 }
 
 /* Hero */
@@ -70,4 +44,9 @@ h7 {
 		background-color: #000;
 		opacity: 0.2;
 	}
+}
+
+/* Footer */
+.footer-menu a {
+	@apply text-white font-semibold hover:opacity-80 hover:text-white;
 }

@@ -34,16 +34,14 @@
 										</span>
 									</button>
 								</dt>
-								<dd class="pr-12 mt-2 overflow-hidden" id="faq-0" x-show="open"
+								<dd class="pr-12 mt-2 font-normal overflow-hidden" id="faq-0" x-show="open"
 									x-transition:enter="transition ease-out duration-300"
 									x-transition:enter-start="opacity-0 transform -translate-y-6"
 									x-transition:enter-end="opacity-100 transform translate-y-0"
 									x-transition:leave="transition ease-in duration-300"
 									x-transition:leave-start="opacity-100 transform translate-y-0"
 									x-transition:leave-end="opacity-0 transform -translate-y-6">
-									<p class="text-base text-gray-600 leading-7">
-										<?php the_sub_field('answer'); ?>
-									</p>
+									<?php the_sub_field('answer'); ?>
 								</dd>
 							</div>
 						<?php endwhile; ?>

@@ -9,8 +9,8 @@
 
 ?>
 
-<footer class="bg-white">
-	<div class="px-6 py-20 mx-auto overflow-hidden max-w-7xl sm:py-24 lg:px-8">
+<footer class="bg-blue">
+	<div class="px-6 py-10 mx-auto overflow-hidden max-w-7xl sm:py-12 lg:px-8">
 		<?php if (has_nav_menu('menu-2')): ?>
 			<nav class="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
 				<?php
@@ -25,7 +25,7 @@
 			</nav>
 		<?php endif; ?>
 		<div class="flex justify-center mt-10 space-x-10">
-			<a href="#" class="text-gray-400 hover:text-gray-500">
+			<a href="#" class="text-white transition-all hover:opacity-80">
 				<span class="sr-only">Facebook</span>
 				<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 					<path fill-rule="evenodd"
@@ -34,7 +34,7 @@
 				</svg>
 			</a>
 
-			<a href="#" class="text-gray-400 hover:text-gray-500">
+			<a href="#" class="text-white transition-all hover:opacity-80">
 				<span class="sr-only">Instagram</span>
 				<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 					<path fill-rule="evenodd"
@@ -42,7 +42,7 @@
 						clip-rule="evenodd" />
 				</svg>
 			</a>
-			<a href="#" class="text-gray-400 hover:text-gray-500">
+			<a href="#" class="text-white transition-all hover:opacity-80">
 				<span class="sr-only">YouTube</span>
 				<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 					<path fill-rule="evenodd"
@@ -51,6 +51,6 @@
 				</svg>
 			</a>
 		</div>
-		<p class="mt-10 text-xs text-center text-gray-500 leading-5">&copy; <?php echo date ('Y'); ?> <?php bloginfo('name'); ?></p>
+		<p class="mt-10 text-xs text-center text-white leading-5">&copy; <?php echo date ('Y'); ?> <?php bloginfo('name'); ?></p>
 	</div>
 </footer>

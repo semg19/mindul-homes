@@ -13,7 +13,7 @@
 		case 'image':
 			$image = get_sub_field('image');
 			if ($image): ?>
-				<img class="object-cover w-full rounded-lg aspect-video"
+				<img class="<?php the_sub_field('object_fit'); ?> w-full rounded-lg aspect-video"
 					src="<?php echo esc_url($image['url']); ?>"
 					alt="<?php echo esc_attr($image['alt']); ?>" />
 			<?php endif;

@@ -28,12 +28,15 @@ module.exports = {
 			transparent: 'transparent',
 			current: 'currentColor',
 			blue: {
-				light: '#1f7f9f',
+				lightest: '#8DD2E9',
+				light: '#269AC1',
 				DEFAULT: '#1f7f9f',
+				dark: '#165A70',
 			},
 			orange: {
+				light: '#C6752A',
 				DEFAULT: '#a46123',
-				dark: '#a46123',
+				dark: '#764619',
 			},
 			black: colors.black,
 			white: colors.white,
@@ -44,7 +47,11 @@ module.exports = {
 			indigo: colors.indigo,
 			neutral: colors.neutral,
 		},
+		fontFamily: {
+			chivo: ['"Chivo"', 'sans-serif'],
+		},
 	},
+	safelist: ['object-fit', 'object-cover'],
 	corePlugins: {
 		// Disable Preflight base styles in CSS targeting the editor.
 		preflight: includePreflight,

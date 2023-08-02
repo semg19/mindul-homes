@@ -17,7 +17,7 @@ get_header();
 
 <section>
 	<div class="container py-20">
-		<h1><?= get_the_title(); ?></h1>
+		<h1 class="text-center"><?= get_the_title(); ?></h1>
 	</div>
 </section>
 

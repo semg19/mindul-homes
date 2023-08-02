@@ -1,6 +1,6 @@
 <section class="c_quote">
 	<div class="pt-24 pb-16 bg-white sm:pt-32 sm:pb-24 xl:pb-32">
-		<div class="pb-20 bg-gray-900 sm:pb-24 xl:pb-0" x-data="{ shown: false }" x-intersect="shown = true">
+		<div class="pb-20 bg-blue-dark sm:pb-24 xl:pb-0" x-data="{ shown: false }" x-intersect="shown = true">
 			<div
 				class="flex flex-col items-center px-6 mx-auto max-w-7xl gap-y-10 gap-x-8 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch" x-show="shown" x-transition.duration.750ms>
 				<div class="w-full max-w-2xl -mt-8 xl:-mb-8 xl:w-96 xl:flex-none">
@@ -35,7 +35,7 @@
 										</div>
 									<?php endif; ?>
 									<?php if (get_sub_field('info')): ?>
-										<div class="mt-1 text-gray-400">
+										<div class="mt-1 text-gray-300">
 											<?php the_sub_field('info'); ?>
 										</div>
 									<?php endif; ?>

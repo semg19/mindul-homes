@@ -43,6 +43,22 @@
                             "toolbar": "style_formats",
                             "media_upload": 0,
                             "delay": 0
+                        },
+                        {
+                            "key": "field_64ca2f9c3ccd3",
+                            "label": "Button",
+                            "name": "contentLink",
+                            "aria-label": "",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
                         }
                     ],
                     "min": "",
@@ -184,6 +200,40 @@
                                     "max_size": "",
                                     "mime_types": "",
                                     "preview_size": "medium"
+                                },
+                                {
+                                    "key": "field_64ca305c468b0",
+                                    "label": "Object fit",
+                                    "name": "object_fit",
+                                    "aria-label": "",
+                                    "type": "select",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_63f8ce3e740e0",
+                                                "operator": "==",
+                                                "value": "image"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "choices": {
+                                        "object-cover": "Cover",
+                                        "object-contain": "Contain"
+                                    },
+                                    "default_value": "object-cover",
+                                    "return_format": "value",
+                                    "multiple": 0,
+                                    "allow_null": 0,
+                                    "ui": 0,
+                                    "ajax": 0,
+                                    "placeholder": ""
                                 },
                                 {
                                     "key": "field_64806f89350f5",
@@ -423,6 +473,40 @@
                                     "max_size": "",
                                     "mime_types": "",
                                     "preview_size": "medium"
+                                },
+                                {
+                                    "key": "field_64ca30c87b0de",
+                                    "label": "Object fit",
+                                    "name": "object_fit",
+                                    "aria-label": "",
+                                    "type": "select",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_63f8d00db6e1a",
+                                                "operator": "==",
+                                                "value": "image"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "choices": {
+                                        "object-cover": "Cover",
+                                        "object-contain": "Contain"
+                                    },
+                                    "default_value": "object-cover",
+                                    "return_format": "value",
+                                    "multiple": 0,
+                                    "allow_null": 0,
+                                    "ui": 0,
+                                    "ajax": 0,
+                                    "placeholder": ""
                                 },
                                 {
                                     "key": "field_6480700e80a46",
@@ -1095,6 +1179,114 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_64ca37443c93e": {
+                    "key": "layout_64ca37443c93e",
+                    "name": "c_price_slider",
+                    "label": "Block: Price slider",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64ca3d2e87049",
+                            "label": "Text above slider",
+                            "name": "text_slider",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_64ca3d528704a",
+                            "label": "Text above price",
+                            "name": "text_price",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_64ca3d678704b",
+                            "label": "Button",
+                            "name": "button",
+                            "aria-label": "",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
+                        },
+                        {
+                            "key": "field_64ca3d8f8704c",
+                            "label": "Text under button",
+                            "name": "text_under_button",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_64ca41e095164",
+                            "label": "Price per m2",
+                            "name": "price_per_m2",
+                            "aria-label": "",
+                            "type": "number",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "min": "",
+                            "max": "",
+                            "placeholder": "",
+                            "step": "",
+                            "prepend": "",
+                            "append": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "min": "",
@@ -1122,5 +1314,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1690838411
+    "modified": 1690976764
 }

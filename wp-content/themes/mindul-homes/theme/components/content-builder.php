@@ -11,6 +11,7 @@ $components = [
 	'c_pricing',
 	'c_faq',
 	'c_video',
+	'c_price_slider',
 ];
 
 
