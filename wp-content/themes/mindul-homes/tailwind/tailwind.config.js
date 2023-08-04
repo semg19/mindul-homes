@@ -65,6 +65,12 @@ module.exports = {
 			className: typographyClassName,
 		}),
 
+		// Font Awesome
+		require('tailwind-fontawesome')({
+			pro: true,
+			version: 6,
+		}),
+
 		// Uncomment below to add additional first-party Tailwind plugins.
 		// require( '@tailwindcss/forms' ),
 		// require( '@tailwindcss/aspect-ratio' ),

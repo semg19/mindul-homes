@@ -1,8 +1,8 @@
-<section class="c_two_columns">
+<section class="c_two_columns odd:bg-gray-50">
 	<div class="container">
 		<div class="max-w-xl mx-auto lg:max-w-none" x-data="{ shown: false }"
 			x-intersect="shown = true">
-			<div class="items-center grid grid-cols-1 gap-8 lg:grid-cols-2"
+			<div class="items-center grid grid-cols-1 gap-8 lg:gap-28 lg:grid-cols-2"
 				x-show="shown" x-transition.duration.750ms>
 				<?php
 				if (have_rows('left')):

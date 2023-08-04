@@ -9,8 +9,31 @@
 
 ?>
 
+<div class="bg-gradient-to-r from-orange via-blue to-blue">
+	<div class="container py-1">
+		<div class="flex flex-wrap items-center justify-center gap-y-4 gap-x-20">
+			<?php if (have_rows('usp_bar', 'option')): ?>
+				<?php while (have_rows('usp_bar', 'option')):
+					the_row(); ?>
+					<?php if (have_rows('links')): ?>
+						<?php while (have_rows('links')):
+							the_row(); ?>
+							<?php $link = get_sub_field('link'); ?>
+							<?php if ($link): ?>
+								<?php $icon = get_sub_field('icon'); ?>
+								<a class="flex items-center text-white icon-before icon-light <?= ($icon === 'mail') ? 'icon-envelope' : (($icon === 'phone') ? 'icon-phone' : '') ?> icon-space-sm" href="<?php echo esc_url($link['url']); ?>"
+									target="<?php echo esc_attr($link['target']); ?>"><?php echo esc_html($link['title']); ?></a>
+							<?php endif; ?>
+
+						<?php endwhile; ?>
+					<?php endif; ?>
+				<?php endwhile; ?>
+			<?php endif; ?>
+		</div>
+	</div>
+</div>
 <header x-data="{ open: false }" @keydown.window.escape="open = false"
-	class="bg-white">
+	class="bg-white sticky top-0 z-10">
 	<nav class="container flex items-center justify-between px-6 py-4 lg:px-8"
 		aria-label="Global">
 		<div class="flex lg:flex-1">
@@ -24,7 +47,8 @@
 						the_row(); ?>
 						<?php $image = get_sub_field('image'); ?>
 						<?php if ($image): ?>
-							<img class="w-16 sm:w-32" src="<?php echo esc_url($image['url']); ?>"
+							<img class="w-32 sm:w-52"
+								src="<?php echo esc_url($image['url']); ?>"
 								alt="<?php echo esc_attr($image['alt']); ?>" />
 						<?php endif; ?>
 					<?php endwhile; ?>
@@ -86,7 +110,7 @@
 							the_row(); ?>
 							<?php $image = get_sub_field('image'); ?>
 							<?php if ($image): ?>
-								<img class="w-16"
+								<img class="w-32"
 									src="<?php echo esc_url($image['url']); ?>"
 									alt="<?php echo esc_attr($image['alt']); ?>" />
 							<?php endif; ?>

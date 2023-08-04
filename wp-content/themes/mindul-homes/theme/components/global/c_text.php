@@ -1,4 +1,4 @@
-<section class="c_text">
+<section class="c_text odd:bg-gray-50">
 	<div class="container-sm">
 		<?php the_sub_field( 'content' ); ?>
 		<?php

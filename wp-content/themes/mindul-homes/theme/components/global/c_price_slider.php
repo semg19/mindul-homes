@@ -1,24 +1,24 @@
 <section x-data="{ m2: 0 }" class="c_price_slider">
 	<div class="container">
 		<div
-			class="mx-auto max-w-2xl rounded-3xl bg-blue-lightest lg:mx-0 lg:flex lg:max-w-none">
+			class="mx-auto max-w-2xl rounded-3xl bg-blue lg:mx-0 lg:flex lg:max-w-none">
 			<div class="-mt-2 p-2 lg:mt-0 lg:w-full">
 				<div class="lg:flex lg:justify-center">
 					<div
-						class="w-full lg:w-1/2 flex items-center justify-center">
+						class="w-full flex items-center justify-center pt-10 lg:pt-0 lg:w-1/2">
 						<div>
-							<label for="m2"
-								class="block text-lg font-semibold mb-4"><?php the_sub_field('text_slider'); ?></label>
+							<h3 for="m2"
+								class="block text-white mb-4"><?php the_sub_field('text_slider'); ?></h3>
 							<input x-model="m2" type="range" id="m2" name="m2"
 								min="0" max="200"
 								class="w-full h-2 bg-white rounded-full appearance-none outline-none transition-opacity duration-200">
 							<span x-text="m2 + ' m²'"
-								class="block mt-2 text-md text-black-700"></span>
+								class="block mt-2 text-md text-white"></span>
 						</div>
 					</div>
 					<div class="w-full mt-8 lg:mt-0 lg:w-1/2">
 						<div
-							class="rounded-2xl bg-white py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
+							class="rounded-b-2xl rounded-t-md bg-white py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16 lg:rounded-r-2xl lg:rounded-l-md">
 							<div class="mx-auto max-w-xs px-8">
 								<p
 									class="text-base font-semibold text-gray-600">

@@ -1,4 +1,4 @@
-<section class="c_faq">
+<section class="c_faq bg-gray-50">
 	<div class="container-sm">
 		<div class="max-w-4xl mx-auto divide-y divide-gray-900/10" x-data="{ shown: false }" x-intersect="shown = true">
 			<div x-show="shown" x-transition.duration.750ms>
@@ -9,7 +9,7 @@
 					<?php if (have_rows('item')): ?>
 						<?php while (have_rows('item')):
 							the_row(); ?>
-							<div x-data="{ open: false }" class="pt-6 bg-white">
+							<div x-data="{ open: false }" class="pt-6">
 								<dt>
 									<button type="button" x-description="Expand/collapse question button"
 										class="flex items-start justify-between w-full text-left text-gray-900"

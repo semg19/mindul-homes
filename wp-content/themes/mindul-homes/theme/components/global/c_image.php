@@ -1,4 +1,4 @@
-<section class="c_image">
+<section class="c_image pb-10">
 	<div class="<?php if (get_sub_field( 'container' ) === 'full') : ?>container<?php else : ?>container-sm<?php endif; ?>">
 		<?php if (have_rows('images')): ?>
 			<div class="main-carousel">
