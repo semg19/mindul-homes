@@ -104,7 +104,7 @@ final class WP_Privacy_Policy_Content {
 		sort( $new );
 
 		// The == operator (equal, not identical) was used intentionally.
-		// See http://php.net/manual/en/language.operators.array.php
+		// See https://www.php.net/manual/en/language.operators.array.php
 		if ( $new != $old ) {
 			// A plugin was activated or deactivated, or some policy text has changed.
 			// Show a notice on the relevant screens to inform the admin.
@@ -353,7 +353,7 @@ final class WP_Privacy_Policy_Content {
 			);
 		} else {
 			?>
-			<div class="inline notice notice-warning wp-pp-notice">
+			<div class="notice notice-warning inline wp-pp-notice">
 				<p>
 				<?php
 				echo $message;
@@ -361,7 +361,7 @@ final class WP_Privacy_Policy_Content {
 					' <a href="%s" target="_blank">%s <span class="screen-reader-text">%s</span></a>',
 					$url,
 					$label,
-					/* translators: Accessibility text. */
+					/* translators: Hidden accessibility text. */
 					__( '(opens in a new tab)' )
 				);
 				?>
@@ -395,7 +395,7 @@ final class WP_Privacy_Policy_Content {
 
 				/* translators: %s: Date of plugin deactivation. */
 				$removed = __( 'You deactivated this plugin on %s and may no longer need this policy.' );
-				$removed = '<div class="inline notice notice-info"><p>' . sprintf( $removed, $date ) . '</p></div>';
+				$removed = '<div class="notice notice-info inline"><p>' . sprintf( $removed, $date ) . '</p></div>';
 			} elseif ( ! empty( $section['updated'] ) ) {
 				$badge_class = ' blue';
 				$date        = date_i18n( $date_format, $section['updated'] );
@@ -428,7 +428,7 @@ final class WP_Privacy_Policy_Content {
 						<span aria-hidden="true"><?php _e( 'Copy suggested policy text to clipboard' ); ?></span>
 						<span class="screen-reader-text">
 							<?php
-							/* translators: %s: Plugin name. */
+							/* translators: Hidden accessibility text. %s: Plugin name. */
 							printf( __( 'Copy suggested policy text from %s.' ), $plugin_name );
 							?>
 						</span>

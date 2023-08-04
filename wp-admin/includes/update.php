@@ -93,7 +93,7 @@ function find_core_auto_update() {
 	require_once ABSPATH . 'wp-admin/includes/class-wp-upgrader.php';
 
 	$auto_update = false;
-	$upgrader    = new WP_Automatic_Updater;
+	$upgrader    = new WP_Automatic_Updater();
 	foreach ( $updates->updates as $update ) {
 		if ( 'autoupdate' !== $update->response ) {
 			continue;
@@ -235,7 +235,7 @@ function core_update_footer( $msg = '' ) {
 
 	$cur = get_preferred_from_update_core();
 	if ( ! is_object( $cur ) ) {
-		$cur = new stdClass;
+		$cur = new stdClass();
 	}
 
 	if ( ! isset( $cur->current ) ) {
@@ -325,7 +325,7 @@ function update_nag() {
 		);
 	}
 
-	echo "<div class='inline update-nag notice notice-warning'>$msg</div>";
+	echo "<div class='update-nag notice notice-warning inline'>$msg</div>";
 }
 
 /**
@@ -676,7 +676,7 @@ function wp_theme_update_row( $theme_key, $theme ) {
 	printf(
 		'<tr class="plugin-update-tr%s" id="%s" data-slug="%s">' .
 		'<td colspan="%s" class="plugin-update colspanchange">' .
-		'<div class="inline update-message notice notice-warning notice-alt"><p>',
+		'<div class="update-message notice inline notice-warning notice-alt"><p>',
 		$active,
 		esc_attr( $theme->get_stylesheet() . '-update' ),
 		esc_attr( $theme->get_stylesheet() ),
@@ -857,7 +857,7 @@ function maintenance_nag() {
 		$msg = __( 'An automated WordPress update has failed to complete! Please notify the site administrator.' );
 	}
 
-	echo "<div class='inline update-nag notice notice-warning'>$msg</div>";
+	echo "<div class='update-nag notice notice-warning inline'>$msg</div>";
 }
 
 /**
@@ -924,13 +924,18 @@ function wp_print_admin_notice_templates() {
 							printf( __( '%s updates failed.' ), '{{ data.errors }}' );
 							?>
 						<# } #>
-						<span class="screen-reader-text"><?php _e( 'Show more details' ); ?></span>
+						<span class="screen-reader-text">
+							<?php
+							/* translators: Hidden accessibility text. */
+							_e( 'Show more details' );
+							?>
+						</span>
 						<span class="toggle-indicator" aria-hidden="true"></span>
 					</button>
 				<# } #>
 			</p>
 			<# if ( data.errors ) { #>
-				<ul class="hidden bulk-action-errors">
+				<ul class="bulk-action-errors hidden">
 					<# _.each( data.errorMessages, function( errorMessage ) { #>
 						<li>{{ errorMessage }}</li>
 					<# } ); #>

@@ -403,7 +403,7 @@ class WP_Plugins_List_Table extends WP_List_Table {
 		global $plugins;
 
 		if ( ! empty( $_REQUEST['s'] ) ) {
-			$s = esc_html( wp_unslash( $_REQUEST['s'] ) );
+			$s = esc_html( urldecode( wp_unslash( $_REQUEST['s'] ) ) );
 
 			/* translators: %s: Plugin search term. */
 			printf( __( 'No plugins found for: %s.' ), '<strong>' . $s . '</strong>' );
@@ -985,7 +985,7 @@ class WP_Plugins_List_Table extends WP_List_Table {
 				'<label class="screen-reader-text" for="%1$s">%2$s</label>' .
 				'<input type="checkbox" name="checked[]" value="%3$s" id="%1$s" />',
 				$checkbox_id,
-				/* translators: %s: Plugin name. */
+				/* translators: Hidden accessibility text. %s: Plugin name. */
 				sprintf( __( 'Select %s' ), $plugin_data['Name'] ),
 				esc_attr( $plugin_file )
 			);
@@ -1203,7 +1203,7 @@ class WP_Plugins_List_Table extends WP_List_Table {
 							$action
 						);
 
-						$html[] = '<span class="hidden dashicons dashicons-update spin" aria-hidden="true"></span>';
+						$html[] = '<span class="dashicons dashicons-update spin hidden" aria-hidden="true"></span>';
 						$html[] = '<span class="label">' . $text . '</span>';
 						$html[] = '</a>';
 					}
@@ -1233,7 +1233,7 @@ class WP_Plugins_List_Table extends WP_List_Table {
 					 */
 					echo apply_filters( 'plugin_auto_update_setting_html', $html, $plugin_file, $plugin_data );
 
-					echo '<div class="hidden inline notice notice-error notice-alt"><p></p></div>';
+					echo '<div class="notice notice-error notice-alt inline hidden"><p></p></div>';
 					echo '</td>';
 
 					break;
@@ -1265,7 +1265,7 @@ class WP_Plugins_List_Table extends WP_List_Table {
 			printf(
 				'<tr class="plugin-update-tr">' .
 				'<td colspan="%s" class="plugin-update colspanchange">' .
-				'<div class="inline update-message notice notice-error notice-alt"><p>',
+				'<div class="update-message notice inline notice-error notice-alt"><p>',
 				esc_attr( $this->get_column_count() )
 			);
 

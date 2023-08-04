@@ -140,9 +140,9 @@ get_current_screen()->add_help_tab(
 
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://wordpress.org/support/article/plugins-editor-screen/">Documentation on Editing Plugins</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://wordpress.org/documentation/article/plugins-editor-screen/">Documentation on Editing Plugins</a>' ) . '</p>' .
 	'<p>' . __( '<a href="https://developer.wordpress.org/plugins/">Documentation on Writing Plugins</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://wordpress.org/support/">Support</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://wordpress.org/support/forums/">Support forums</a>' ) . '</p>'
 );
 
 $settings = array(
@@ -281,7 +281,7 @@ $content = esc_textarea( $content );
 	<?php if ( is_writable( $real_file ) ) : ?>
 		<div class="editor-notices">
 		<?php if ( in_array( $plugin, (array) get_option( 'active_plugins', array() ), true ) ) { ?>
-			<div class="inline notice notice-warning active-plugin-edit-warning">
+			<div class="notice notice-warning inline active-plugin-edit-warning">
 				<p><?php _e( '<strong>Warning:</strong> Making changes to active plugins is not recommended.' ); ?></p>
 			</div>
 		<?php } ?>
@@ -296,7 +296,7 @@ $content = esc_textarea( $content );
 			printf(
 				/* translators: %s: Documentation URL. */
 				__( 'You need to make this file writable before you can save your changes. See <a href="%s">Changing File Permissions</a> for more information.' ),
-				__( 'https://wordpress.org/support/article/changing-file-permissions/' )
+				__( 'https://wordpress.org/documentation/article/changing-file-permissions/' )
 			);
 			?>
 		</p>
@@ -322,7 +322,7 @@ if ( ! in_array( 'plugin_editor_notice', $dismissed_pointers, true ) ) :
 		}
 	}
 	?>
-	<div id="file-editor-warning" class="hidden notification-dialog-wrap file-editor-warning hide-if-no-js">
+	<div id="file-editor-warning" class="notification-dialog-wrap file-editor-warning hide-if-no-js hidden">
 		<div class="notification-dialog-background"></div>
 		<div class="notification-dialog">
 			<div class="file-editor-warning-content">

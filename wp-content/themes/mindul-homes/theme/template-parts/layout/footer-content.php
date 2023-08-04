@@ -12,7 +12,7 @@
 <footer class="bg-blue">
 	<div class="px-6 py-10 mx-auto overflow-hidden max-w-7xl sm:py-12 lg:px-8">
 		<?php if (has_nav_menu('menu-2')): ?>
-			<nav class="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
+			<nav class="-mb-6 columns-2 flex justify-center space-x-12" aria-label="Footer">
 				<?php
 				wp_nav_menu(
 					array(

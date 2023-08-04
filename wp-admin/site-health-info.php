@@ -52,7 +52,7 @@ $health_check_site_status = WP_Site_Health::get_instance();
 			<button type="button" class="button copy-button" data-clipboard-text="<?php echo esc_attr( WP_Debug_Data::format( $info, 'debug' ) ); ?>">
 				<?php _e( 'Copy site info to clipboard' ); ?>
 			</button>
-			<span class="hidden success" aria-hidden="true"><?php _e( 'Copied!' ); ?></span>
+			<span class="success hidden" aria-hidden="true"><?php _e( 'Copied!' ); ?></span>
 		</div>
 	</div>
 

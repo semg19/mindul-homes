@@ -50,10 +50,10 @@ get_current_screen()->add_help_tab(
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
 	'<p>' . __( '<a href="https://developer.wordpress.org/themes/">Documentation on Theme Development</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://wordpress.org/support/article/appearance-editor-screen/">Documentation on Editing Themes</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://wordpress.org/support/article/editing-files/">Documentation on Editing Files</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://wordpress.org/documentation/article/appearance-theme-file-editor-screen/">Documentation on Editing Themes</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://wordpress.org/documentation/article/editing-files/">Documentation on Editing Files</a>' ) . '</p>' .
 	'<p>' . __( '<a href="https://developer.wordpress.org/themes/basics/template-tags/">Documentation on Template Tags</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://wordpress.org/support/">Support</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://wordpress.org/support/forums/">Support forums</a>' ) . '</p>'
 );
 
 wp_reset_vars( array( 'action', 'error', 'file', 'theme' ) );
@@ -221,7 +221,8 @@ if ( $file_description !== $file_show ) {
 	<?php
 	echo $theme->display( 'Name' );
 	if ( $description ) {
-		echo ': ' . $description;}
+		echo ': ' . $description;
+	}
 	?>
 </h2>
 </div>
@@ -304,7 +305,7 @@ else :
 		<div>
 			<div class="editor-notices">
 				<?php if ( is_child_theme() && $theme->get_stylesheet() === get_template() ) : ?>
-					<div class="inline notice notice-warning">
+					<div class="notice notice-warning inline">
 						<p>
 							<?php if ( is_writable( $file ) ) : ?>
 								<strong><?php _e( 'Caution:' ); ?></strong>
@@ -325,7 +326,7 @@ else :
 					printf(
 						/* translators: %s: Documentation URL. */
 						__( 'You need to make this file writable before you can save your changes. See <a href="%s">Changing File Permissions</a> for more information.' ),
-						__( 'https://wordpress.org/support/article/changing-file-permissions/' )
+						__( 'https://wordpress.org/documentation/article/changing-file-permissions/' )
 					);
 					?>
 				</p>
@@ -355,7 +356,7 @@ if ( ! in_array( 'theme_editor_notice', $dismissed_pointers, true ) ) :
 		}
 	}
 	?>
-	<div id="file-editor-warning" class="hidden notification-dialog-wrap file-editor-warning hide-if-no-js">
+	<div id="file-editor-warning" class="notification-dialog-wrap file-editor-warning hide-if-no-js hidden">
 		<div class="notification-dialog-background"></div>
 		<div class="notification-dialog">
 			<div class="file-editor-warning-content">

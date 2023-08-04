@@ -39,13 +39,13 @@ defined( 'WPINC' ) || exit;
 					try {
 						$mobile_agents = Htaccess::cls()->current_mobile_agents();
 						if ( $mobile_agents !== Utility::arr2regex( $this->conf( $id ), true ) ) {
-							echo '<div class="inline litespeed-callout notice notice-error"><p>'
+							echo '<div class="litespeed-callout notice notice-error inline"><p>'
 									. __( 'Htaccess did not match configuration option.', 'litespeed-cache' )
 									. ' ' . sprintf( __( 'Htaccess rule is: %s', 'litespeed-cache' ), '<code>' . $mobile_agents . '</code>' )
 								. '</p></div>';
 						}
 					} catch( \Exception $e ) {
-						echo '<div class="inline litespeed-callout notice notice-error"><p>' . $e->getMessage() . '</p></div>';
+						echo '<div class="litespeed-callout notice notice-error inline"><p>' . $e->getMessage() . '</p></div>';
 					}
 
 				}

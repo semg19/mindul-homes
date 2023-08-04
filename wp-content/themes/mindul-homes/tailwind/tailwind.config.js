@@ -51,7 +51,7 @@ module.exports = {
 			chivo: ['"Chivo"', 'sans-serif'],
 		},
 	},
-	safelist: ['object-fit', 'object-cover'],
+	safelist: ['object-contain', 'object-cover'],
 	corePlugins: {
 		// Disable Preflight base styles in CSS targeting the editor.
 		preflight: includePreflight,

@@ -7,7 +7,7 @@ if ( $pagenow != 'options-general.php' ) {
 	return;
 }
 ?>
-	<div class="inline litespeed-callout notice notice-success">
+	<div class="litespeed-callout notice notice-success inline">
 
 		<h4><?php echo __( 'NOTE', 'litespeed-cache' ); ?></h4>
 

@@ -11,7 +11,7 @@
 
 <header x-data="{ open: false }" @keydown.window.escape="open = false"
 	class="bg-white">
-	<nav class="flex items-center justify-between px-6 py-4 mx-auto max-w-7xl lg:px-8"
+	<nav class="container flex items-center justify-between px-6 py-4 lg:px-8"
 		aria-label="Global">
 		<div class="flex lg:flex-1">
 			<a href="<?php echo esc_url(home_url('/')); ?>"

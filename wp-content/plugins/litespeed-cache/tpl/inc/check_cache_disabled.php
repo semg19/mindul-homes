@@ -26,7 +26,7 @@ elseif ( ! defined( 'LITESPEED_ON' ) ) {
 
 if ( $reasons ) :
 ?>
-	<div class="inline litespeed-callout notice notice-error">
+	<div class="litespeed-callout notice notice-error inline">
 
 		<h4><?php echo __( 'WARNING', 'litespeed-cache' ) ; ?></h4>
 

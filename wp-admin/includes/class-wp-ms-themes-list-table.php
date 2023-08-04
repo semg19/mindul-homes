@@ -513,7 +513,15 @@ class WP_MS_Themes_List_Table extends WP_List_Table {
 		$checkbox_id = 'checkbox_' . md5( $theme->get( 'Name' ) );
 		?>
 		<input type="checkbox" name="checked[]" value="<?php echo esc_attr( $theme->get_stylesheet() ); ?>" id="<?php echo $checkbox_id; ?>" />
-		<label class="screen-reader-text" for="<?php echo $checkbox_id; ?>" ><?php _e( 'Select' ); ?>  <?php echo $theme->display( 'Name' ); ?></label>
+		<label class="screen-reader-text" for="<?php echo $checkbox_id; ?>" >
+			<?php
+			printf(
+				/* translators: Hidden accessibility text. %s: Theme name */
+				__( 'Select %s' ),
+				$theme->display( 'Name' )
+			);
+			?>
+		</label>
 		<?php
 	}
 
@@ -821,7 +829,7 @@ class WP_MS_Themes_List_Table extends WP_List_Table {
 				$action
 			);
 
-			$html[] = '<span class="hidden dashicons dashicons-update spin" aria-hidden="true"></span>';
+			$html[] = '<span class="dashicons dashicons-update spin hidden" aria-hidden="true"></span>';
 			$html[] = '<span class="label">' . $text . '</span>';
 			$html[] = '</a>';
 
@@ -849,7 +857,7 @@ class WP_MS_Themes_List_Table extends WP_List_Table {
 		 */
 		echo apply_filters( 'theme_auto_update_setting_html', $html, $stylesheet, $theme );
 
-		echo '<div class="hidden inline notice notice-error notice-alt"><p></p></div>';
+		echo '<div class="notice notice-error notice-alt inline hidden"><p></p></div>';
 	}
 
 	/**

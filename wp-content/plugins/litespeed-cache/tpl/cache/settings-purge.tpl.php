@@ -46,7 +46,7 @@ $break_arr = array(
 	<tr>
 		<th><?php echo __( 'Auto Purge Rules For Publish/Update', 'litespeed-cache' ); ?></th>
 		<td>
-			<div class="inline litespeed-callout notice notice-warning">
+			<div class="litespeed-callout notice notice-warning inline">
 				<h4><?php echo __( 'Note', 'litespeed-cache' ); ?></h4>
 				<p>
 					<?php echo __( 'Select "All" if there are dynamic widgets linked to posts on pages other than the front or home pages.', 'litespeed-cache' ); ?><br />
@@ -85,7 +85,7 @@ $break_arr = array(
 				<?php echo __( 'If ON, the stale copy of a cached page will be shown to visitors until a new cache copy is available. Reduces the server load for following visits. If OFF, the page will be dynamically generated while visitors wait.', 'litespeed-cache' ); ?>
 				<?php Doc::learn_more( 'https://docs.litespeedtech.com/lscache/lscwp/cache/#serve-stale' ); ?>
 			</div>
-			<div class="inline litespeed-callout notice notice-warning">
+			<div class="litespeed-callout notice notice-warning inline">
 				<h4><?php echo __( 'Note', 'litespeed-cache' ); ?></h4>
 				<p>
 					<?php echo __( 'By design, this option may serve stale content. Do not enable this option, if that is not OK with you.', 'litespeed-cache' ); ?><br />
@@ -109,7 +109,7 @@ $break_arr = array(
 			<div class="litespeed-desc">
 				<?php echo sprintf( __( 'Wildcard %1$s supported (match zero or more characters). For example, to match %2$s and %3$s, use %4$s.', 'litespeed-cache' ), '<code>*</code>', '<code>/path/u-1.html</code>', '<code>/path/u-2.html</code>', '<code>/path/u-*.html</code>' ); ?>
 			</div>
-			<div class="inline litespeed-callout notice notice-warning">
+			<div class="litespeed-callout notice notice-warning inline">
 				<h4><?php echo __( 'Note', 'litespeed-cache' ); ?></h4>
 				<p>
 					<?php echo __( 'For URLs with wildcards, there may be a delay in initiating scheduled purge.', 'litespeed-cache' ); ?><br />

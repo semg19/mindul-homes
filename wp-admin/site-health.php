@@ -87,7 +87,7 @@ get_current_screen()->add_help_tab(
 
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://wordpress.org/support/article/site-health-screen/">Documentation on Site Health tool</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://wordpress.org/documentation/article/site-health-screen/">Documentation on Site Health tool</a>' ) . '</p>'
 );
 
 // Start by checking if this is a special request checking for the existence of certain filters.
@@ -118,7 +118,7 @@ require_once ABSPATH . 'wp-admin/admin-header.php';
 
 	<div class="health-check-title-section site-health-progress-wrapper loading hide-if-no-js">
 		<div class="site-health-progress">
-			<svg role="img" aria-hidden="true" focusable="false" width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+			<svg aria-hidden="true" focusable="false" width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
 				<circle r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
 				<circle id="bar" r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
 			</svg>
@@ -160,7 +160,12 @@ require_once ABSPATH . 'wp-admin/admin-header.php';
 		<?php if ( count( $tabs ) > 4 ) : ?>
 			<button type="button" class="health-check-tab health-check-offscreen-nav-wrapper" aria-haspopup="true">
 				<span class="dashicons dashicons-ellipsis"></span>
-				<span class="screen-reader-text"><?php _e( 'Toggle extra menu items' ); ?></span>
+				<span class="screen-reader-text">
+					<?php
+					/* translators: Hidden accessibility text. */
+					_e( 'Toggle extra menu items' );
+					?>
+				</span>
 
 				<div class="health-check-offscreen-nav">
 					<?php
@@ -235,7 +240,7 @@ if ( isset( $_GET['tab'] ) && ! empty( $_GET['tab'] ) ) {
 
 		<p><?php _e( 'The site health check shows information about your WordPress configuration and items that may need your attention.' ); ?></p>
 
-		<div class="hidden site-health-issues-wrapper" id="health-check-issues-critical">
+		<div class="site-health-issues-wrapper hidden" id="health-check-issues-critical">
 			<h3 class="site-health-issue-count-title">
 				<?php
 					/* translators: %s: Number of critical issues found. */
@@ -248,7 +253,7 @@ if ( isset( $_GET['tab'] ) && ! empty( $_GET['tab'] ) ) {
 			<div id="health-check-site-status-critical" class="health-check-accordion issues"></div>
 		</div>
 
-		<div class="hidden site-health-issues-wrapper" id="health-check-issues-recommended">
+		<div class="site-health-issues-wrapper hidden" id="health-check-issues-recommended">
 			<h3 class="site-health-issue-count-title">
 				<?php
 					/* translators: %s: Number of recommended improvements. */
@@ -269,7 +274,7 @@ if ( isset( $_GET['tab'] ) && ! empty( $_GET['tab'] ) ) {
 		</button>
 	</div>
 
-	<div class="hidden site-health-issues-wrapper" id="health-check-issues-good">
+	<div class="site-health-issues-wrapper hidden" id="health-check-issues-good">
 		<h3 class="site-health-issue-count-title">
 			<?php
 				/* translators: %s: Number of items with no issues. */

@@ -10,7 +10,7 @@ $this->form_action();
 	<?php Doc::learn_more( 'https://docs.litespeedtech.com/lscache/lscwp/toolbox/#heartbeat-tab' ); ?>
 </h3>
 
-<div class="inline litespeed-callout notice notice-warning">
+<div class="litespeed-callout notice notice-warning inline">
 	<h4><?php echo __( 'NOTICE:', 'litespeed-cache' ); ?></h4>
 	<p><?php echo __( 'Disable WordPress interval heartbeat to reduce server load.', 'litespeed-cache' ); ?>
 	<span class="litespeed-warning">

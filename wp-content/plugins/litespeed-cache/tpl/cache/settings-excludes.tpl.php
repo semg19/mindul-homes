@@ -57,7 +57,7 @@ defined( 'WPINC' ) || exit;
 				<?php echo sprintf( __( 'To prevent %s from being cached, enter them here.', 'litespeed-cache' ), __( 'categories', 'litespeed-cache') ); ?>
 				<?php Doc::one_per_line(); ?>
 			</div>
-			<div class="inline litespeed-callout notice notice-warning">
+			<div class="litespeed-callout notice notice-warning inline">
 				<h4><?php echo __( 'NOTE', 'litespeed-cache' ); ?>:</h4>
 				<ol>
 					<li><?php echo __( 'If the category name is not found, the category will be removed from the list on save.', 'litespeed-cache' ); ?></li>
@@ -90,7 +90,7 @@ defined( 'WPINC' ) || exit;
 				<?php echo sprintf( __( 'To prevent %s from being cached, enter them here.', 'litespeed-cache' ), __( 'tags', 'litespeed-cache') ); ?>
 				<?php Doc::one_per_line(); ?>
 			</div>
-			<div class="inline litespeed-callout notice notice-warning">
+			<div class="litespeed-callout notice notice-warning inline">
 				<h4><?php echo __( 'NOTE', 'litespeed-cache' ); ?>:</h4>
 				<ol>
 					<li><?php echo __( 'If the tag slug is not found, the tag will be removed from the list on save.', 'litespeed-cache' ); ?></li>

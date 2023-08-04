@@ -49,7 +49,7 @@ $queue = $this->load_queue( 'vpi' );
 				<?php endif; ?>
 
 				<?php if ( ! empty( $queue ) ) : ?>
-					<div class="inline litespeed-callout notice notice-warning">
+					<div class="litespeed-callout notice notice-warning inline">
 						<h4>
 							<?php echo sprintf( __( 'URL list in %s queue waiting for cron', 'litespeed-cache' ), 'VPI' ); ?> ( <?php echo count( $queue ); ?> )
 							<a href="<?php echo Utility::build_url( Router::ACTION_VPI, VPI::TYPE_CLEAR_Q ); ?>" class="button litespeed-btn-warning litespeed-right">Clear</a>

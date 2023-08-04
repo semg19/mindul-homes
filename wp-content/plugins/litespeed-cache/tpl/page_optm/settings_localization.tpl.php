@@ -7,7 +7,7 @@ $avatar_queue = Avatar::cls()->queue_count();
 ?>
 
 <?php if ( $this->cls( 'Avatar' )->need_db() && ! $this->cls( 'Data' )->tb_exist( 'avatar' ) ) : ?>
-<div class="inline litespeed-callout notice notice-error">
+<div class="litespeed-callout notice notice-error inline">
 	<h4><?php echo __( 'WARNING', 'litespeed-cache' ); ?></h4>
 	<p><?php echo sprintf( __( 'Failed to create Avatar table. Please follow <a %s>Table Creation guidance from LiteSpeed Wiki</a> to finish setup.', 'litespeed-cache' ), 'href="https://www.litespeedtech.com/support/wiki/doku.php/litespeed_wiki:cache:lscwp:installation" target="_blank"' ); ?></p>
 </div>
@@ -52,7 +52,7 @@ $avatar_queue = Avatar::cls()->queue_count();
 					</p>
 				<?php endif; ?>
 				<?php if ( $avatar_queue ) : ?>
-					<div class="inline litespeed-callout notice notice-warning">
+					<div class="litespeed-callout notice notice-warning inline">
 						<h4>
 							<?php echo __( 'Avatar list in queue waiting for update','litespeed-cache' ); ?>:
 							<?php echo $avatar_queue; ?>

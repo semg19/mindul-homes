@@ -91,7 +91,7 @@ class WP_Customize_Theme_Control extends WP_Customize_Control {
 
 			<# if ( 'installed' === data.theme.type && data.theme.hasUpdate ) { #>
 				<# if ( data.theme.updateResponse.compatibleWP && data.theme.updateResponse.compatiblePHP ) { #>
-					<div class="inline update-message notice notice-warning notice-alt" data-slug="{{ data.theme.id }}">
+					<div class="update-message notice inline notice-warning notice-alt" data-slug="{{ data.theme.id }}">
 						<p>
 							<?php
 							if ( is_multisite() ) {
@@ -107,7 +107,7 @@ class WP_Customize_Theme_Control extends WP_Customize_Control {
 						</p>
 					</div>
 				<# } else { #>
-					<div class="inline update-message notice notice-error notice-alt" data-slug="{{ data.theme.id }}">
+					<div class="update-message notice inline notice-error notice-alt" data-slug="{{ data.theme.id }}">
 						<p>
 							<# if ( ! data.theme.updateResponse.compatibleWP && ! data.theme.updateResponse.compatiblePHP ) { #>
 								<?php

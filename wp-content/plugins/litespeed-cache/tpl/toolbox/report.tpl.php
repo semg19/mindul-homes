@@ -25,7 +25,7 @@ $install_link = Utility::build_url( Router::ACTION_ACTIVATION, Activation::TYPE_
 ?>
 
 <?php if ( ! $has_pswdless_plugin ) : ?>
-	<div class="inline litespeed-callout notice notice-warning">
+	<div class="litespeed-callout notice notice-warning inline">
 		<h4><?php echo __( 'NOTICE:', 'litespeed-cache' ); ?></h4>
 		<p>
 			<?php echo sprintf( __( 'To generate a passwordless link for LiteSpeed Support Team access, you must install %s.', 'litespeed-cache' ), '<a href="https://wordpress.org/plugins/dologin/" target="_blank">DoLogin Security</a>' ); ?>

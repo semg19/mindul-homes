@@ -14,7 +14,7 @@ if ( ! $this->network_conf( Base::NETWORK_O_USE_PRIMARY ) ) {
 	return;
 }
 ?>
-		<div class="inline litespeed-callout notice notice-error">
+		<div class="litespeed-callout notice notice-error inline">
 			<h4><?php echo __( 'WARNING', 'litespeed-cache' ); ?></h4>
 			<p>
 				<?php echo __('The network admin selected use primary site configs for all subsites.', 'litespeed-cache'); ?>

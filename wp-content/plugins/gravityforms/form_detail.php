@@ -1232,7 +1232,7 @@ class GFFormDetail {
 								</select>
 
 								<div class="custom_inputs_sub_setting gfield_sub_setting">
-									<label for="field_address_fields" class="inline section_label">
+									<label for="field_address_fields" class="section_label inline">
 										<?php esc_html_e( 'Address Fields', 'gravityforms' ); ?>
 
 									</label>
@@ -1300,7 +1300,7 @@ class GFFormDetail {
 							?>
 							<li class="name_setting field_setting">
 								<div class="custom_inputs_setting gfield_sub_setting">
-									<label for="field_name_fields" class="inline section_label">
+									<label for="field_name_fields" class="section_label inline">
 										<?php esc_html_e( 'Name Fields', 'gravityforms' ); ?>
 										<?php gform_tooltip( 'form_field_name_fields' ); ?>
 									</label>
@@ -1720,7 +1720,7 @@ class GFFormDetail {
 							?>
 							<li class="password_setting field_setting">
 								<div class="custom_inputs_setting gfield_sub_setting">
-									<label for="field_password_fields" class="inline section_label">
+									<label for="field_password_fields" class="section_label inline">
 										<?php esc_html_e( 'Password Fields', 'gravityforms' ); ?>
 										<?php gform_tooltip( 'form_field_password_fields' ); ?>
 									</label>
