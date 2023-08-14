@@ -15,15 +15,27 @@ window.Alpine = Alpine;
 Alpine.plugin(intersect);
 Alpine.start();
 
-const Flickkty = require('flickity');
+require('flickity');
 require('flickity-fullscreen');
 
 var elem = document.querySelector('.main-carousel');
-var flkty = new Flickity(elem, {
-	cellAlign: 'left',
-	wrapAround: true,
-	autoPlay: 5000,
-	fullscreen: true,
-	pauseAutoPlayOnHover: false,
-});
+if (elem) {
+	new Flickity(elem, {
+		cellAlign: 'left',
+		wrapAround: true,
+		autoPlay: 5000,
+		fullscreen: true,
+		pauseAutoPlayOnHover: false,
+	});
+}
 
+var elem = document.querySelector('.c_quotes');
+if (elem) {
+	new Flickity(elem, {
+		cellAlign: 'left',
+		wrapAround: true,
+		autoPlay: 10000,
+		prevNextButtons: false,
+		pageDots: false,
+	});
+}

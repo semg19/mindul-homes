@@ -130,23 +130,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "key": "field_641c9ebda447c",
-            "label": "Footer",
-            "name": "footer",
-            "aria-label": "",
-            "type": "group",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "layout": "block",
-            "sub_fields": []
         }
     ],
     "location": [
@@ -167,5 +150,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1691173267
+    "modified": 1692016110
 }

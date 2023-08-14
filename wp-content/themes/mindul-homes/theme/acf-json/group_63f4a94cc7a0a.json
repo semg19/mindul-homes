@@ -682,52 +682,32 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_641ca0e08430b",
-                            "label": "Image",
-                            "name": "image",
+                            "key": "field_64da1e1e085a3",
+                            "label": "Quotes",
+                            "name": "quotes",
                             "aria-label": "",
-                            "type": "image",
+                            "type": "repeater",
                             "instructions": "",
                             "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
-                                "width": "25",
+                                "width": "",
                                 "class": "",
                                 "id": ""
                             },
-                            "return_format": "array",
-                            "library": "all",
-                            "min_width": "",
-                            "min_height": "",
-                            "min_size": "",
-                            "max_width": "",
-                            "max_height": "",
-                            "max_size": "",
-                            "mime_types": "",
-                            "preview_size": "medium"
-                        },
-                        {
-                            "key": "field_641ca0f78430c",
-                            "label": "Content",
-                            "name": "content",
-                            "aria-label": "",
-                            "type": "group",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "75",
-                                "class": "",
-                                "id": ""
-                            },
-                            "layout": "block",
+                            "layout": "table",
+                            "min": 0,
+                            "max": 0,
+                            "collapsed": "",
+                            "button_label": "Nieuwe regel",
+                            "rows_per_page": 20,
                             "sub_fields": [
                                 {
-                                    "key": "field_641ca1148430d",
-                                    "label": "Content",
-                                    "name": "content",
+                                    "key": "field_64da7c5fa700a",
+                                    "label": "Quote items",
+                                    "name": "quote_items",
                                     "aria-label": "",
-                                    "type": "textarea",
+                                    "type": "repeater",
                                     "instructions": "",
                                     "required": 0,
                                     "conditional_logic": 0,
@@ -736,51 +716,121 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "default_value": "",
-                                    "maxlength": "",
-                                    "rows": "",
-                                    "placeholder": "",
-                                    "new_lines": ""
-                                },
-                                {
-                                    "key": "field_641ca11e8430e",
-                                    "label": "Name",
-                                    "name": "name",
-                                    "aria-label": "",
-                                    "type": "text",
-                                    "instructions": "",
-                                    "required": 0,
-                                    "conditional_logic": 0,
-                                    "wrapper": {
-                                        "width": "50",
-                                        "class": "",
-                                        "id": ""
-                                    },
-                                    "default_value": "",
-                                    "maxlength": "",
-                                    "placeholder": "",
-                                    "prepend": "",
-                                    "append": ""
-                                },
-                                {
-                                    "key": "field_641ca1328430f",
-                                    "label": "Info",
-                                    "name": "info",
-                                    "aria-label": "",
-                                    "type": "text",
-                                    "instructions": "Zoals functie of andere informatie over deze persoon.",
-                                    "required": 0,
-                                    "conditional_logic": 0,
-                                    "wrapper": {
-                                        "width": "",
-                                        "class": "",
-                                        "id": ""
-                                    },
-                                    "default_value": "",
-                                    "maxlength": "",
-                                    "placeholder": "",
-                                    "prepend": "",
-                                    "append": ""
+                                    "layout": "table",
+                                    "pagination": 0,
+                                    "min": 0,
+                                    "max": 0,
+                                    "collapsed": "",
+                                    "button_label": "Nieuwe regel",
+                                    "rows_per_page": 20,
+                                    "sub_fields": [
+                                        {
+                                            "key": "field_641ca0e08430b",
+                                            "label": "Image",
+                                            "name": "image",
+                                            "aria-label": "",
+                                            "type": "image",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "25",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "return_format": "array",
+                                            "library": "all",
+                                            "min_width": "",
+                                            "min_height": "",
+                                            "min_size": "",
+                                            "max_width": "",
+                                            "max_height": "",
+                                            "max_size": "",
+                                            "mime_types": "",
+                                            "preview_size": "medium",
+                                            "parent_repeater": "field_64da7c5fa700a"
+                                        },
+                                        {
+                                            "key": "field_641ca0f78430c",
+                                            "label": "Content",
+                                            "name": "content",
+                                            "aria-label": "",
+                                            "type": "group",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "75",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "layout": "block",
+                                            "sub_fields": [
+                                                {
+                                                    "key": "field_641ca1148430d",
+                                                    "label": "Content",
+                                                    "name": "content",
+                                                    "aria-label": "",
+                                                    "type": "textarea",
+                                                    "instructions": "",
+                                                    "required": 0,
+                                                    "conditional_logic": 0,
+                                                    "wrapper": {
+                                                        "width": "",
+                                                        "class": "",
+                                                        "id": ""
+                                                    },
+                                                    "default_value": "",
+                                                    "maxlength": "",
+                                                    "rows": "",
+                                                    "placeholder": "",
+                                                    "new_lines": ""
+                                                },
+                                                {
+                                                    "key": "field_641ca11e8430e",
+                                                    "label": "Name",
+                                                    "name": "name",
+                                                    "aria-label": "",
+                                                    "type": "text",
+                                                    "instructions": "",
+                                                    "required": 0,
+                                                    "conditional_logic": 0,
+                                                    "wrapper": {
+                                                        "width": "50",
+                                                        "class": "",
+                                                        "id": ""
+                                                    },
+                                                    "default_value": "",
+                                                    "maxlength": "",
+                                                    "placeholder": "",
+                                                    "prepend": "",
+                                                    "append": ""
+                                                },
+                                                {
+                                                    "key": "field_641ca1328430f",
+                                                    "label": "Info",
+                                                    "name": "info",
+                                                    "aria-label": "",
+                                                    "type": "text",
+                                                    "instructions": "Zoals functie of andere informatie over deze persoon.",
+                                                    "required": 0,
+                                                    "conditional_logic": 0,
+                                                    "wrapper": {
+                                                        "width": "",
+                                                        "class": "",
+                                                        "id": ""
+                                                    },
+                                                    "default_value": "",
+                                                    "maxlength": "",
+                                                    "placeholder": "",
+                                                    "prepend": "",
+                                                    "append": ""
+                                                }
+                                            ],
+                                            "parent_repeater": "field_64da7c5fa700a"
+                                        }
+                                    ],
+                                    "parent_repeater": "field_64da1e1e085a3"
                                 }
                             ]
                         }
@@ -1037,6 +1087,7 @@
                                     "collapsed": "",
                                     "button_label": "Nieuwe regel",
                                     "rows_per_page": 20,
+                                    "parent_repeater": "field_641ca77dff81b",
                                     "sub_fields": [
                                         {
                                             "key": "field_641ca7e2ff820",
@@ -1059,8 +1110,7 @@
                                             "append": "",
                                             "parent_repeater": "field_641ca7d3ff81f"
                                         }
-                                    ],
-                                    "parent_repeater": "field_641ca77dff81b"
+                                    ]
                                 },
                                 {
                                     "key": "field_641ca7f3ff821",
@@ -1314,5 +1364,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1690976764
+    "modified": 1692040343
 }

@@ -1,5 +1,6 @@
 @import "./text.css";
 @import "./image.css";
+@import "./quote.css";
 
 /**
  * Custom styles to immediately follow Tailwind’s `components` layer
