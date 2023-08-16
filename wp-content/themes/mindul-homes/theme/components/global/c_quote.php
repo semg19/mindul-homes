@@ -3,7 +3,7 @@
 		the_row(); ?>
 		<section class="c_quote py-12">
 			<div class="bg-blue-dark">
-				<div class="container py-4 md:py-0">
+				<div class="container py-4">
 					<?php if (have_rows('quote_items')): ?>
 						<div class="c_quotes">
 							<?php while (have_rows('quote_items')):
@@ -12,7 +12,7 @@
 									class="grid flex-col w-full items-center px-6 m-auto gap-y-10 gap-x-8 sm:gap-y-8 md:px-8 md:grid-cols-3 md:items-stretch">
 									<?php $image = get_sub_field('image'); ?>
 									<?php if ($image): ?>
-										<img class="relative inset-0 object-cover w-full h-full my-auto bg-gray-800 shadow-2xl rounded-2xl max-h-[300px] md:max-h-[500px] md:min-h-[400px] md:col-span-1"
+										<img class="relative inset-0 object-cover w-full h-full my-auto bg-gray-800 shadow-2xl rounded-2xl max-h-[200px] sm:max-h-[300px] md:max-h-[500px] md:min-h-[400px] md:col-span-1"
 											src="<?php echo esc_url($image['url']); ?>"
 											alt="<?php echo esc_attr($image['alt']); ?>" />
 									<?php endif; ?>
@@ -31,7 +31,7 @@
 															x="86" />
 													</svg>
 													<blockquote
-														class="text-xl font-semibold text-white leading-8 lg:text-xl lg:leading-9">
+														class="text-lg font-semibold text-white leading-8 lg:text-xl lg:leading-9">
 														<p>
 															<?php the_sub_field('content'); ?>
 														</p>

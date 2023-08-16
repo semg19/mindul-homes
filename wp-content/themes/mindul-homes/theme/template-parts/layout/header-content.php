@@ -11,7 +11,7 @@
 
 <div class="bg-gradient-to-r from-orange via-blue to-blue">
 	<div class="container py-1">
-		<div class="flex flex-wrap items-center justify-center gap-y-4 gap-x-20">
+		<div class="flex flex-wrap items-center justify-center gap-y-4 gap-x-8 sm:gap-x-20">
 			<?php if (have_rows('usp_bar', 'option')): ?>
 				<?php while (have_rows('usp_bar', 'option')):
 					the_row(); ?>
@@ -21,7 +21,7 @@
 							<?php $link = get_sub_field('link'); ?>
 							<?php if ($link): ?>
 								<?php $icon = get_sub_field('icon'); ?>
-								<a class="flex items-center text-white icon-before icon-light <?= ($icon === 'mail') ? 'icon-envelope' : (($icon === 'phone') ? 'icon-phone' : '') ?> icon-space-sm" href="<?php echo esc_url($link['url']); ?>"
+								<a class="flex items-center text-white icon-before <?= ($icon === 'mail') ? 'icon-light icon-envelope' : (($icon === 'phone') ? 'icon-light icon-phone' : (($icon === 'whatsapp') ? 'icon-brands icon-whatsapp' : '')) ?> icon-space-sm transition-opacity hover:opacity-80" href="<?php echo esc_url($link['url']); ?>"
 									target="<?php echo esc_attr($link['target']); ?>"><?php echo esc_html($link['title']); ?></a>
 							<?php endif; ?>
 

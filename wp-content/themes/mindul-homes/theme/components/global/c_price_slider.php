@@ -18,7 +18,7 @@
 					</div>
 					<div class="w-full mt-8 lg:mt-0 lg:w-1/2">
 						<div
-							class="rounded-b-2xl rounded-t-md bg-white py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16 lg:rounded-r-2xl lg:rounded-l-md">
+							class="rounded-2xl bg-white py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
 							<div class="mx-auto max-w-xs px-8">
 								<p
 									class="text-base font-semibold text-gray-600">

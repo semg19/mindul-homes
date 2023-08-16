@@ -54,11 +54,37 @@
                             "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
-                                "width": "",
+                                "width": "50",
                                 "class": "",
                                 "id": ""
                             },
                             "return_format": "array"
+                        },
+                        {
+                            "key": "field_64dc9e5b0c39b",
+                            "label": "Show hammer?",
+                            "name": "show_hammer",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "yes": "Yes",
+                                "no": "No"
+                            },
+                            "default_value": "no",
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": ""
                         }
                     ],
                     "min": "",
@@ -1364,5 +1390,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1692040343
+    "modified": 1692180099
 }

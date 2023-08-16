@@ -235,3 +235,5 @@ function remove_posts_menu() {
     remove_menu_page('edit.php');
 }
 add_action('admin_menu', 'remove_posts_menu');
+
+add_filter( 'auto_plugin_update_send_email', '__return_false' );

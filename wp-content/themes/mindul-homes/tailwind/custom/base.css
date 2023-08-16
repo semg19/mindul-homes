@@ -16,20 +16,20 @@
 
 :root {
     --standard: 250ms ease-in-out;
+	--color-blue: #1f7f9f;
 }
 
 /* Nav */
 #primary-menu {
-	display: flex;
-	gap: 1.5rem;
+	@apply flex gap-6;
 }
 
 .fixed #primary-menu {
-	flex-direction: column;
+	@apply flex-col;
 }
 
 .menu a {
-	@apply text-black font-semibold;
+	@apply relative text-black font-semibold after:absolute after:block after:content-[''] after:w-0 after:h-[2px] after:-bottom-1 after:left-0 after:bg-blue after:transition-all after:duration-200 after:ease-in-out hover:after:w-full hover:text-black;
 }
 
 /* Footer */
@@ -39,5 +39,32 @@
 
 /* Flickity */
 .flickity-page-dots {
-	bottom: -40px;
+	@apply -bottom-10
+}
+
+/* Form */
+.gform_title,
+.gform_required_legend {
+	@apply hidden;
+}
+
+.c_input input,
+.c_input textarea {
+	@apply rounded-md border border-gray-200 focus:outline-none;
+}
+
+.c_input label {
+	@apply mb-2;
+}
+
+.gform_wrapper.gravity-theme .gform_footer input {
+	@apply bg-orange cursor-pointer hover:bg-orange-dark focus-visible:outline-orange-dark block w-max rounded-md px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2;
+}
+
+.gform_wrapper.gravity-theme .gform_validation_errors {
+	@apply rounded-md focus:outline-none;
+}
+
+.gform_wrapper.gravity-theme .field_description_above .gfield_description {
+	@apply bg-transparent border-none p-0;
 }

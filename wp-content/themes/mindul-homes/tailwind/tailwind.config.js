@@ -23,7 +23,23 @@ module.exports = {
 	],
 	theme: {
 		// Extend the default Tailwind theme.
-		extend: {},
+		extend: {
+			backgroundImage: {
+				hamer: 'url("/wp-content/themes/mindul-homes/theme/src/hamer.png")',
+			},
+			animation: {
+				wiggle: 'wiggle 3s ease-in-out infinite',
+			},
+			keyframes: {
+				wiggle: {
+					'0%, 100%': { transform: 'rotate(-1deg)' },
+					'50%': { transform: 'rotate(2deg)' },
+				},
+			},
+			scale: {
+				'-1': '-1',
+			},
+		},
 		colors: {
 			transparent: 'transparent',
 			current: 'currentColor',

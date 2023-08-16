@@ -116,7 +116,8 @@
                             },
                             "choices": {
                                 "mail": "Mail",
-                                "phone": "Phone"
+                                "phone": "Phone",
+                                "whatsapp": "Whatsapp"
                             },
                             "default_value": false,
                             "return_format": "value",
@@ -150,5 +151,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1692016110
+    "modified": 1692172749
 }
